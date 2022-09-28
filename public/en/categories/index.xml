@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Chuan-Peng Lab</title>
+    <link>https://chuan-peng-lab.netlify.app/en/categories/</link>
+      <atom:link href="https://chuan-peng-lab.netlify.app/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 28 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chuan-peng-lab.netlify.app/media/icon_huab30dcb401eb8533ce7bec9312517304_65690_512x512_fill_lanczos_center_3.png</url>
+      <title>Categories</title>
+      <link>https://chuan-peng-lab.netlify.app/en/categories/</link>
+    </image>
+    
+  </channel>
+</rss>
