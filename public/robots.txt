@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://chuan-peng-lab.netlify.app/sitemap.xml
