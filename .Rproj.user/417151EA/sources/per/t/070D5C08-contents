@@ -12,7 +12,7 @@ baseURL: 'https://chuan-peng-lab.netlify.app' # Website URL
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 

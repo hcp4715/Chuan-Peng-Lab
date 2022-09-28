@@ -1,0 +1,37 @@
+---
+title: "Hello R Markdown"
+author: "Frida Gomam"
+date: 2020-12-01T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "画图", "回归"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# R Markdown
+
+这是一个 R Markdown 文档。 Markdown 是一种用于创作 HTML、PDF 和 MS Word 文档的简单格式化语法。有关使用 R Markdown 的更多详细信息，请参阅 <http://rmarkdown.rstudio.com>。
+
+您可以像这样嵌入 R 代码块：
+
+```{r cars}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+fit
+```
+
+# Including Plots
+
+您还可以嵌入绘图。参见图 \@ref(fig:pie) 例如：
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```

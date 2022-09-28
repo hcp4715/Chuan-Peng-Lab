@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | 传鹏的实验室</title>
+    <link>https://chuan-peng-lab.netlify.app/zh/publication/</link>
+      <atom:link href="https://chuan-peng-lab.netlify.app/zh/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chuan-peng-lab.netlify.app/media/icon_huab30dcb401eb8533ce7bec9312517304_65690_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/</link>
+    </image>
+    
+    <item>
+      <title>发表作品例子一</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    点击 &lt;em&gt;引用&lt;/em&gt; 按钮，使访问者能够将出版物元数据导入其参考文献管理软件。
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    单击摘要下方的 _会议文章_按钮，查看网站中的所有其他出版物。
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>发表作品例子二</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Conference paper&lt;/em&gt; button below abstract to check all other publications in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
