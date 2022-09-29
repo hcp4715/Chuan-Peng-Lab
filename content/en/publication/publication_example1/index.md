@@ -51,15 +51,15 @@ image:
   preview_only: false
 projects:
 - example
-publication: In *OSF*
-publication_short: In *ICW*
+publication: In *psyarxiv*
+publication_short: In *psyarxiv*
 publication_types:
 - "1"
 publishDate: "2022-08-14T00:00:00Z"
 slides: example
 summary: Open Science is becoming a mainstream scientific ideology in psychology and related fields. However, due to inadequate research infrastructures, limited resources, and a lack of local support amongst various other difficulties, researchers - especially early career researchers (ECRs) in developing countries - are facing significant hurdles in moving Open Science forward.
 tags: []
-title: Publication Example 1
+title: Chinese Open Science Network (COSN):Building an Open Science community in a developing country
 url_code: ""
 url_dataset: ""
 url_pdf: ""

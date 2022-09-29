@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Helen(Zheng Liu)
+  caption: Helen (Zheng Liu)
   focal_point: Smart
 links:
 - icon: twitter
@@ -13,7 +13,7 @@ slides: example
 summary: 实验室的合作者
 tags:
 - Partner
-title: 刘铮Helen
+title: 刘铮 Helen
 url_code: ""
 url_pdf: ""
 url_slides: ""

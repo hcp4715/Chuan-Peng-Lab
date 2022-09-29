@@ -1,7 +1,18 @@
 ---
 bio: My research interests include distributed robotics, mobile computing and programmable
   matter.
-email: ""
+education:
+  courses:
+  - course: 心理学博士
+    institution: 清华大学
+    year: 2017
+  - course: 心理学教育硕士
+    institution: 湖北大学
+    year: 2012
+  - course: 心理学学士 & 法学学士
+    institution: 湖北大学
+    year: 2009
+email: "hcp4715@gmail.com"
 highlight_name: true
 interests:
 - 自我认知

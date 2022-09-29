@@ -25,8 +25,6 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: 所有人
-      tag: '*'
     - name: 老板
       tag: Boss
     - name: 合作者
@@ -35,7 +33,8 @@ content:
       tag: Postgraduate 
     - name: 本科生
       tag: Undergraduate
-
+    - name: 所有人
+      tag: '*'
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '2'

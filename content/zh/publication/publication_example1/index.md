@@ -51,15 +51,15 @@ image:
   preview_only: false
 projects:
 - example
-publication: In *OSF*
-publication_short: In *ICW*
+publication: In *psyarxiv*
+publication_short: In *psyarxiv*
 publication_types:
 - "1"
 publishDate: "2022-08-14T00:00:00Z"
 slides: example
 summary: 开放科学正在成为心理学和相关领域的主流科学意识形态。然而，由于研究基础设施不足，资源有限，以及缺乏当地支持以及其他各种困难，研究人员 - 特别是发展中国家的早期职业研究人员（ECR） - 在推动开放科学向前发展方面面临重大障碍。
 tags: []
-title: 发表作品例子一
+title: 中国开放科学网络（COSN）：在发展中国家建立开放科学社区
 url_code: ""
 url_dataset: ""
 url_pdf: ""

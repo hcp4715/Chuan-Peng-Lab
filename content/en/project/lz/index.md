@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Helen(Zheng Liu)
+  caption: Helen (Zheng Liu)
   focal_point: Smart
 links:
 - icon: twitter
@@ -13,7 +13,7 @@ slides: example
 summary: the Partner of Chuanpeng Lab
 tags:
 - Partner
-title: Helen(Zheng Liu)
+title: Helen (Zheng Liu)
 url_code: ""
 url_pdf: ""
 url_slides: ""

@@ -5,7 +5,7 @@ author_notes:
 - Equal contribution
 - Equal contribution
 - Equal contribution
-- Equal contribution
+- Corresponding author
 authors:
 - Shuting Sun
 - Nan Wang
@@ -21,14 +21,14 @@ image:
 projects:
 - example
 publication: 在 *中国科学院科技论文发布平台*
-publication_short: In *ICW*
+publication_short: In *Chinaxiv*
 publication_types:
 - "1"
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
 summary: 自我参照（self-reference，或自我参照加工）是认知心理学与认知神经科学中的重要概念，通常指的是人们处理与自己相关的信息时的认知过程。
 tags: []
-title: 发表作品例子二
+title: 当谈“自我参照”时我们在谈什么：人类神经成像中“自我参照”元研究数据库的初步建构
 url_code: ""
 url_dataset: ""
 url_pdf: ""

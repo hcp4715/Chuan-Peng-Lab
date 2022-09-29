@@ -270,6 +270,20 @@
                 href="https://chuan-peng-lab.netlify.app/zh/tag/partner/"
                 />
   </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/tag/postgraduate/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/en/tag/postgraduate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/tag/postgraduate/"
+                />
+  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -324,6 +338,20 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/project/hcp/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/hmz/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/en/project/hmz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/hmz/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/admin/</loc>

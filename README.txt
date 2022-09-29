@@ -2,3 +2,9 @@ v0.0.0
 	最初版
 v0.0.1
 	加入了中文版
+v0.0.2
+	修改了一些标题文字；
+	测试了follow除twitter外的链接（仅hmz测试）；
+	调整了team中all的位置（置于最后）；
+	调整了blog和publication中显示的数目，blog显示2隐藏其他2，publication显示1隐藏其他1
+	修改了en_publication1的引用内容，改为了apa格式

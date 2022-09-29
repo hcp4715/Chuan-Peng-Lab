@@ -352,7 +352,7 @@ matrixA_plot(dataplot = rawdata,
     </item>
     
     <item>
-      <title>发表作品例子一</title>
+      <title>中国开放科学网络（COSN）：在发展中国家建立开放科学社区</title>
       <link>https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/</link>
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/</guid>
@@ -370,7 +370,7 @@ matrixA_plot(dataplot = rawdata,
     </item>
     
     <item>
-      <title>发表作品例子二</title>
+      <title>当谈“自我参照”时我们在谈什么：人类神经成像中“自我参照”元研究数据库的初步建构</title>
       <link>https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/</link>
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/</guid>
@@ -452,7 +452,7 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>刘铮Helen</title>
+      <title>刘铮 Helen</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/lz/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/project/lz/</guid>
@@ -568,6 +568,46 @@ Figure 1: A fancy pie chart.
 🎓 &lt;em&gt;湖北大学2009级法学学士、心理学学士&lt;/em&gt;&lt;br&gt;
 🎓 &lt;em&gt;教育心理学硕士，2012，湖北大学&lt;/em&gt;&lt;br&gt;
 🎓 &lt;em&gt;清华大学2017级社会心理学博士&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>胡孟真</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/hmz/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/hmz/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_8d6978f41647201d95ce6580ed259f1f.webp 400w,
+               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_f196fc35db5e5bc5d5d0d7b2ae5283a5.webp 760w,
+               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_8d6978f41647201d95ce6580ed259f1f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+略&lt;/p&gt;
+&lt;p&gt;✨ &lt;em&gt;关于统计的任何事情；精神健康&lt;/em&gt;&lt;br&gt;
+🎓 &lt;em&gt;南京师范大学心理学硕士&lt;/em&gt;&lt;br&gt;
+🎓 &lt;em&gt;首都师范大学心理学学士&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
