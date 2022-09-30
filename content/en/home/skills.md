@@ -16,15 +16,15 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 33%
+  - description: the use of scientific methodology to study science itself
     icon: bahai
     icon_pack: fas
     name: Metascience
-  - description: 33%
+  - description: the assignment of scores to individuals so that the scores represent some characteristic of the individuals
     icon: chart-bar
     icon_pack: fas
     name: Measurement
-  - description: 33%
+  - description: a mathematical model that embodies a set of statistical assumptions concerning the generation of sample data
     icon: diagram-project
     icon_pack: fas
     name: Modeling

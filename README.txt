@@ -24,3 +24,6 @@ v0.0.3
 		修复了作者姓名上的bug（对位问题），
 		修改了publication type（有多种type可选，目前两篇为preprint，还有一篇demo）
 		如果在publication中的作者加入admin则页面下方会显示实验室图标
+v0.0.3.1
+	想给skill（research fields）添加超链接，失败
+	想给skill部分自定义图标，太丑
