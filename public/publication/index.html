@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: September 28, 2022 --><html lang="en-us" >
+<!-- Last Published: September 30, 2022 --><html lang="en-us" >
 
 
 <head>
@@ -235,6 +235,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HF4NMVMD3W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-HF4NMVMD3W', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -376,7 +415,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.b6a114893adb99eba63208f045d5db5e.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -810,6 +849,9 @@
         
         
       
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -825,6 +867,10 @@
               Conference paper
             </option>
             
+            <option value=".pubtype-3">
+              Preprint
+            </option>
+            
           </select>
         </div>
         <div class="col-auto">
@@ -835,6 +881,10 @@
             
             <option value=".year-2022">
               2022
+            </option>
+            
+            <option value=".year-2013">
+              2013
             </option>
             
             
@@ -849,7 +899,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2022">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2022">
           
 
 
@@ -862,7 +912,8 @@
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="author-highlighted">
+      Chuan-Peng Lab</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="lab"></i>, <span >
       Haiyang Ji</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
       Qing Wan</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
       Yu-Fang Yan</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
@@ -881,12 +932,12 @@
       Wei-Wei Wang</span>, <span >
       Xi Chen</span>, <span >
       Lei Zhang</span>, <span >
-      Xi-Nian Zuo</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Corresponding author"></i>, <span >
-      Chuan-Peng Hu</span>
+      Xi-Nian Zuo</span>, <span >
+      Chuan-Peng Hu</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Corresponding author"></i>
   </span>
   (2022).
-  <a href="/publication/publication_example1/">Publication Example 1</a>.
-  In <em>ICW</em>.
+  <a href="/publication/publication_example1/">Chinese Open Science Network (COSN):Building an Open Science community in a developing country</a>.
+  In <em>psyarxiv</em>.
   
   <p>
 
@@ -943,7 +994,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2022">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2022">
           
 
 
@@ -956,15 +1007,16 @@
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="author-highlighted">
+      Chuan-Peng Lab</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="lab"></i>, <span >
       Shuting Sun</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
       Nan Wang</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
       Jiahui Wen</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Chuanpeng Hu</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      Chuanpeng Hu</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Corresponding author"></i>
   </span>
   (2022).
-  <a href="/publication/publication_example2/">Publication Example 2</a>.
-  In <em>ICW</em>.
+  <a href="/publication/publication_example2/">What are we talking about when we talk about &#34;self-reference&#34;:A cognitive ontology database of fMRI-based self-reference studies</a>.
+  In <em>Chinaxiv</em>.
   
   <p>
 
@@ -1005,6 +1057,82 @@
 <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.12074/202207.00005" target="_blank" rel="noopener">
   DOI
 </a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Chuan-Peng Lab</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  </span>
+  (2013).
+  <a href="/publication/example/">An example conference paper</a>.
+  In <em>ICW</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/example/example.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/example/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+
+
+
 
 
 </p>

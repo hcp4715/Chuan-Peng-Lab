@@ -22,7 +22,7 @@ projects: []
 summary: the code of network plot
 ---
 
-```{r}
+```r
 library("qgraph")
 library('ggplot2')
 library("bootnet") 

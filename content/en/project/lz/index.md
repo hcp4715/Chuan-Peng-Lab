@@ -22,5 +22,5 @@ url_video: ""
 ![](images/lz1.png)
 A person from Sichuan and Chongqing who doesn't eat spicy food. I hope I can travel a lot on the scientific research Road (lie flat as soon as possible). Not long after I entered the programming pit, I usually either debug or write bugs. Hobbies include the sea, snow mountains, soup making, writing pain literature and basking in the sun.
 
-✨ _Self information processing; Meta research; Theoretical construction_  
-🎓 _Master of educational psychology, University of Sydney_  
+{{< icon name="star" pack="fas" >}} _Self information processing; Meta research; Theoretical construction_  
+{{< icon name="graduation-cap" pack="fas" >}} _Master of educational psychology, University of Sydney_  

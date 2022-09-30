@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Chuan-Peng Lab</title>
+    <link>https://chuan-peng-lab.netlify.app/publication-type/3/</link>
+      <atom:link href="https://chuan-peng-lab.netlify.app/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chuan-peng-lab.netlify.app/media/icon_huab30dcb401eb8533ce7bec9312517304_65690_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://chuan-peng-lab.netlify.app/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Chinese Open Science Network (COSN):Building an Open Science community in a developing country</title>
+      <link>https://chuan-peng-lab.netlify.app/publication/publication_example1/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/publication/publication_example1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Preprint&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What are we talking about when we talk about &#34;self-reference&#34;:A cognitive ontology database of fMRI-based self-reference studies</title>
+      <link>https://chuan-peng-lab.netlify.app/publication/publication_example2/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/publication/publication_example2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Preprint&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -30,6 +30,6 @@ url_video: ""
 ![](images/hmz1.png)
 nothing to say
 
-✨ _Anything about statistics; Mental Health_  
-🎓 _Master of psychology, Nanjing Normal University_  
-🎓 _Bachelor of psychology, Capital Normal University_
+{{< icon name="star" pack="fas" >}} _Anything about statistics; Mental Health_  
+{{< icon name="graduation-cap" pack="fas" >}} _Master of psychology, Nanjing Normal University_  
+{{< icon name="graduation-cap" pack="fas" >}} _Bachelor of psychology, Capital Normal University_

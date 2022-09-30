@@ -25,7 +25,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: chuanpeng_lab@gmail.com
+  email: chuanpeng_lab@gmail.com(None)
   phone: +86 123 4567 8910
   address:
     street: School of psychopy, Nanjing Normal University, 122 Ninghai Road, Gulou District
@@ -48,7 +48,7 @@ content:
       link: 'https://twitter.com/hcp4715'
     - icon: video
       icon_pack: fas
-      name: Zoom Me
+      name: Zoom Me(None)
       link: 'https://zoom.com'
 
 design:

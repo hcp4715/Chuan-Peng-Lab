@@ -24,8 +24,8 @@ I am a faculty member of the School of Psychology, Nanjing Normal University, Na
 
 In my free time, I loves outdoor sports, e.g., rock climbing, mountaineering, and hiking.  
 
-🏫 _School of psychology, Nanjing Normal University_  
-🎓 _Bachelor of law, Bachelor of psychology, 2009, Hubei University_  
-🎓 _Master of Educational Psychology, 2012, Hubei University_  
-🎓 _Doctor of social psychology, 2017, Tsinghua University_  
+{{< icon name="school" pack="fas" >}} _School of psychology, Nanjing Normal University_  
+{{< icon name="graduation-cap" pack="fas" >}} _Bachelor of law, Bachelor of psychology, 2009, Hubei University_  
+{{< icon name="graduation-cap" pack="fas" >}} _Master of Educational Psychology, 2012, Hubei University_  
+{{< icon name="graduation-cap" pack="fas" >}} _Doctor of social psychology, 2017, Tsinghua University_  
 
