@@ -27,3 +27,7 @@ v0.0.3
 v0.0.3.1
 	想给skill（research fields）添加超链接，失败
 	想给skill部分自定义图标，太丑
+v0.0.4
+	增加了partners栏，修改自accomplishments，用于展示我们的实验室合作者博客
+	图标，题目，描述，均可增加超链接
+	图标格式必须是svg，但是png转svg会出现颜色丢失。如果需要彩色图标，应该要重新制作
