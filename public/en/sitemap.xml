@@ -232,20 +232,6 @@
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/tag/boss/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/tag/boss/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/tag/boss/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/project/hcp/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -288,20 +274,6 @@
                 href="https://chuan-peng-lab.netlify.app/project/hmz/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/tag/partner/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/tag/partner/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/tag/partner/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/tag/postgraduate/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -316,6 +288,10 @@
                 href="https://chuan-peng-lab.netlify.app/tag/postgraduate/"
                 />
   </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/tag/principal-investigator/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -329,6 +305,10 @@
                 hreflang="en"
                 href="https://chuan-peng-lab.netlify.app/project/"
                 />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/tag/research-assistants/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/project/wxy/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>

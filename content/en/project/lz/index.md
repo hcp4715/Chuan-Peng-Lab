@@ -12,7 +12,7 @@ links:
 slides: example
 summary: the Partner of Chuanpeng Lab
 tags:
-- Partner
+- Research Assistants
 title: Helen (Zheng Liu)
 url_code: ""
 url_pdf: ""

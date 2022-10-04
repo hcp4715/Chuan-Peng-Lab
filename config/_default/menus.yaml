@@ -16,7 +16,7 @@ main:
   - name: Publications
     url: '#featured'
     weight: 40
-  - name: Partners
+  - name: Collaborators
     url: '#accomplishments'
     weight: 50 
   - name: Tags

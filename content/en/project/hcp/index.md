@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: the boss of Chuanpeng Lab
+summary: the Principal Investigator of Chuanpeng Lab
 tags:
-- Boss
+- Principal Investigator
 title: Chuanpeng Hu
 url_code: ""
 url_pdf: ""

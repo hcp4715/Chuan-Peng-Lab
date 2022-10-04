@@ -1,17 +1,6 @@
 ---
 bio: If (hu)man is the measure of all things, what is the measure of human?
   matter.
-education:
-  courses:
-  - course: PhD in Psychology
-    institution: Tsinghua University
-    year: 2017
-  - course: Master of Education in Psychology
-    institution: Hubei University
-    year: 2012
-  - course: BSc in Psychology & Bachelor in Law
-    institution: Hubei University
-    year: 2009
 email: "hcp4715@gmail.com"
 highlight_name: true
 interests:

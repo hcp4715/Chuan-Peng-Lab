@@ -12,7 +12,7 @@ links:
 slides: example
 summary: the Partner of Chuanpeng Lab
 tags:
-- Partner
+- Research Assistants
 title: Xin Yang Wang
 url_code: ""
 url_pdf: ""
