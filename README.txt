@@ -34,3 +34,8 @@ v0.0.4
 v0.0.4.1
 	改了一些名字
 	删除了education
+v0.0.5
+  research fields处的measurement改为Self-Cognition
+  team处增加了alumni
+  更改了blog post的位置
+  contact保留邮箱、DM ME和地址

@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: the Partner of Chuanpeng Lab
+summary: the alumni of Hu Chuan-Peng
 tags:
-- Research Assistants
+- Alumni
 title: Helen (Zheng Liu)
 url_code: ""
 url_pdf: ""

@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Chuanpeng Hu
+  caption: Hu Chuan-Peng
   focal_point: Smart
 links:
 - icon: twitter
@@ -13,7 +13,7 @@ slides: example
 summary: the Principal Investigator of Chuanpeng Lab
 tags:
 - Principal Investigator
-title: Chuanpeng Hu
+title: Hu Chuan-Peng
 url_code: ""
 url_pdf: ""
 url_slides: ""

@@ -20,10 +20,10 @@ feature:
     icon: bahai
     icon_pack: fas
     name: Metascience
-  - description: the assignment of scores to individuals so that the scores represent some characteristic of the individuals
-    icon: chart-bar
+  - description: A knowledge representation that contains knowledge about us
+    icon: universal-access
     icon_pack: fas
-    name: Measurement
+    name: Self-Cognition
   - description: a mathematical model that embodies a set of statistical assumptions concerning the generation of sample data
     icon: diagram-project
     icon_pack: fas

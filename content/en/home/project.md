@@ -7,7 +7,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 30
 
 title: Team
 subtitle: ''
@@ -33,6 +33,8 @@ content:
       tag: Postgraduate 
     - name: Undergraduate
       tag: Undergraduate
+    - name: Alumni
+      tag: Alumni
     - name: All
       tag: '*'
 design:

@@ -7,18 +7,18 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Blog Posts
-    url: '#posts'
-    weight: 20
   - name: Team
     url: '#project'
-    weight: 30
+    weight: 20
   - name: Publications
     url: '#featured'
-    weight: 40
+    weight: 30
   - name: Collaborators
     url: '#accomplishments'
-    weight: 50 
+    weight: 40 
+  - name: Blog Posts
+    url: '#posts'
+    weight: 50
   - name: Tags
     url: '#tags'
     weight: 60  

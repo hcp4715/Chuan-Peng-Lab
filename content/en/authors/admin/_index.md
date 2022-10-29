@@ -3,9 +3,6 @@ bio: If (hu)man is the measure of all things, what is the measure of human?
   matter.
 email: "hcp4715@gmail.com"
 highlight_name: true
-interests:
-- Self-cognition
-- Mental health
 organizations:
 - name: School of Psychology,Nanjing Normal University
   url: http://schools.njnu.edu.cn/psy/

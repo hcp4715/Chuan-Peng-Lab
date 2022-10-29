@@ -232,19 +232,9 @@
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/project/hcp/</loc>
+    <loc>https://chuan-peng-lab.netlify.app/tag/alumni/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/hcp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/hcp/"
-                />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/project/lz/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
@@ -258,6 +248,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://chuan-peng-lab.netlify.app/project/lz/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/project/hcp/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/hcp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/hcp/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/project/hmz/</loc>
