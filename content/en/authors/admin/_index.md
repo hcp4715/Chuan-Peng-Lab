@@ -29,9 +29,9 @@ title: Chuan-Peng Lab
 
 # Home
 
-We are the meta self laboratory established under the leadership of Professor Hu chuanpeng. Our goal is to spread open science in the field of psychological research in China, Our research interests cover `meta` `measure` `model`.
+Welcome to Meta-self Lab!
 
-We are located in the school of psychology of Nanjing Normal University, where Mr. Hu chuanpeng works, Our members are distributed all over the world.
+The lab aims to probe into the essence of self, employing meta-analytic tools and modeling methods. Transparency and reproducibility are at the core of our research, as we replicate important studies, re-examine key findings and redefine concepts. We do, and only do, rigorous and robust science. 
 
-We look forward to doctoral students, postdoctors, masters and undergraduates who are interested in this field to join our team, and welcome to apply for Nanjing Normal University
+Equality is another core value of our lab. We are dedicated to fostering a culture where everyone is respected and every idea is valued. Regardless of your gender, ethnicity, or academic background, you're welcomed to join our quest for truth. 
 
