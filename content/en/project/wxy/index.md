@@ -1,5 +1,5 @@
 ---
-date: "2016-04-27T00:00:00Z"
+date: "2022-11-06T00:00:00Z"
 external_link: ""
 image:
   caption: Xin Yang Wang
@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: the Partner of Chuanpeng Lab
+summary: the Alumni of Chuanpeng Lab
 tags:
-- Research Assistants
+- Alumni
 title: Xin Yang Wang
 url_code: ""
 url_pdf: ""
@@ -20,8 +20,12 @@ url_slides: ""
 url_video: ""
 ---
 ![](images/wxy1.png)
-The ideal is to find a field of study you love and make a living from it. In my spare time, I like to climb mountains and look at the sea to chat with people and find delicious food.
+理想是找到热爱的研究领域并能以此维持生计。空闲喜欢爬山看海找人聊天，找美食。
 
-{{< icon name="star" pack="fas" >}} _Visual perception; Theoretical construction_  
-{{< icon name="graduation-cap" pack="fas" >}} _Master of psychology, University of Edinburgh_  
+{{< icon name="graduation-cap" pack="fas" >}} _爱丁堡大学，心理学研究硕士_  
+{{< icon name="heart" pack="fas" >}} _视觉感知；理论建构_  
+{{< icon name="star" pack="fas" >}} _R的基础统计分析操作_  
+{{< icon name="star" pack="fas" >}} _Testable平台入门（问卷/行为实验编写及数据收集平台）_  
+{{< icon name="star" pack="fas" >}} _雅思备考小建议_   
+  
 

@@ -40,3 +40,6 @@ v0.0.5
  	team处增加了alumni
  	更改了blog post的位置
 	contact保留邮箱、DM ME和地址
+0.0.6
+	team中增加了成员，目前为中文原版
+	头像为微信头像，SNS链接均为实验室链接
