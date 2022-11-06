@@ -73,11 +73,11 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- example
+- COSN_accepted
 publication: In *psyarxiv*
 publication_short: In *psyarxiv*
 publication_types: 
-- "3"
+- "2"
 publishDate: "2022-08-14T00:00:00Z"
 slides: example
 summary: Open Science is becoming a mainstream scientific ideology in psychology and related fields. However, due to inadequate research infrastructures, limited resources, and a lack of local support amongst various other difficulties, researchers - especially early career researchers (ECRs) in developing countries - are facing significant hurdles in moving Open Science forward.
@@ -98,5 +98,5 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 {{% /callout %}}
 
 {{% callout note %}}
-Click the _Preprint_ button below abstract to check all other Preprint in the website.
+Click the _Journal article_ button below abstract to check all other Preprint in the website.
 {{% /callout %}}

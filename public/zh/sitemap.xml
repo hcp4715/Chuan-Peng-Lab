@@ -153,30 +153,10 @@
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/</loc>
     <lastmod>2022-08-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/publication/publication_example1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/"
-                />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/</loc>
     <lastmod>2022-07-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/publication/publication_example2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/"
-                />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
