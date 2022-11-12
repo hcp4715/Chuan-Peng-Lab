@@ -22,7 +22,6 @@ abstract: Open Science is becoming a mainstream scientific ideology in psycholog
   We foresee great collaborative efforts of COSN together with all other local
   and international networks to further accelerate the Open Science movement.
 author_notes:
-- lab
 - Equal contribution
 - Equal contribution
 - Equal contribution
@@ -44,14 +43,13 @@ author_notes:
 - 
 - Corresponding author
 authors:
-- admin
-- Haiyang Ji
-- Qing Wan
-- Yu-Fang Yan
-- Han Zhan
-- Mengyu (Miranda) G
-- Shuxian Ji
-- Yanxiu (Sharon) Ch
+- Haiyang Jin
+- Qing Wang
+- Yu-Fang Yang
+- Han Zhang
+- Mengyu Gao
+- Shuxian Jin
+- Sharon Chen
 - Ting Xu
 - Yuan-Rui Zheng
 - Ji Chen
