@@ -23,7 +23,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Cognitive, Affective, & Behavioral Neuroscience*
-publication_short: In *CABN*
+publication_short: In *Cogn Affect Behav Neurosci*
 publication_types: 
 - "2"
 publishDate: "2020-10-21T00:00:00Z"

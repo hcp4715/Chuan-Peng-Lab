@@ -23,7 +23,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Journal of Open Psychology Data*
-publication_short: In *JOPD*
+publication_short: In *J Open Psychol Data*
 publication_types: 
 - "2"
 publishDate: "2020-01-06T00:00:00Z"

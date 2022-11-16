@@ -21,7 +21,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Journal of Pacific Rim Psychology*
-publication_short: In *JPRP*
+publication_short: In *J Pac Rim Psychol*
 publication_types: 
 - "2"
 publishDate: "2020-10-21T00:00:00Z"

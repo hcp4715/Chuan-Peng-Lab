@@ -21,7 +21,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Child Psychiatry & Human Development*
-publication_short: In *CPHD*
+publication_short: In *Child Psychiatry Hum Dev*
 publication_types: 
 - "2"
 publishDate: "2021-04-27T00:00:00Z"

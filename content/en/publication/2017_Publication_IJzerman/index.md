@@ -21,7 +21,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Behavioral and Brain Sciences*
-publication_short: In *Behavioral and Brain Sciences*
+publication_short: In *Behav Brain Sci*
 publication_types: 
 - "2"
 publishDate: "2017-05-11T00:00:00Z"

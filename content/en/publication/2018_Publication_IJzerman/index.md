@@ -23,7 +23,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Collabra:Psychology*
-publication_short: In *Collabra:Psychology*
+publication_short: In *Collabra Psychol*
 publication_types: 
 - "2"
 publishDate: "2018-10-19T00:00:00Z"

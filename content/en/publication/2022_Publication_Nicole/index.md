@@ -24,7 +24,7 @@ image:
 projects:
 - Publication_Nicole_2022
 publication: In *Proceedings of the National Academy of Sciences*
-publication_short: In *PNAS*
+publication_short: In *Proc Natl Acad Sci*
 publication_types: 
 - "2"
 publishDate: "2022-03-27T00:00:00Z"

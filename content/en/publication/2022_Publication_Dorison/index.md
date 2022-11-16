@@ -24,7 +24,7 @@ image:
 projects:
 - Publication_Dorison, C. A._2022
 publication: In *Affective Science*
-publication_short: In *Affective Science*
+publication_short: In *Affect Sci*
 publication_types: 
 - "2"
 publishDate: "2022-09-26T00:00:00Z"

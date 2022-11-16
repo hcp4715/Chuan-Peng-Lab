@@ -18,7 +18,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: ""
-publication: In *Front Psychol*
+publication: In *Frontiers in Psychology*
 publication_short: In *Front Psychol*
 publication_types: 
 - "2"

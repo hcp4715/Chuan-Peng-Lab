@@ -15,7 +15,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Frontiers in Human Neuroscience*
-publication_short: In *Frontiers in Human Neuroscience*
+publication_short: In *Front. Hum. Neurosci*
 publication_types: 
 - "2"
 publishDate: "2014-10-28T00:00:00Z"

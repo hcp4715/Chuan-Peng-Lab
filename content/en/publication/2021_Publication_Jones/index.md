@@ -21,7 +21,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Nature Human Behaviour*
-publication_short: In *NHB*
+publication_short: In *Nat Hum Behav*
 publication_types: 
 - "2"
 publishDate: "2021-01-04T00:00:00Z"

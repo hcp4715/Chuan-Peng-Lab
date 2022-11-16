@@ -476,24 +476,6 @@
     <lastmod>2014-10-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/publication-type/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/publication-type/1/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/publication/example/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/admin/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link

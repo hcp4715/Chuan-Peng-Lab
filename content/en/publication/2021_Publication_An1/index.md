@@ -18,8 +18,8 @@ image:
   focal_point: ""
   preview_only: false
 projects: ""
-publication: In *NJournal of Affective Disorders*
-publication_short: In *JAD*
+publication: In *Journal of Affective Disorders*
+publication_short: In *J Affect Disord*
 publication_types: 
 - "2"
 publishDate: "2021-10-01T00:00:00Z"

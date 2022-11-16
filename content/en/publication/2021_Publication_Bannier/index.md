@@ -21,7 +21,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Human Brain Mapping*
-publication_short: In *HBM*
+publication_short: In *Hum Brain Mapp*
 publication_types: 
 - "2"
 publishDate: "2021-02-01T00:00:00Z"

@@ -28,7 +28,7 @@ image:
 projects:
 - Publication_Nicole_2022
 publication: In *Nature Human Behaviour*
-publication_short: In *NHB*
+publication_short: In *Nat Hum Behav*
 publication_types: 
 - "2"
 publishDate: "2022-06-06T00:00:00Z"

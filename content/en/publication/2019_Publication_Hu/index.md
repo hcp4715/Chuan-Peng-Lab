@@ -23,7 +23,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Scientific Data*
-publication_short: In *Scientific Data*
+publication_short: In *Sci Data*
 publication_types: 
 - "2"
 publishDate: "2020-01-06T00:00:00Z"

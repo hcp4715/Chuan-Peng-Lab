@@ -25,7 +25,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Neuroscience & Biobehavioral Reviews*
-publication_short: In *Neuroscience & Biobehavioral Reviews*
+publication_short: In *Neurosci Biobehav Rev*
 publication_types: 
 - "2"
 publishDate: "2015-12-13T00:00:00Z"

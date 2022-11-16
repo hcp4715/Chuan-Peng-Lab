@@ -19,7 +19,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Science Bulletin*
-publication_short: In *Science Bulletin*
+publication_short: In *Sci Bull*
 publication_types: 
 - "2"
 publishDate: "2018-10-14T00:00:00Z"
