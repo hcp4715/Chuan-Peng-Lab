@@ -31,7 +31,7 @@ image:
   preview_only: false
 projects: ""
 publication: In *Advances in Psychological Science*
-publication_short: In *Adv Meth Pract Psych*
+publication_short: In *Adv Psych Sci*
 publication_types: 
 - "2"
 publishDate: "2021-01-27T00:00:00Z"
