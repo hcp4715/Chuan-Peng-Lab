@@ -55,3 +55,6 @@ v0.0.10
 	更新到第33篇（新增6篇中文文献），还剩7篇
 v0.0.11
 	完成了所有publication和preprint的导入
+v0.0.12
+	删除了tag
+	更新了collaborator
