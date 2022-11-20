@@ -9,7 +9,7 @@ author_notes:
 - 
 - 
 authors:
-- Chuan-Peng Hu
+- Chuanpeng Hu
 - Xin Di
 - Simon B. Eickhoff
 - Mingjun Zhang
