@@ -119,6 +119,23 @@ item:
     organization: snow
     title: Kenneth SL Yuen
     url: 'https://www.researchgate.net/profile/Kenneth-Yuen' 
+    
+  - certificate_url: 
+    date_end: 
+    date_start: '2020-10-03'
+    description: My research applies knowledge from cognitive neuroscience, psychology, and computational modeling to gain a comprehensive understanding of how the brain computes values and social information when making decisions. For that, I use behavioral measurements, functional magnetic resonance imaging (fMRI), and Bayesian hierarchical modeling.
+    organization: snow
+    title: Lei Zhang
+    url: 'https://lei-zhang.net/'  
+
+
+  - certificate_url: 
+    date_end: 
+    date_start: '2020-10-03'
+    description: Guizhou Normal University School of Psychology
+    organization: snow
+    title: Yu Liu
+    url: 'https://xlxy.gznu.edu.cn/info/1053/3003.htm'  
 design:
   columns: '2'
 ---
