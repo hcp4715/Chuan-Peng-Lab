@@ -8,8 +8,9 @@ authors:
 - Xin Di
 - Jiawei Li
 - Jie Sui
+- Kaiping Peng
 date: "2014-11-17T00:00:00Z"
-doi: "10.3724/sp.j.1042.2015.01118"
+doi: "10.3724/SP.J.1042.2015.01118"
 featured: ture
 image:
   caption: 'Image credit: [**Fig1**](https://journal.psych.ac.cn/xlkxjz/EN/10.3724/SP.J.1042.2015.01118)'
@@ -20,7 +21,7 @@ publication: In *Advances in Psychological Science*
 publication_short: In *Adv Psych Sci*
 publication_types: 
 - "2"
-publishDate: "2016-09-15T00:00:00Z"
+publishDate: "2015-07-15T00:00:00Z"
 slides: example
 summary: With increasing popularity of high resolution neuroimaging techniques, such as functional magnetic resonance imaging (fMRI) and position emission computerized tomography (PET), a large number of neuroimaging studies have been accumulated in the last two decades.
 tags: []
