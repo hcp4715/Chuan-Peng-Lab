@@ -136,6 +136,14 @@ item:
     organization: snow
     title: Yu Liu
     url: 'https://xlxy.gznu.edu.cn/info/1053/3003.htm'  
+    
+  - certificate_url: 
+    date_end: 
+    date_start: '2020-10-03'
+    description: 希望成为一个好的心理学科普者
+    organization: snow
+    title: Lei Yue
+    url: ''     
 design:
   columns: '2'
 ---
