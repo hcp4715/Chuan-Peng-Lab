@@ -9,7 +9,7 @@ author_notes:
 - 
 - 
 authors:
-- Chuanpeng Hu
+- Chuan-Peng Hu
 - Xin Di
 - Simon B. Eickhoff
 - Mingjun Zhang
@@ -17,7 +17,7 @@ authors:
 - Hua Guo
 - Jie Sui
 date: "2015-12-13T00:00:00Z"
-doi: "10.1017/S0140525X16001035"
+doi: "110.1016/j.neubiorev.2015.12.003"
 featured: true
 image:
   caption: 'Image credit: [**Fig1**](https://www.sciencedirect.com/science/article/abs/pii/S0149763415300920?via%3Dihub)'
