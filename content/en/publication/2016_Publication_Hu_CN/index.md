@@ -10,7 +10,7 @@ authors:
 - SONG Mengdi
 - SUI Jie
 - PENG Kaiping
-date: "2016-09-15T00:00:00Z"
+date: "2016-01-02T00:00:00Z"
 doi: "10.3724/SP.J.1042.2016.01504"
 featured: ture
 image:
