@@ -58,3 +58,5 @@ v0.0.11
 v0.0.12
 	删除了tag
 	更新了collaborator
+v0.0.13
+	更新了team

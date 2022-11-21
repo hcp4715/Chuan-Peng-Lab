@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: the alumni of Hu Chuan-Peng
+summary: ...
 tags:
-- Alumni
+- 
 title: Lulu Li
 url_code: ""
 url_pdf: ""

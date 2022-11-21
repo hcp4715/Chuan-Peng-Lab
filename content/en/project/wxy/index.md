@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: the Alumni of Chuanpeng Lab
+summary: ...
 tags:
-- Alumni
+- 
 title: Xin Yang Wang
 url_code: ""
 url_pdf: ""

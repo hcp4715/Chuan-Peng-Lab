@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: the Undergraduate of Hu Chuan-Peng
+summary: ...
 tags:
-- Undergraduate
+- 
 title: Chuyun Chen
 url_code: ""
 url_pdf: ""
