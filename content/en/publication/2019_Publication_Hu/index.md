@@ -26,7 +26,7 @@ publication: In *Scientific Data*
 publication_short: In *Sci Data*
 publication_types: 
 - "2"
-publishDate: "2020-01-06T00:00:00Z"
+publishDate: "2019-04-17T00:00:00Z"
 slides: example
 summary: In the Human Penguin Project (N = 1755), 15 research groups from 12 countries collected body temperature, demographic variables, social network indices, seven widely-used psychological scales and two newly developed questionnaires (the Social Thermoregulation and Risk Avoidance Questionnaire (STRAQ-1) and the Kama Muta Frequency Scale (KAMF)). 
 tags: []
