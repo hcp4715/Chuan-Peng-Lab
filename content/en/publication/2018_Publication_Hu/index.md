@@ -6,7 +6,7 @@ author_notes:
 - 
 - 
 authors:
-- Hu Chuan-Peng
+- Hu C
 - Jiang X
 - Jeffrey R
 - Zuo X
