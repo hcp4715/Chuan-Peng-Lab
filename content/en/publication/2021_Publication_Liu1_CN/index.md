@@ -33,7 +33,7 @@ publication: In *SCIENTIA SINICA Vitae*
 publication_short: In *SCIENTIA SINICA Vitae*
 publication_types: 
 - "2"
-publishDate: "2021-04-14T00:00:00Z"
+publishDate: "2021-05-27T00:00:00Z"
 slides: example
 summary: Meta-analysis is a crucial tool for accumulating evidence in basic and applied research. In the open science era, meta-analysis becomes an important way for integrating open data from different sources.
 tags: []
