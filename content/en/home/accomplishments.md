@@ -39,6 +39,14 @@ item:
     organization: snow
     title: Xinian Zuo
     url: 'https://zuoxinian.github.io/'
+
+  - certificate_url: 
+    date_end: ''
+    date_start: '2022-09-25'
+    description: Department of Social Psychology Nankai University
+    organization: snow
+    title: Xiaokang Lv
+    url: 'https://orcid.org/0000-0001-7270-7396'
   
   - certificate_url: 
     date_end: '2020-10-21'
