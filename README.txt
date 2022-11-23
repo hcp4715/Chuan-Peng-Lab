@@ -60,3 +60,6 @@ v0.0.12
 	更新了collaborator
 v0.0.13
 	更新了team
+v0.0.14
+	校验了publication后，重新发布
+	更新了collaborator

@@ -1,12 +1,27 @@
 ---
 abstract: Open Science is becoming a mainstream scientific ideology in psychology and related fields. However, due to inadequate research infrastructures, limited resources, and a lack of local support amongst various other difficulties, researchers - especially early career researchers (ECRs) in developing countries - are facing significant hurdles in moving Open Science forward. In China, ECRs often feel discouraged from participating in Open Science for reasons such as language barriers and the lack of dedicated communication channels. To bridge this gap, the Chinese Open Science Network (COSN) started with a simple wish to make the voice of Open Science heard by Chinese-speaking ECRs and scholars at large.With the core values of grassroots-oriented, diversity, and inclusivity, COSN has grown from a small open science interest group to a recognized organization both in the Chinese-speaking community and Open Science community. Since its inaugural event in 2016, COSN has organized three in-person workshops, 55 journal club sessions, 38 talks, 12 tutorials, and translated 15 Open Science English articles and blogs into Chinese. Currently, the COSN official WeChat account has more than 22,000 subscribers, and more than 1,000 researchers/students actively participate in the discussions on Open Science. In this paper, COSN shares its experiences of developing such networks and hopefully they are helpful for ECRs in other developing countries who would like to start their Open Science initiatives. We foresee great collaborative efforts of COSN together with all other local and international networks to further accelerate the Open Science movement.
+author_notes:
+- Equal contribution
+- Equal contribution
+- Equal contribution
+- Equal contribution
+- Equal contribution
 - 
 - 
 - 
 - 
 - 
 - 
-- Corresponding authors:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- Corresponding author
+authors:
 - Haiyang Jin
 - Qing Wang
 - Yu-Fang Yang
