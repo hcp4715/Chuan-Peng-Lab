@@ -6,7 +6,7 @@ author_notes:
 authors:
 - Ji-Xing Yin
 - Yuepei Xu
-- Hu Chuan-Peng
+- Chuan-Peng Hu
 date: "2020-07-08T00:00:00Z"
 doi: "10.31234/osf.io/bqprd"
 featured: ture
