@@ -63,3 +63,8 @@ v0.0.13
 v0.0.14
 	校验了publication后，重新发布
 	更新了collaborator
+v0.0.15
+	collaborator删除了头像，删除了简介，仅保留所属单位
+	team部分基本完成，未填信息的可以之后补上（文件夹已建立）
+	post部分删除了测试文件，
+	post添加How to install and use HDDM

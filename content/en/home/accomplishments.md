@@ -26,8 +26,8 @@ item:
   - certificate_url: 
     date_end: ''
     date_start: '2022-09-25'
-    description: 杭州师范大学心理科学研究院执行院长、浙江省认知障碍评估技术重点实验室执行主任
-    organization: snow
+    description: 
+    organization: Hangzhou Normal University
     organization_url: 
     title: Yufeng Zang
     url: 'https://scholar.google.com.tw/citations?hl=en&user=yOStJacAAAAJ'
@@ -35,129 +35,139 @@ item:
   - certificate_url: 
     date_end: ''
     date_start: '2022-09-25'
-    description: Applied Mathematician and Brain Scientist, Professor
-    organization: snow
+    description: 
+    organization: Applied Mathematician and Brain Scientist
     title: Xinian Zuo
     url: 'https://zuoxinian.github.io/'
 
   - certificate_url: 
     date_end: ''
     date_start: '2022-09-25'
-    description: Department of Social Psychology Nankai University
-    organization: snow
+    description: 
+    organization: Department of Social Psychology Nankai University
     title: Xiaokang Lv
     url: 'https://orcid.org/0000-0001-7270-7396'
   
   - certificate_url: 
-    date_end: '2020-10-21'
+    date_end: ''
     date_start: '2020-10-03'
-    description: I am a Research Assistant Professor in the Department of Biomedical Engineering, New Jersey Institute of Technology (NJIT). My research interest is mainly on understanding brain connectivity and brain network organizations using brain imaging techniques such as functional magnetic resonance imaging (fMRI).
-    organization: snow
+    description: 
+    organization: Department of Biomedical Engineering, New Jersey Institute of Technology
     title: Xin Di
     url: 'https://www.dixin.info/'
   
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: The group of Cognitive Computational Neuroscience and Neuroimaging (CCNN) is led by Dr. Ru-Yuan Zhang (张洳源 in Chinese), who is currently a Principal Investigator at the Institute of Psychology and Behavioral Science and Shanghai Mental Health Center at Shanghai Jiao Tong University, Shanghai, China.
-    organization: snow
+    description: 
+    organization: Shanghai Jiao Tong University
     title: Ruyuan Zhang
     url: 'http://ruyuanzhang.github.io/'
 
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: Department of Psychology and Behavioral Sciences, Zhejiang University
-    organization: snow
+    description: 
+    organization: Department of Psychology and Behavioral Sciences, Zhejiang University
     title: Xiangzhen Kong
     url: 'https://scholar.google.com.tw/citations?hl=en&user=AGsaPnQAAAAJ'
 
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: Nanjing Normal University
-    organization: snow
+    description: 
+    organization: Nanjing Normal University
     title: Yuanyuan An
     url: 'https://scholar.google.com.tw/citations?hl=en&user=bK4fzsEAAAAJ'    
+  
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: My research applies knowledge from cognitive neuroscience, psychology, and computational modeling to gain a comprehensive understanding of how the brain computes values and social information when making decisions. For that, I use behavioral measurements, functional magnetic resonance imaging (fMRI), and Bayesian hierarchical modeling.
-    organization: snow
+    description: 
+    organization: Social Cognitive and Affective Neuroscience Unit (SCAN-Unit), University of Vienna, Austria.
     title: Lei Zhang
     url: 'https://lei-zhang.net/'  
 
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: Guizhou Normal University School of Psychology
-    organization: snow
+    description: 
+    organization: Guizhou Normal University School of Psychology
     title: Yu Liu
     url: 'https://xlxy.gznu.edu.cn/info/1053/3003.htm'  
     
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: 热衷于通过数据科学的方法论，探究人类大脑承载的情绪与认知背后的深层机理。并致力于将以上的规律和机制转化为简单易行的自我管理体系，进而提升我们工作和生活的品质和效率。
-    organization: snow
+    description: 
+    organization: University of Groningen, University Medical Center Groningen, the Netherlands
     title: Haiyang Geng
-    url: 'https://scholar.google.com.tw/citations?hl=en&user=bK4fzsEAAAAJ'  
+    url: 'https://www.jianshu.com/u/871a97413a48'  
     
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: Institut for Systems Neuroscience, Heinrich-Heine-Universität Düsseldorf
-    organization: snow
+    description: 
+    organization: 
+    title: Lei Yue
+    url: '' 
+    
+  - certificate_url: 
+    date_end: 
+    date_start: '2020-10-03'
+    description: 
+    organization: 
+    title: Siqi Duan
+    url: ''
+    
+  - certificate_url: 
+    date_end: 
+    date_start: '2020-10-03'
+    description: 
+    organization: Institut for Systems Neuroscience, Heinrich-Heine-Universität Düsseldorf
     title: Simon B. Eickhoff
     url: 'https://www.fz-juelich.de/de' 
     
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: My main research interests include Bayesian inference, models of decision making, and philosophy of science.
-    organization: snow
+    description: 
+    organization: University of Amsterdam
     title: Eric-Jan Wagenmakers
     url: 'https://www.ejwagenmakers.com/'  
     
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: We study co-regulation in romantic relationships. We study social thermoregulation. We do meta-science. We rely on open science ideals. We collaborate with researchers around the world, but are located at the Université Grenoble Alpes.
-    organization: snow
+    description: 
+    organization: Associate Professor at Université Grenoble Alpes
     title: Hans Rocha IJzerman
     url: 'https://corelab.io/' 
     
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: Dr Eiko Fried (CV) is a psychologist, methodologist, and nearly photographer. He works as Associate Professor at Leiden University. He runs this website as well as WARN-D.com & psych-networks.com, and if anything is broken, you should probably blame him. You can stalk him via Email, Twitter, Mastodon, Open Science Framework, & Google Scholar.
-    organization: snow
+    description: 
+    organization: Leiden University, Department of Clinical Psychology
     title: Eiko I. Fried
     url: 'https://eiko-fried.com/' 
     
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: I do science and other such nonsense
-    organization: snow
+    description: 
+    organization: Busara Center for Behavioral Economics
     title: Patrick S. Forscher
     url: 'http://persistentastonishment.blogspot.com/' 
     
   - certificate_url: 
     date_end: 
     date_start: '2020-10-03'
-    description: Universitätsmedizin der Johannes Gutenberg-Universität Mainz · Neuroimaging Center
-    organization: snow
+    description: 
+    organization: Scientist, Neuroimaging Center, University Medical Center Mainz & Leibniz Institute for Resilience
     title: Kenneth SL Yuen
     url: 'https://www.researchgate.net/profile/Kenneth-Yuen' 
-    
-  - certificate_url: 
-    date_end: 
-    date_start: '2020-10-03'
-    description: 希望成为一个好的心理学科普者
-    organization: snow
-    title: Lei Yue
-    url: ''     
+   
 design:
   columns: '2'
 ---
