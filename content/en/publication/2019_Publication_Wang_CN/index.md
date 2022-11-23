@@ -6,7 +6,7 @@ author_notes:
 authors:
 - Wang Jun
 - Song Qiongya
-- Yuepei Xu
+- Xu Yuepei
 - HU Chuanpeng
 date: "2019-05-01T00:00:00Z"
 doi: "10.16842/j.cnki.issn2095-5588.2019.05.003"
