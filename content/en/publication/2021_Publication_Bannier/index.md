@@ -10,7 +10,7 @@ authors:
 - Bannier E
 - Barker G 
 - Borghesani
-- Hu C P 
+- Hu CP 
 - Zhu H
 date: "2021-02-01T00:00:00Z"
 doi: "10.1002/hbm.25351"
