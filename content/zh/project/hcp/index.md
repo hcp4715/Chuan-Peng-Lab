@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Chuanpeng Hu
+  caption: 胡传鹏
   focal_point: Smart
 links:
 - icon: twitter
@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: 实验室的老板
+summary: 实验室的首席研究员
 tags:
-- Boss
+- Principal Investigator
 title: 胡传鹏
 url_code: ""
 url_pdf: ""
@@ -20,11 +20,12 @@ url_slides: ""
 url_video: ""
 ---
 ![](images/hcp1.png)
-我是南京师范大学心理学院的教师。我的研究兴趣包括社会认知（即人类如何处理自我和其他相关信息）、社会经济地位/贫困和可重复性。我重视研究的公开性、透明度和可重复性，发起了中国开放科学网络，这是一个使用中文提高可重复性和开放科学意识的草根网络。我是分布式实验室网络心理科学加速器的助理主任。
+I am a faculty member of the School of Psychology, Nanjing Normal University, Nanjing, China. My research interests include social cognition (i.e., how human process self- and other-related information), SES/poverty, and reproducibility. I value open, transparency, and reproducibility in research, initiated the Chinese Open Science Network, a grassroots network for promoting awareness of reproducibility and open science using Chinese. I am an assistant director of Psychological Science Accelerator, a distributed laboratory network.  
 
-在空闲时间，我喜欢户外运动，例如攀岩、登山和徒步旅行。
+In my free time, I loves outdoor sports, e.g., rock climbing, mountaineering, and hiking.  
 
-🏫 _南京师范大学心理学院_  
-🎓 _湖北大学2009级法学学士、心理学学士_  
-🎓 _教育心理学硕士，2012，湖北大学_  
-🎓 _清华大学2017级社会心理学博士_  
+{{< icon name="school" pack="fas" >}} _School of psychology, Nanjing Normal University_  
+{{< icon name="graduation-cap" pack="fas" >}} _Bachelor of law, Bachelor of psychology, 2009, Hubei University_  
+{{< icon name="graduation-cap" pack="fas" >}} _Master of Educational Psychology, 2012, Hubei University_  
+{{< icon name="graduation-cap" pack="fas" >}} _Doctor of social psychology, 2017, Tsinghua University_  
+

@@ -7,7 +7,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 30
 
 title: 团队
 subtitle: ''
@@ -25,14 +25,16 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: 老板
-      tag: Boss
-    - name: 合作者
-      tag: Partner
-    - name: 研究生
-      tag: Postgraduate 
+    - name: 首席研究员
+      tag: Principal Investigator
+    - name: 研究助理
+      tag: Research Assistants
     - name: 本科生
+      tag: Postgraduate 
+    - name: 研究生
       tag: Undergraduate
+    - name: 毕业生
+      tag: Alumni
     - name: 所有人
       tag: '*'
 design:

@@ -5,7 +5,7 @@
     <link>https://chuan-peng-lab.netlify.app/zh/</link>
       <atom:link href="https://chuan-peng-lab.netlify.app/zh/index.xml" rel="self" type="application/rss+xml" />
     <description>传鹏的实验室</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chuan-peng-lab.netlify.app/media/icon_huab30dcb401eb8533ce7bec9312517304_65690_512x512_fill_lanczos_center_3.png</url>
       <title>传鹏的实验室</title>
@@ -13,45 +13,165 @@
     </image>
     
     <item>
-      <title>中国开放科学网络（COSN）：在发展中国家建立开放科学社区</title>
-      <link>https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/</link>
-      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/zh/publication/publication_example1/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    点击 &lt;em&gt;引用&lt;/em&gt; 按钮，使访问者能够将出版物元数据导入其参考文献管理软件。
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    单击摘要下方的 &lt;em&gt;会议文章&lt;/em&gt; 按钮，查看网站中的所有其他出版物。
-  &lt;/div&gt;
-&lt;/div&gt;
+      <title>Chengdong Xu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/xcd/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/xcd/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/xcd/images/xcd1_hu31246c9d23674bed37654834ec41dc97_94752_e6299141fcedd638e179ab38f4c3211e.webp 400w,
+               /zh/project/xcd/images/xcd1_hu31246c9d23674bed37654834ec41dc97_94752_96402268eae9926ac4bd2eda0d0dd99e.webp 760w,
+               /zh/project/xcd/images/xcd1_hu31246c9d23674bed37654834ec41dc97_94752_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/xcd/images/xcd1_hu31246c9d23674bed37654834ec41dc97_94752_e6299141fcedd638e179ab38f4c3211e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>当谈“自我参照”时我们在谈什么：人类神经成像中“自我参照”元研究数据库的初步建构</title>
-      <link>https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/</link>
-      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/zh/publication/publication_example2/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    点击 &lt;em&gt;引用&lt;/em&gt; 按钮，使访问者能够将出版物元数据导入其参考文献管理软件。
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    单击摘要下方的 &lt;em&gt;会议文章&lt;/em&gt; 按钮，查看网站中的所有其他出版物。
-  &lt;/div&gt;
-&lt;/div&gt;
+      <title>Chenghao Zhou</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/zch/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/zch/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/zch.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+吃饭，睡觉，炼丹。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;纽约大学，认知心理学硕士&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;社会认知；决策；建模&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>刘铮 Helen</title>
+      <title>Chennan Wu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/wcn/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/wcn/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/wcn/images/wcn1_hu874f8e4e2076dd1d55db9c9d77e66525_312463_3ccae0066081f8a3c60ce1057eaffbdf.webp 400w,
+               /zh/project/wcn/images/wcn1_hu874f8e4e2076dd1d55db9c9d77e66525_312463_14f4703436c24d48206a14046d0ea98b.webp 760w,
+               /zh/project/wcn/images/wcn1_hu874f8e4e2076dd1d55db9c9d77e66525_312463_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/wcn/images/wcn1_hu874f8e4e2076dd1d55db9c9d77e66525_312463_3ccae0066081f8a3c60ce1057eaffbdf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望学习到专业的技能，少想多做，保持开放和探索，过程比结果重要&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学心理学院&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;认知，情绪，人格&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chuyun Chen</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/ccy/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/ccy/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/ccy/images/ccy1_hu6acb0b9b33091220707b6f62d208fd57_351925_4bfae246ef5a1c118b390737a393828d.webp 400w,
+               /zh/project/ccy/images/ccy1_hu6acb0b9b33091220707b6f62d208fd57_351925_39a75ab51481f46d129b7157b795b238.webp 760w,
+               /zh/project/ccy/images/ccy1_hu6acb0b9b33091220707b6f62d208fd57_351925_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/ccy/images/ccy1_hu6acb0b9b33091220707b6f62d208fd57_351925_4bfae246ef5a1c118b390737a393828d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+喜欢尝试新鲜事物，也可以对一件感兴趣的事物专注很久。爱好旅行，动漫，剪视频。希望保持学习和探索。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学心理学院&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;认知，语言&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Python基本的分析和可视化&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;s小白，Pr轻度剪辑&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Helen (Zheng Liu)</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/lz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/project/lz/</guid>
       <description>&lt;p&gt;
 
@@ -81,16 +201,632 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
-不吃辣的四川人。我希望我能在科研路上多旅行（尽快平躺）。进入编程坑没多久，我一般要么调试要么写bug。爱好包括大海、雪山、煲汤、写疼痛文学和晒太阳。&lt;/p&gt;
-&lt;p&gt;✨ &lt;em&gt;自我信息处理；元研究；理论建构&lt;/em&gt;&lt;br&gt;
-🎓 &lt;em&gt;悉尼大学教育心理学硕士&lt;/em&gt;&lt;/p&gt;
+一个不吃辣的川渝人。目前希望能在科研路上多多闯荡（早日躺平）。逐渐感受到编程的快乐，平时不是在debug，就是在写bug的路上。 业余爱好：看海、看雪、煲汤、写伤痛文学和晒太阳。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;香港中文大学（深圳），应用心理学博士生一年级在读&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;跨期决策；风险决策；自我信息加工；元研究；理论构建&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R：使用ggplot2绘图、使用tidyverse数据清洗、使用R做简单的simulation&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;GitHub：项目管理，版本控制，readme，个人主页构建&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;学术论文相关：预注册报告撰写与提交、文献管理软件endnote使用、礼貌邮件格式，代下文献/书籍&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;一些实用技能：澳洲G3（悉大墨大澳国立）、加拿大G3（多大ubc麦吉尔）、香港中文（深圳）心理学相关项目申请咨询（一些浅薄经验），帮看PS、套瓷信(需提前约）&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>王新洋</title>
+      <title>Jiachen Liu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/ljc/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/ljc/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/ljc/images/ljc1_hud5e668e4949a06457993272008d9628a_371501_53e2712e40f0bb5e6dd56cd3334eee78.webp 400w,
+               /zh/project/ljc/images/ljc1_hud5e668e4949a06457993272008d9628a_371501_588b556d47b6fbfbefc3a960caa950e0.webp 760w,
+               /zh/project/ljc/images/ljc1_hud5e668e4949a06457993272008d9628a_371501_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/ljc/images/ljc1_hud5e668e4949a06457993272008d9628a_371501_53e2712e40f0bb5e6dd56cd3334eee78.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+数码，硬件科技产品爱好者。曾经是广告人，喜欢一切有创意的东西，喜欢好看的视觉效果创作，以及不同方面的影视创作艺术。励志成为一个用研从业者，去创造用户喜爱的产品。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学心理学院 专业硕士研究生一年级在读&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Open Science，可用性，用户研究&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R语言学习中&lt;/em&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;擅长Ps,Pr,Ae等平面，视频剪辑，特效，动画设计软件。以及照片和视频的前期拍摄&lt;/em&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;会装机，装系统，以及简单的电脑主机问题排查&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jiachen Ma</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/mjc/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/mjc/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/mjc/images/mjc1_huc591c4cdf353e7060fbf22e2f90d2326_321350_e2a6ef34c714e20c59b598518cf4a481.webp 400w,
+               /zh/project/mjc/images/mjc1_huc591c4cdf353e7060fbf22e2f90d2326_321350_985a01a17f62e83761e8bc4d17f1f581.webp 760w,
+               /zh/project/mjc/images/mjc1_huc591c4cdf353e7060fbf22e2f90d2326_321350_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/mjc/images/mjc1_huc591c4cdf353e7060fbf22e2f90d2326_321350_e2a6ef34c714e20c59b598518cf4a481.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+什么都想学点的跨专业小白，正在努力打基础中&amp;hellip;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学应用心理学第二学位&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;认知神经科学，建模&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jiahui Wen</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/wjh/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/wjh/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/wjh/images/wjh1_huee01165229660c1a9f50c975be872eca_260059_ac398b9d3591a7ce0156c0b5bc2ef9a3.webp 400w,
+               /zh/project/wjh/images/wjh1_huee01165229660c1a9f50c975be872eca_260059_3c36de4746da93db686445f23be251a7.webp 760w,
+               /zh/project/wjh/images/wjh1_huee01165229660c1a9f50c975be872eca_260059_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/wjh/images/wjh1_huee01165229660c1a9f50c975be872eca_260059_ac398b9d3591a7ce0156c0b5bc2ef9a3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+阴天爱好者，猫头鹰型选手，活跃在每天凌晨两点半。工作时带着*ntj的面具，本质intp。间歇性凌云壮志，努力不混吃等死。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学，基础心理学硕士在读&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;道德，建模，元分析&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R基本统计分析，R meta包、meta for包的使用，实验室相关资源的使用与管理.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jixing Yin</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/yjx/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/yjx/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/yjx/images/yjx1_hu540b00f0cd08a73de03c0cd640dbce43_585272_a1bed810913e7335656c94388f85d079.webp 400w,
+               /zh/project/yjx/images/yjx1_hu540b00f0cd08a73de03c0cd640dbce43_585272_df5a029ae25e1c4317854de252dfe748.webp 760w,
+               /zh/project/yjx/images/yjx1_hu540b00f0cd08a73de03c0cd640dbce43_585272_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/yjx/images/yjx1_hu540b00f0cd08a73de03c0cd640dbce43_585272_a1bed810913e7335656c94388f85d079.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+殷继兴，毕业于西北师范大学，现于四川大学华西医院任科研助理&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lei Yue</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/yl/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/yl/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/yl/images/yl1_hu93939a6a10d5165fe211ded2c2791fec_375296_3a694e3a16d6bcf173ec3980ff6512ff.webp 400w,
+               /zh/project/yl/images/yl1_hu93939a6a10d5165fe211ded2c2791fec_375296_f1da23a56bbc137905497bddc43ec28a.webp 760w,
+               /zh/project/yl/images/yl1_hu93939a6a10d5165fe211ded2c2791fec_375296_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/yl/images/yl1_hu93939a6a10d5165fe211ded2c2791fec_375296_3a694e3a16d6bcf173ec3980ff6512ff.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望成为一个好的心理学科普者。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Meta-Science，文献计量&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Vosviewer，CiteSpace etc&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Liuqing Tian</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/tlq/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/tlq/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_5ce238c7860e40b35b76a232bdd35146.webp 400w,
+               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_970e3fce56dc829448c9ff6a540058aa.webp 760w,
+               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_5ce238c7860e40b35b76a232bdd35146.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望能够在心理健康领域做一些真正有价值的研究，以帮助更多的人。生活中我是不拘小节，喜欢出去玩（当然也喜欢吃）的人。如果有好玩的请一定要给我推荐~&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;心理健康，测量模型&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;多种潜变量模型的Mplus操作，包括双因子模型，多质多法模型，结构方程，测量等值，潜类别模型，回归混合模型，增长模型&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R语言ggplot2&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lulu Li</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/lll/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/lll/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/lll/images/lll1_hue960c75eafa0dfbd7393e03141eb0ff1_169328_266fe068190a533241979a7b4243b561.webp 400w,
+               /zh/project/lll/images/lll1_hue960c75eafa0dfbd7393e03141eb0ff1_169328_fc0e5abe293ee499686d77e3664f9ec7.webp 760w,
+               /zh/project/lll/images/lll1_hue960c75eafa0dfbd7393e03141eb0ff1_169328_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/lll/images/lll1_hue960c75eafa0dfbd7393e03141eb0ff1_169328_266fe068190a533241979a7b4243b561.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望能早日找到自己的科研兴趣点，多做贡献，实现价值。喜欢卡通、旅行，也爱独处看书。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学，发展与教育心理学博士在读&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;语言认知；神经认知诗学；社会评价&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R的一些基本统计分析及可视化&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mengzhen Hu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/hmz/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/hmz/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_8d6978f41647201d95ce6580ed259f1f.webp 400w,
+               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_f196fc35db5e5bc5d5d0d7b2ae5283a5.webp 760w,
+               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_8d6978f41647201d95ce6580ed259f1f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+我像镂空的纱，全是缺点组成的&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学，应用心理学硕士在读&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;心理健康，问卷编制，统计相关&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R: dplyr，ggplot, bootnet, blogdown&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;SEM: AMOS, Mplus, PLS&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;HLM&amp;hellip; 快忘了&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;PS PR 一点点&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nan Wang</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/wn/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/wn/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/wn/images/wn1_hudb66aaf9f68199b91db4dda491b26a0d_81238_88899525c4649fb2461a9329099b4ba1.webp 400w,
+               /zh/project/wn/images/wn1_hudb66aaf9f68199b91db4dda491b26a0d_81238_02085bb2375591be6357f77e497de157.webp 760w,
+               /zh/project/wn/images/wn1_hudb66aaf9f68199b91db4dda491b26a0d_81238_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/wn/images/wn1_hudb66aaf9f68199b91db4dda491b26a0d_81238_88899525c4649fb2461a9329099b4ba1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+科幻爱好者，星球大战星际穿越星际迷航都喜欢。闲时喜欢摸狗摸鱼。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学，英语师范&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;认知，语言；词汇提取；语言表征&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R包：RandomForest; ggplot&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;RT数据分析&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;推送制作公众号管理&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;五毛钱法语&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Qinglan Liu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/lql/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/lql/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/lql/images/lql1_hu736824feb5f3ec62c07d56161d305833_464357_cfdd9cfc0c47e205735f4f4e47ab18e2.webp 400w,
+               /zh/project/lql/images/lql1_hu736824feb5f3ec62c07d56161d305833_464357_709f86404fac70f6987d8ef2abd95716.webp 760w,
+               /zh/project/lql/images/lql1_hu736824feb5f3ec62c07d56161d305833_464357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/lql/images/lql1_hu736824feb5f3ec62c07d56161d305833_464357_cfdd9cfc0c47e205735f4f4e47ab18e2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shangzhi Lu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/lsz/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/lsz/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/lsz/images/lsz1_hu1feb021447067d3f68b662be69a6e95f_361108_f34d16773a287836d1b523a144429faa.webp 400w,
+               /zh/project/lsz/images/lsz1_hu1feb021447067d3f68b662be69a6e95f_361108_0bffec4b9a18c08190af5cd69fbfbbeb.webp 760w,
+               /zh/project/lsz/images/lsz1_hu1feb021447067d3f68b662be69a6e95f_361108_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/lsz/images/lsz1_hu1feb021447067d3f68b662be69a6e95f_361108_f34d16773a287836d1b523a144429faa.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望在研究生阶段能够get到更多的科研技能。平时喜欢跑步，收集CBA球星卡以及读晚清史的书。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;香港中文大学（深圳），应用心理学硕士&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;主观幸福感与中国传统文化；理论构建; 元研究&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shuting Sun</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/sst/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/sst/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/sst/images/sst1_hu9778bf6b82265d3ad64b138b1ef307a0_543888_fe524d81ea9563d063bb3bf32d85f405.webp 400w,
+               /zh/project/sst/images/sst1_hu9778bf6b82265d3ad64b138b1ef307a0_543888_9bf6397e1ce1ddad77482fe778da2542.webp 760w,
+               /zh/project/sst/images/sst1_hu9778bf6b82265d3ad64b138b1ef307a0_543888_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/sst/images/sst1_hu9778bf6b82265d3ad64b138b1ef307a0_543888_fe524d81ea9563d063bb3bf32d85f405.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+喜欢散步，大海，雪天，历史，小说与喜剧，对剧本写作颇有兴趣。希望研究生期间提高学术能力，以后能忠于热爱的事。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学，心理学硕士&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;自我增强，道德，精神疾病&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Songshi Bai</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/bss/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/bss/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/bss/images/bss1_hufd0b2eb7caef48f3c6e58f70c67c0430_210739_1e882211f784e031c5ed3d40bdec24ae.webp 400w,
+               /zh/project/bss/images/bss1_hufd0b2eb7caef48f3c6e58f70c67c0430_210739_607c93a46698136edef0677dd5a15500.webp 760w,
+               /zh/project/bss/images/bss1_hufd0b2eb7caef48f3c6e58f70c67c0430_210739_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/bss/images/bss1_hufd0b2eb7caef48f3c6e58f70c67c0430_210739_1e882211f784e031c5ed3d40bdec24ae.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+闲不住的人，喜欢厚重的书、电影和用薯条蘸土豆泥；理想是用心理学创造社会价值；无限进步。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学心理学院&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;社会认知&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;经济阶层&lt;/em&gt; 
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R的基本统计分析&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;E-Prime、PsychoPy的简单实验&lt;/em&gt; 
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;SEM一点点&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Weibiao Liu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/lwb/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/lwb/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/lwb/images/lwb1_hub0c76b44aee1f4e398267811df58b6da_551440_718275d22d2a4463657f63adb6590f58.webp 400w,
+               /zh/project/lwb/images/lwb1_hub0c76b44aee1f4e398267811df58b6da_551440_fe3f221c0ef505cc665e47b1f1e4eead.webp 760w,
+               /zh/project/lwb/images/lwb1_hub0c76b44aee1f4e398267811df58b6da_551440_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/lwb/images/lwb1_hub0c76b44aee1f4e398267811df58b6da_551440_718275d22d2a4463657f63adb6590f58.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望做能够解决社会问题的心理学研究；撸铁、篮球爱好者，中国史爱好者，电视剧爱好者。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Meta-Science&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;决策与社会性发展&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R:tidyverse，ggplot2,metafor&lt;/em&gt;  
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;SEM: AMOS, Mplus&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;问卷法：问卷修订、横断实证研究&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Xin Yang Wang</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/wxy/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/project/wxy/</guid>
       <description>&lt;p&gt;
 
@@ -120,14 +856,998 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
-理想的情况是找到一个你喜欢的研究领域并以此为生。业余时间，我喜欢爬山看海和人聊天，找好吃的。&lt;/p&gt;
-&lt;p&gt;✨ &lt;em&gt;视觉感知；理论建构&lt;/em&gt;&lt;br&gt;
-🎓 &lt;em&gt;爱丁堡大学心理学硕士&lt;/em&gt;&lt;/p&gt;
+理想是找到热爱的研究领域并能以此维持生计。空闲喜欢爬山看海找人聊天，找美食。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;爱丁堡大学，心理学研究硕士&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;视觉感知；理论建构&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R的基础统计分析操作&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Testable平台入门（问卷/行为实验编写及数据收集平台）&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;雅思备考小建议&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>胡传鹏</title>
+      <title>Xinyi Zhang</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/zxy/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/zxy/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/zxy/images/zxy1_hub16606f488425595bfa1699503488903_496808_5b4c628ec387e90cbae8e44a9f86628b.webp 400w,
+               /zh/project/zxy/images/zxy1_hub16606f488425595bfa1699503488903_496808_362cfe11fcb3c4d79136fb9e95a51dec.webp 760w,
+               /zh/project/zxy/images/zxy1_hub16606f488425595bfa1699503488903_496808_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/zxy/images/zxy1_hub16606f488425595bfa1699503488903_496808_5b4c628ec387e90cbae8e44a9f86628b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望能天天开心，学习不止永远保持好奇心。爱好唱歌，擅长流行和合唱。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学心理学院&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;认知&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;心理健康&lt;/em&gt; 
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Python的基本使用&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;视频剪辑的基本技能&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yi Ding</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/dy/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/dy/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/dy/images/dy1_huec259b1e802994b90a2315a9eae907cc_591951_3440474c286c3f0d39084dc52bfb42bf.webp 400w,
+               /zh/project/dy/images/dy1_huec259b1e802994b90a2315a9eae907cc_591951_fb45b67195c9f718d7a8ab324ad1d89f.webp 760w,
+               /zh/project/dy/images/dy1_huec259b1e802994b90a2315a9eae907cc_591951_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/dy/images/dy1_huec259b1e802994b90a2315a9eae907cc_591951_3440474c286c3f0d39084dc52bfb42bf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+日本东北大学博士在读，研究方向是自我评价，社会认知&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yikang Liu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/lyk/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/lyk/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/lyk/images/lyk1_hub7e9f83a8c8ac3dd6e992ece0a8e9545_322113_aebf0e373e4fb432a1d60fe140ecab52.webp 400w,
+               /zh/project/lyk/images/lyk1_hub7e9f83a8c8ac3dd6e992ece0a8e9545_322113_31502f248eec74afcf42c7f3903c591f.webp 760w,
+               /zh/project/lyk/images/lyk1_hub7e9f83a8c8ac3dd6e992ece0a8e9545_322113_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/lyk/images/lyk1_hub7e9f83a8c8ac3dd6e992ece0a8e9545_322113_aebf0e373e4fb432a1d60fe140ecab52.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+爱好：希尔伯特；纪伯伦；阿加莎；林宥嘉&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学，基础心理学一年级&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;复杂决策，计算建模，model-based神经科学，统计方法&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;python, R, Matlab; Joint modeling.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yuanrui Zheng</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/zyr/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/zyr/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/zyr/images/zyr1_hua50ef8e717185c7054362c64ee368968_600173_e42f5140810c3a88e25803d8fbae6bec.webp 400w,
+               /zh/project/zyr/images/zyr1_hua50ef8e717185c7054362c64ee368968_600173_9604caf01378034d9782cd95ba397c7b.webp 760w,
+               /zh/project/zyr/images/zyr1_hua50ef8e717185c7054362c64ee368968_600173_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/zyr/images/zyr1_hua50ef8e717185c7054362c64ee368968_600173_e42f5140810c3a88e25803d8fbae6bec.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+喜欢看书，一般看《周易》和王阳明心学相关的书&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;云南师范大学商学院&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;统计模型；快同效应；贝叶斯因子假设检验&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R语言编程，可视化&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;分层线性模型&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yue Hu</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/hy/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/hy/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_8bf69ec2d75a791cc16a6ff48314851b.webp 400w,
+               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_64cce6cc21724b8c0ffc77d84248f7da.webp 760w,
+               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_8bf69ec2d75a791cc16a6ff48314851b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yuqing Cai</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/cyq/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/cyq/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/cyq/images/cyq1_hued4e2d85105068e3147df864c1882782_603492_d40badbb0c600a1fbe11938c09fea7bd.webp 400w,
+               /zh/project/cyq/images/cyq1_hued4e2d85105068e3147df864c1882782_603492_fa844fd9ce3cde1f82c1270080e82bb9.webp 760w,
+               /zh/project/cyq/images/cyq1_hued4e2d85105068e3147df864c1882782_603492_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/cyq/images/cyq1_hued4e2d85105068e3147df864c1882782_603492_d40badbb0c600a1fbe11938c09fea7bd.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望能坚持学习，减少焦虑，找到自己喜欢的研究方向。&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;UCL，发展心理学硕士&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;儿童心理健康，语言习得&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>In COVID-19 Health Messaging, Loss Framing Increases Anxiety with Little-to-No Concomitant Benefits:Experimental Evidence from 84 Countries</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_dorison/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_dorison/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chinese Open Science Network (COSN):Building an Open Science community in a developing country</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_jin/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_jin/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A New perspective of substance addiction based on network theory</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_liu2_cn/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_liu2_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What are we talking about when we talk about &#34;self-reference&#34;:A cognitive ontology database of fMRI-based self-reference studies</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_preprint_sun/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_preprint_sun/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Preprint&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Situational factors shape moral judgements in the trolley dilemma in Eastern, Southern and Western countries in a culturally diverse sample</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_bago/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_bago/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Obliviate! Reviewing Neural Fundamentals of Intentional Forgetting from a Meta-Analytic Perspective</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_gamboa/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_gamboa/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Promoting computational psychiatry in China</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_geng/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_geng/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A global experiment on motivating social distancing during the COVID-19 pandemic</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_nicole/</link>
+      <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_nicole/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Nil Effect in Psychological Research:A Practical Primer</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_xu_cn/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_xu_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The symptom structure of posttraumatic stress disorder and co-morbid depression among college students with childhood abuse experience:A network analysis</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_an1/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_an1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_wang/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_wang/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Centering inclusivity in the design of online conferences—An OHBM–Open Science perspective</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_levitis/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_levitis/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Changes in the Network Structure of Post-traumatic Stress Disorder Symptoms Among Earthquake Exposed Adolescents in China:A 2-Year Longitudinal Study</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_an2/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_an2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A standardized checklist on meta-analysis reporting in the open science era</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_liu1_cn/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_liu1_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Open Brain Consent:Informing research participants and obtaining consent to share brain imaging data</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_bannier/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_bannier/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interpreting nonsignificant results:A quantitative investigation based on 500 Chinese psychological research</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_wang_cn/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_wang_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>To which world regions does the valence–dominance model of social perception apply?</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_jones/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_jones/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Seeking the beauty center in the brain:A meta-analysis of fMRI studies of beautiful human faces and visual art</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_hu1/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_hu1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>No evidence for neuroscience bias in adult or juvenile cases:A pre-registered mock juror study</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2020_preprint_yin/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2020_preprint_yin/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Good me bad me:Does valence influence self-prioritization during perceptual decision-making?</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_hu2/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_hu2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variability in the analysis of a single neuroimaging dataset by many teams</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_botvinik-nezer/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_botvinik-nezer/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Beyond psychology:prevalence of p value and confidence interval misinterpretation across different fields</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_lyu/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_lyu/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network analysis and its applications in psychology</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_cai_cn/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_cai_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Questionnaire Data From the Revision of a Chinese Version of Free Will and Determinism Plus Scale</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_liu/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_liu/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Network Structure of Adolescent Well-Being Traits:Results From a Large-Scale Chinese Sample</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_zeng/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_zeng/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Socioeconomic status and brain structure and functions:A critical review</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_lyu_cn/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_lyu_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Calculating Confidence Intervals of Cohen&#39;s d and Eta-squared:A Practical Primer</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_wang_cn/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_wang_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to install and use HDDM</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/post/2019-04-29-how-to-install-and-use-hddm/</link>
+      <pubDate>Mon, 29 Apr 2019 02:13:27 +0800</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/post/2019-04-29-how-to-install-and-use-hddm/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Feburary 14, 2021 update: Please note that this blog post was outdated because of the updates of Anaconda/miniconda.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;August 2020 update: I&amp;rsquo;ve created a &lt;a href=&#34;https://hub.docker.com/r/hcp4715/hddm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HDDM docker image&lt;/a&gt;, which can be easily installed and used after installing &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;docker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;HDDM is a python package for drift diffusion model (DDM, see &lt;a href=&#34;http://ski.clps.brown.edu/hddm_docs/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ski.clps.brown.edu/hddm_docs/)&lt;/a&gt;. I used it to decompose the reaction time and accuracy data in my recent manuscript: &lt;a rel=&#34;noreferrer noopener&#34; aria-label=&#34;Good Me Bad Me: Does Valence Influence Self-Prioritization During Perceptual Decision-Making (opens in a new tab)&#34; href=&#34;https://psyarxiv.com/9fczh&#34; target=&#34;_blank&#34;&gt;Good Me Bad Me: Does Valence Influence Self-Prioritization During Perceptual Decision-Making&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are a few tips on how to install and use HDDM, in case that you plan to replicate my analyses using the code and data I share &lt;a rel=&#34;noreferrer noopener&#34; aria-label=&#34;here on Github (opens in a new tab)&#34; href=&#34;https://github.com/hcp4715/moralSelf_ddm&#34; target=&#34;_blank&#34;&gt;here on Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The targeted reader of this post are Windows users. (I assume that for most Linux users, you, in the most cases, can figure out how to install and use this package, at least with the help from the online forum (&lt;a href=&#34;https://groups.google.com/forum/#!forum/hddm-users%29%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://groups.google.com/forum/#!forum/hddm-users))&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My system information: Win 10 pro, 64 bit, 16 GB RAM&lt;/p&gt;
+&lt;h3 id=&#34;step-1-prepare-the-python-environment&#34;&gt;Step 1: prepare the python environment:&lt;/h3&gt;
+&lt;p&gt;1.1. Download and install Anaconda 3.6 or 3.7 from &lt;a href=&#34;https://www.anaconda.com/distribution/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anaconda.com/distribution/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;1.2. Create virtue python 3.5 environment.&lt;/p&gt;
+&lt;p&gt;To do that, you need first run the &lt;strong&gt;&lt;em&gt;Anaconda Prompt&lt;/em&gt;&lt;/strong&gt;, which will be available after you installed Anaconda, as administrator, then run the following code:&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;conda create -vv -n py35 python=3.5 jupyter  # py35 is the name of the environment, which can be arbitrary &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;1.3. Activate the py35 env. :&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;# To activate this environment, use:
+
+conda activate py35
+
+# To deactivate an active environment, use:
+conda deactivate&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;step-2-install-hddm&#34;&gt;&lt;strong&gt;Step 2: install HDDM&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Now you have a python 3.5 environment, you can then install the HDDM package. Of course, you need to activate the py35 environment first. Then:&lt;/p&gt;
+&lt;p&gt;2.1. Install HDDM by following code:&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;conda install -c pymc hddm  # (or conda install -c pymc python=3.5 hddm )
+-proceed?: y&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;2.2. Update kabuki, which is crucial package that HDDM depends on, to 0.6.2, otherwise models can not be saved). You can check the version of kabuki to make sure you do have installed 0.6.2&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;pip install -U --no-deps kabuki --ignore-installed
+
+conda list # check the version of kabuki &lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;step-3-use-hddm&#34;&gt;&lt;strong&gt;Step 3: use HDDM&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Now, we almost ready. A final step is to use an appropriate editor for editing and running the scripts. I used both jupyter lab (an updated version of jupyter notebook, but you can use jupyter notebook) and spyder. The script files of the former ends with “.ipynb”, the script files of the later one end with “.py”&lt;/p&gt;
+&lt;p&gt;To use jupyter lab, if you like, you need to install jupyter lab in your py35 env. As follows:&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;
+conda install jupyter lab
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After that, changing the working directory of &lt;em&gt;anaconda prompt&lt;/em&gt; to the folder where you stored the scripts and data, and type &lt;em&gt;jupyter lab&lt;/em&gt; to open run jupyter lab. Note the (weird) way to change directory in windows system.&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;
+cd /d c:\goodme\2_pilot_study\Results\4_hddm\  # in windows you have to add /d to change the directory
+
+# run in jupyter lab or jupyter note book, for stim-based modelling
+
+jupyter lab #(or jupyter notebook if you use jupyter notebook)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Similarly, to run in spyder, you need to install spyder in this py35 env. &lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;conda install spyder&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, type &lt;em&gt;spyder&lt;/em&gt; to activate spyder&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;spyder # you will need to change the working directory in the script.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Final note&lt;/strong&gt;: I know that there exists &lt;em&gt;the curse of knowledge&lt;/em&gt;, which means that I may assume you know what I know but you don’t. So please free feel to post comment or shout out on twitter (@hcp4715) to let me know if you encountered any problem when reproducing my analyses.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kama muta:Conceptualizing and measuring the experience often labelled being moved across 19 nations and 15 languages</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_zickfeld/</link>
+      <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_zickfeld/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data from the Human Penguin Project, a cross-national dataset testing social thermoregulation principles</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_hu/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_hu/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neuroscience bias:Reproducibility and exploration of psychological mechanisms</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_yin_cn/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_yin_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multinomial Processing Tree Models and Their Application in Social Psychology</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_liu_cn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_liu_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Human Penguin Project:Climate, Social Integration, and Core Body Temperature</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_ijzerman/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_ijzerman/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Science as a Better Gatekeeper for Science and Society:A Perspective from Neurolaw</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_hu/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_hu/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>P-Value, Confidence Intervals, and Statistical Inference:A New Dataset of Misinterpretation</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_lyu/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_lyu/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayes factor and its implementation in JASP:A practical primer</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_hu_cn/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_hu_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Glued to Which Face? Attentional Priority Effect of Female Babyface and Male Mature Face</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_zheng/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_zheng/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Does distance from the equator predict self-control? Lessons from the Human Penguin Project</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2017_publication_ijzerman/</link>
+      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2017_publication_ijzerman/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hu Chuan-Peng</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/hcp/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/project/hcp/</guid>
@@ -159,52 +1879,106 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
-我是南京师范大学心理学院的教师。我的研究兴趣包括社会认知（即人类如何处理自我和其他相关信息）、社会经济地位/贫困和可重复性。我重视研究的公开性、透明度和可重复性，发起了中国开放科学网络，这是一个使用中文提高可重复性和开放科学意识的草根网络。我是分布式实验室网络心理科学加速器的助理主任。&lt;/p&gt;
-&lt;p&gt;在空闲时间，我喜欢户外运动，例如攀岩、登山和徒步旅行。&lt;/p&gt;
-&lt;p&gt;🏫 &lt;em&gt;南京师范大学心理学院&lt;/em&gt;&lt;br&gt;
-🎓 &lt;em&gt;湖北大学2009级法学学士、心理学学士&lt;/em&gt;&lt;br&gt;
-🎓 &lt;em&gt;教育心理学硕士，2012，湖北大学&lt;/em&gt;&lt;br&gt;
-🎓 &lt;em&gt;清华大学2017级社会心理学博士&lt;/em&gt;&lt;/p&gt;
+I am a faculty member of the School of Psychology, Nanjing Normal University, Nanjing, China. My research interests include social cognition (i.e., how human process self- and other-related information), SES/poverty, and reproducibility. I value open, transparency, and reproducibility in research, initiated the Chinese Open Science Network, a grassroots network for promoting awareness of reproducibility and open science using Chinese. I am an assistant director of Psychological Science Accelerator, a distributed laboratory network.&lt;/p&gt;
+&lt;p&gt;In my free time, I loves outdoor sports, e.g., rock climbing, mountaineering, and hiking.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;School of psychology, Nanjing Normal University&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Bachelor of law, Bachelor of psychology, 2009, Hubei University&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Master of Educational Psychology, 2012, Hubei University&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Doctor of social psychology, 2017, Tsinghua University&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>胡孟真</title>
-      <link>https://chuan-peng-lab.netlify.app/zh/project/hmz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/zh/project/hmz/</guid>
-      <description>&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_8d6978f41647201d95ce6580ed259f1f.webp 400w,
-               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_f196fc35db5e5bc5d5d0d7b2ae5283a5.webp 760w,
-               /zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/hmz/images/hmz1_hud72dfe0e1a4eba95195840b0d66b7e05_359270_8d6978f41647201d95ce6580ed259f1f.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;259&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-略&lt;/p&gt;
-&lt;p&gt;✨ &lt;em&gt;关于统计的任何事情；精神健康&lt;/em&gt;&lt;br&gt;
-🎓 &lt;em&gt;南京师范大学心理学硕士&lt;/em&gt;&lt;br&gt;
-🎓 &lt;em&gt;首都师范大学心理学学士&lt;/em&gt;&lt;/p&gt;
+      <title>The replication crisis in psychological research</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2016_publication_hu_cn/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2016_publication_hu_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distinct and common aspects of physical and psychological self-representation in the brain:A meta-analysis of self-bias in facial and self-referential judgements</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2015_publication_hu/</link>
+      <pubDate>Sun, 13 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2015_publication_hu/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis of Neuroimaging Studies</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2015_publication_hu_cn/</link>
+      <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2015_publication_hu_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An emotion regulation role of ventromedial prefrontal cortex in moral judgment</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2014_publication_hu/</link>
+      <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2014_publication_hu/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neurolaw:A marriage between young cognitive neuroscience and old law</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2011_publication_hu_cn/</link>
+      <pubDate>Tue, 15 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2011_publication_hu_cn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Preprint in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     

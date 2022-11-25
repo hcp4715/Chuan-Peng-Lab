@@ -20,4 +20,4 @@ url_slides: ""
 url_video: ""
 ---
 ![](images/dy1.png)
-
+日本东北大学博士在读，研究方向是自我评价，社会认知

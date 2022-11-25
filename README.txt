@@ -70,3 +70,6 @@ v0.0.15
 	post添加How to install and use HDDM
 v0.0.15.1
 	以合作的第一篇文章的发表时间，作为collaborator起始时间
+v0.1.0
+	将英文版复制到中文版中，进行了部分汉化
+	网页基本完成

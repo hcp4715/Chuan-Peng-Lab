@@ -1,8 +1,8 @@
 ---
-date: "2016-04-27T00:00:00Z"
+date: "2022-11-06T00:00:00Z"
 external_link: ""
 image:
-  caption: Mengzhen Hu
+  caption: 胡孟真
   focal_point: Smart
 links:
 - icon: twitter
@@ -18,9 +18,9 @@ links:
   name: Follow
   url: https://www.instagram.com/sinnyuki/
 slides: example
-summary: 实验室的研究生
+summary: 传鹏的研究助理
 tags:
-- postgraduate
+- Research Assistants
 title: 胡孟真
 url_code: ""
 url_pdf: ""
@@ -28,8 +28,11 @@ url_slides: ""
 url_video: ""
 ---
 ![](images/hmz1.png)
-略
+我像镂空的纱，全是缺点组成的
 
-✨ _关于统计的任何事情；精神健康_  
-🎓 _南京师范大学心理学硕士_  
-🎓 _首都师范大学心理学学士_  
+{{< icon name="graduation-cap" pack="fas" >}} _南京师范大学，应用心理学硕士在读_  
+{{< icon name="heart" pack="fas" >}} _心理健康，问卷编制，统计相关_  
+{{< icon name="star" pack="fas" >}} _R: dplyr，ggplot, bootnet, blogdown_  
+{{< icon name="star" pack="fas" >}} _SEM: AMOS, Mplus, PLS_  
+{{< icon name="star" pack="fas" >}} _HLM... 快忘了_   
+{{< icon name="star" pack="fas" >}} _PS PR 一点点_  

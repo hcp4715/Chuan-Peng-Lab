@@ -3,21 +3,21 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-  main:
-  - name: 主页
+main:
+  - name: 首页
     url: '#about'
     weight: 10
-  - name: 博文
-    url: '#posts'
-    weight: 20
   - name: 团队
     url: '#project'
-    weight: 30
+    weight: 20
   - name: 出版物
     url: '#featured'
-    weight: 40
-  - name: 标签
-    url: '#tags'
+    weight: 30
+  - name: 合作者
+    url: '#accomplishments'
+    weight: 40 
+  - name: 博文
+    url: '#posts'
     weight: 50
   - name: 联系我们
     url: '#contact'
