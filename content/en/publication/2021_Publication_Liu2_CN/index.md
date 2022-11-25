@@ -15,7 +15,7 @@ authors:
 - LIU Xueli
 date: "2022-07-13T00:00:00Z"
 doi: "10.3724/SP.J.1042.2021.00296"
-featured: ture
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://journal.psych.ac.cn/xlkxjz/EN/10.3724/SP.J.1042.2021.00296)'
   focal_point: ""

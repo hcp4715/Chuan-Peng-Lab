@@ -16,7 +16,7 @@ authors:
 - Zickfeld J
 date: "2018-10-19T00:00:00Z"
 doi: "10.1525/collabra.165"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://online.ucpress.edu/collabra/article/4/1/37/112987/The-Human-Penguin-Project-Climate-Social)'
   focal_point: ""

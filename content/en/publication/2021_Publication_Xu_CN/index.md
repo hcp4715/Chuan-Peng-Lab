@@ -14,7 +14,7 @@ authors:
 - HU Chuan-peng
 date: "2021-10-13T00:00:00Z"
 doi: "http://www.appliedpsy.cn/CN/abstract/abstract331.shtml"
-featured: ture
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](http://www.appliedpsy.cn/CN/abstract/abstract331.shtml)'
   focal_point: ""

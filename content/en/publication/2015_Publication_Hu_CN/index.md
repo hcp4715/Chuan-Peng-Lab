@@ -11,7 +11,7 @@ authors:
 - Kaiping Peng
 date: "2014-11-17T00:00:00Z"
 doi: "10.3724/SP.J.1042.2015.01118"
-featured: ture
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://journal.psych.ac.cn/xlkxjz/EN/10.3724/SP.J.1042.2015.01118)'
   focal_point: ""

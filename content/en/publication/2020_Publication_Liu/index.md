@@ -16,7 +16,7 @@ authors:
 - Chuan-Peng Hu
 date: "2020-01-06T00:00:00Z"
 doi: "10.5334/jopd.49"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://openpsychologydata.metajnl.com/articles/10.5334/jopd.49/)'
   focal_point: ""

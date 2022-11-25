@@ -25,7 +25,7 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: 首席研究员
+    - name: PI
       tag: Principal Investigator
     - name: 研究助理
       tag: Research Assistants
@@ -33,7 +33,7 @@ content:
       tag: Postgraduate 
     - name: 研究生
       tag: Undergraduate
-    - name: 毕业生
+    - name: 毕业的成员
       tag: Alumni
     - name: 所有人
       tag: '*'

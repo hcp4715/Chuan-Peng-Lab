@@ -13,7 +13,7 @@ authors:
 - Chuanpeng Hu
 date: "2022-07-02T00:00:00Z"
 doi: "10.12074/202207.00005"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig.3**](http://www.chinaxiv.org/abs/202207.00005)'
   focal_point: ""

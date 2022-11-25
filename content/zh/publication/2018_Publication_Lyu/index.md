@@ -10,7 +10,7 @@ authors:
 - Chuan-Peng Hu
 date: "2018-06-08T00:00:00Z"
 doi: "10.3389/fpsyg.2018.00868"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00868/full)'
   focal_point: ""

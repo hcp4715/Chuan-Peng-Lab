@@ -14,7 +14,7 @@ authors:
 - Maumet C
 date: "2021-08-08T00:00:00Z"
 doi: "10.1093/gigascience/giab051"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/gigascience/10/8/10.1093_gigascience_giab051/2/m_giab051fig1.jpeg?Expires=1670373196&Signature=q38xT2IxejsraCAABMI0McCFSd~ZF7UZxVFDmFCGygRhtJw1OUaWDebKZTKvhMH73bgOZ9X4PNxb5oMyxRxu6XtOQlUS6OaNIIK43dMLZk72l1Lb9UGcy45KRTU9Tdvbfr6eOoiVIJ81QWElQxQ6bsBHP4HjqIY7zuI1DcANY2E9ilwiyiklA2ZiY7L~CX95iAOJstpj8iEOiw-roIdg1dZtfS1ovoW4rK5hEKS4Pqa4-dlFTPB7hLDkS8yiX4pm8i9JQwdvrEuuVxmEV-P9n93DrH6SRhZV~2UViNeIT3rn9a0NXlRW3sLAr8KpDA4R40-~uMkQd5Shh5maNWBUNA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)'
   focal_point: ""

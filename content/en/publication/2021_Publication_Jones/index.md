@@ -14,7 +14,7 @@ authors:
 - Chartier C
 date: "2021-01-04T00:00:00Z"
 doi: "10.6084/m9.figshare.7611443.v1"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://www.researchgate.net/profile/Jackson-Lu-2/publication/348250044/figure/tbl4/AS:982184630448130@1611182472068/Factor-congruence-for-each-regions-PCa.png)'
   focal_point: ""

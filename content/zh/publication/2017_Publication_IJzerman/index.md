@@ -14,7 +14,7 @@ authors:
 - Lindenberg S
 date: "2017-05-11T00:00:00Z"
 doi: "10.1017/S0140525X16001035"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/does-distance-from-the-equator-predict-selfcontrol-lessons-from-the-human-penguin-project/5A4E22F04F8DCD74B035905987618E2B)'
   focal_point: ""

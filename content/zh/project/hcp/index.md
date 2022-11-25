@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: 实验室的首席研究员
+summary: Principal Investigator
 tags:
 - Principal Investigator
 title: 胡传鹏

@@ -12,7 +12,7 @@ authors:
 - Yuen K S L
 date: "2022-06-04T00:00:00Z"
 doi: "10.3390/biomedicines10071555"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://www.mdpi.com/biomedicines/biomedicines-10-01555/article_deploy/html/images/biomedicines-10-01555-g001.png)'
   focal_point: ""

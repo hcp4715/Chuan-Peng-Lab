@@ -14,7 +14,7 @@ authors:
 - Zhu H
 date: "2021-02-01T00:00:00Z"
 doi: "10.1002/hbm.25351"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://pubmed.ncbi.nlm.nih.gov/33522661/)'
   focal_point: ""

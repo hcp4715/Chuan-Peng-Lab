@@ -24,7 +24,7 @@ authors:
 - HU Chuanpeng
 date: "2021-01-27T00:00:00Z"
 doi: "https://doi.org/10.1360/SSV-2021-0009"
-featured: ture
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://journal.psych.ac.cn/adps/EN/abstract/abstract5299.shtml)'
   focal_point: ""

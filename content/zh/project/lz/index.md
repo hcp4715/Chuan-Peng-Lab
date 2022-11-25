@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: 传鹏的毕业生
+summary: 毕业的成员
 tags:
 - Alumni
 title: Helen (刘铮)

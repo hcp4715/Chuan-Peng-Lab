@@ -13,50 +13,7 @@
     </image>
     
     <item>
-      <title>Liuqing Tian</title>
-      <link>https://chuan-peng-lab.netlify.app/zh/project/tlq/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/zh/project/tlq/</guid>
-      <description>&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_5ce238c7860e40b35b76a232bdd35146.webp 400w,
-               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_970e3fce56dc829448c9ff6a540058aa.webp 760w,
-               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_5ce238c7860e40b35b76a232bdd35146.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;259&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-希望能够在心理健康领域做一些真正有价值的研究，以帮助更多的人。生活中我是不拘小节，喜欢出去玩（当然也喜欢吃）的人。如果有好玩的请一定要给我推荐~&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;心理健康，测量模型&lt;/em&gt;&lt;br&gt;
-
-  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;多种潜变量模型的Mplus操作，包括双因子模型，多质多法模型，结构方程，测量等值，潜类别模型，回归混合模型，增长模型&lt;/em&gt;&lt;br&gt;
-
-  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R语言ggplot2&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mengzhen Hu</title>
+      <title>胡孟真</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/hmz/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/project/hmz/</guid>
@@ -105,7 +62,49 @@
     </item>
     
     <item>
-      <title>Weibiao Liu</title>
+      <title>胡岳</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/hy/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/hy/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_8bf69ec2d75a791cc16a6ff48314851b.webp 400w,
+               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_64cce6cc21724b8c0ffc77d84248f7da.webp 760w,
+               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_8bf69ec2d75a791cc16a6ff48314851b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>刘伟彪</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/lwb/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/project/lwb/</guid>
@@ -151,7 +150,50 @@
     </item>
     
     <item>
-      <title>Yuanrui Zheng</title>
+      <title>田柳青</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/tlq/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/tlq/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_5ce238c7860e40b35b76a232bdd35146.webp 400w,
+               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_970e3fce56dc829448c9ff6a540058aa.webp 760w,
+               /zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/tlq/images/tlq1_huef8ce62a56840499aba401f9ec42274c_286411_5ce238c7860e40b35b76a232bdd35146.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;259&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+希望能够在心理健康领域做一些真正有价值的研究，以帮助更多的人。生活中我是不拘小节，喜欢出去玩（当然也喜欢吃）的人。如果有好玩的请一定要给我推荐~&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;心理健康，测量模型&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;多种潜变量模型的Mplus操作，包括双因子模型，多质多法模型，结构方程，测量等值，潜类别模型，回归混合模型，增长模型&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R语言ggplot2&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>郑元瑞</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/zyr/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/project/zyr/</guid>
@@ -192,48 +234,6 @@
   &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R语言编程，可视化&lt;/em&gt;&lt;br&gt;
 
   &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;分层线性模型&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Yue Hu</title>
-      <link>https://chuan-peng-lab.netlify.app/zh/project/hy/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/zh/project/hy/</guid>
-      <description>&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_8bf69ec2d75a791cc16a6ff48314851b.webp 400w,
-               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_64cce6cc21724b8c0ffc77d84248f7da.webp 760w,
-               /zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://chuan-peng-lab.netlify.app/zh/project/hy/images/hy1_hue44a66eb803a73a83acc15999c072870_60691_8bf69ec2d75a791cc16a6ff48314851b.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;259&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;br&gt;
-
-  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;br&gt;
-
-  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;*&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

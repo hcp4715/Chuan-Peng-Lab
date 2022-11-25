@@ -16,7 +16,7 @@ authors:
 - Chuan-Peng Hu
 date: "2022-03-27T00:00:00Z"
 doi: "10.1073/pnas.2111091119"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig2**](https://www.pnas.org/cms/10.1073/pnas.2111091119/asset/3c23bc24-46d2-4378-87c1-03e645149976/assets/images/large/pnas.2111091119fig02.jpg)'
   focal_point: ""

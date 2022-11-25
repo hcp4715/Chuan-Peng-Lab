@@ -12,7 +12,7 @@ authors:
 - Zuo X
 date: "2018-10-14T00:00:00Z"
 doi: "10.1016/j.scib.2018.11.015"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://psyarxiv.com/8dr23/)'
   focal_point: ""

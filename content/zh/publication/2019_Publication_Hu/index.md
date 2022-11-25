@@ -16,7 +16,7 @@ authors:
 - Ijzerman H
 date: "2019-04-17T00:00:00Z"
 doi: "articles/s41597-019-0029-2"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://www.nature.com/articles/s41597-019-0029-2/figures/1)'
   focal_point: ""

@@ -6,7 +6,7 @@ highlight_name: true
 organizations:
 - name: 南京师范大学 心理学院
   url: http://schools.njnu.edu.cn/psy/
-role: 欢迎来到元自我实验室
+role: 
 social:
 - icon: square-twitter
   icon_pack: fab
@@ -24,7 +24,7 @@ social:
   icon_pack: fas
   link: '#contact'
 superuser: true
-title: 传鹏的实验室
+title: 元自我实验室
 ---
 
 # 关于我们

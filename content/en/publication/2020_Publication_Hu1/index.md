@@ -16,7 +16,7 @@ authors:
 - Jie Sui 
 date: "2020-10-21T00:00:00Z"
 doi: "10.3758/s13415-020-00827-z"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://link.springer.com/article/10.3758/s13415-020-00827-z/figures/1)'
   focal_point: ""

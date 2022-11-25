@@ -12,7 +12,7 @@ authors:
 - Jie Sui 
 date: "2020-04-07T00:00:00Z"
 doi: "10.31234/osf.io/9fczh"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://psyarxiv.com/9fczh)'
   focal_point: ""

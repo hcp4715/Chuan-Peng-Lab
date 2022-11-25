@@ -12,7 +12,7 @@ authors:
 - Kaiping Peng
 date: "2018-03-06T00:00:00Z"
 doi: "10.3389/fpsyg.2018.00286"
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5845684/)'
   focal_point: ""
