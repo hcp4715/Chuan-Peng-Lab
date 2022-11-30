@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: ...
+summary: __Sep-21 ~ Now__  <br/>  希望做个有趣的人
 tags:
 - 
 title: 陈楚芸

@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-22 ~ Now__  <br/> 南京师范大学在读博士
+summary: __Jan-21 ~ Nov-22__  <br/>  南京师范大学在读博士
 tags:
 - 
 title: 李璐璐

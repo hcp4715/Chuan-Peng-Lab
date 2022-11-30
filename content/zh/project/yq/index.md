@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: 贵州师范大学在读硕士
+summary: __Jan-21 ~ Nov-22__  <br/>  贵州师范大学在读硕士
 tags:
 - 
 title: 杨倩

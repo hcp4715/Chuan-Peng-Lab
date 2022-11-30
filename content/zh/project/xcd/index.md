@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: 北京师范大学研究助理
+summary: __Jan-21 ~ May-22__  <br/>  北京师范大学研究助理
 tags:
 - Alumni
 title: 徐成东

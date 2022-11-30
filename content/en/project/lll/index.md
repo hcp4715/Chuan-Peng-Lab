@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-22 ~ Now__  <br/> a doctoral student at Nanjing Normal University
+summary: __Jan-21 ~ Nov-22__  <br/>  a doctoral student at Nanjing Normal University
 tags:
 - 
 title: Lulu Li

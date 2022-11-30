@@ -86,20 +86,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/lql/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/lql/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/lql/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/xcd/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1330,6 +1316,20 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2014_publication_hu/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/lql/</loc>
+    <lastmod>2012-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/lql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/lql/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2011_publication_hu_cn/</loc>

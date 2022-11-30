@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: the Undergraduate of Hu Chuan-Peng
+summary: __Sep-20 ~ Now__  <br/>  一只正在学习和思考的心理学学生
 tags:
 - Undergraduate
 title: 柏松石

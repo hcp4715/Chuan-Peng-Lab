@@ -1,12 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2012-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: Qinglan Liu
   focal_point: Smart
 links:
 slides: example
-summary: Researcher of Beijing Youse Technology Co., Ltd
+summary: __Sep-12 ~ Jun-20__  <br/>  Researcher of Beijing Youse Technology Co., Ltd
 tags:
 - Alumni
 title: Qinglan Liu

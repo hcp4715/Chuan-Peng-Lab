@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: ...
+summary: __Sep-21 ~ Now__  <br/>  to be an interesting person
 tags:
 - 
 title: Chuyun Chen

@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: the Undergraduate of Hu Chuan-Peng
+summary: __Sep-20 ~ Now__  <br/>  A psychology student is on the way.
 tags:
 - Undergraduate
 title: Songshi Bai

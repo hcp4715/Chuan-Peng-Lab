@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: a master student at Chinese University of Hongkong
+summary: __Sep-21 ~ Now__  <br/>  a master student at Chinese University of Hongkong
 tags:
 - 
 title: Shangzhi Lu

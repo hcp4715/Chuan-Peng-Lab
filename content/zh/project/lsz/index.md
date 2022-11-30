@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: 香港中文大学在读硕士
+summary: __Sep-21 ~ Now__  <br/>  香港中文大学在读硕士
 tags:
 - 
 title: 卢尚智

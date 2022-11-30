@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: a master student at Guizhou Normal University
+summary: __Jan-21 ~ Nov-22__  <br/>  a master student at Guizhou Normal University
 tags:
 - 
 title: Qian Yang

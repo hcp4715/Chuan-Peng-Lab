@@ -1,12 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2012-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 刘青兰
   focal_point: Smart
 links:
 slides: example
-summary: 北京各色科技有限公司研究员
+summary: __Sep-12 ~ Jun-20__  <br/>  北京各色科技有限公司研究员
 tags:
 - Alumni
 title: 刘青兰
