@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2022-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: Xin Yang Wang
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: ...
+summary: Been on the underground, looking for that new sound.
 tags:
 - 
 title: Xin Yang Wang
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/wxy1.png)
 理想是找到热爱的研究领域并能以此维持生计。空闲喜欢爬山看海找人聊天，找美食。
 
 {{< icon name="graduation-cap" pack="fas" >}} _爱丁堡大学，心理学研究硕士_  

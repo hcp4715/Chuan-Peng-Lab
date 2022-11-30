@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2019-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: Chennan Wu
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: the Undergraduate of Hu Chuan-Peng
+summary: __Sep-19 ~ Now__  <br/> I’m a 2019 undergraduate student at School of Psychology, Nanjing Normal University, a time lag effect believer, a stable ISTJ. I approach life with an experiencial mindset.
 tags:
 - Undergraduate
 title: Chennan Wu
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/wcn1.png)
 希望学习到专业的技能，少想多做，保持开放和探索，过程比结果重要
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学心理学院_  

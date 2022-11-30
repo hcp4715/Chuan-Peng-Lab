@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2022-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 卢尚智
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: ...
+summary: 香港中文大学在读硕士
 tags:
 - 
 title: 卢尚智
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/lsz1.png)
 希望在研究生阶段能够get到更多的科研技能。平时喜欢跑步，收集CBA球星卡以及读晚清史的书。
 
 {{< icon name="graduation-cap" pack="fas" >}} _香港中文大学（深圳），应用心理学硕士_  

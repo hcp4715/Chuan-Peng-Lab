@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2022-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 胡岳
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: 传鹏的研究助理
+summary: __Sep-22 ~ Now__  <br/> 目前研究方向：知觉决策
 tags:
 - Research Assistants
 title: 胡岳
@@ -19,10 +15,7 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/hy1.png)
-
- 
-{{< icon name="heart" pack="fas" >}} _*_  
+{{< icon name="heart" pack="fas" >}} _知觉决策_  
 {{< icon name="star" pack="fas" >}} _*_  
 {{< icon name="star" pack="fas" >}} _*_  
 

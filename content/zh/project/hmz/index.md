@@ -1,5 +1,5 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2021-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 胡孟真
@@ -9,16 +9,16 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/YuKi64810517
-- icon: weibo
-  icon_pack: fab
-  name: Follow
-  url: https://weibo.com/u/1584110847
 - icon: instagram
   icon_pack: fab
   name: Follow
   url: https://www.instagram.com/sinnyuki/
+- icon: github
+  icon_pack: fab
+  name: Follow
+  url: https://github.com/sinnyuki
 slides: example
-summary: 传鹏的研究助理
+summary: __Jun-22 ~ Now__  <br/>  我像镂空的纱，全是缺点组成的
 tags:
 - Research Assistants
 title: 胡孟真
@@ -27,7 +27,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/hmz1.png)
 我像镂空的纱，全是缺点组成的
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学，应用心理学硕士在读_  

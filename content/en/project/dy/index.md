@@ -4,13 +4,9 @@ external_link: ""
 image:
   caption: Yi Ding
   focal_point: Smart
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
+links: 
 slides: example
-summary: the alumni of Hu Chuan-Peng
+summary: a doctoral student at Tohoku University, study self-evaluation, social cognition
 tags:
 - Alumni
 title: Yi Ding
@@ -19,5 +15,4 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/dy1.png)
 日本东北大学博士在读，研究方向是自我评价，社会认知

@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2021-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: Xinyi Zhang
   focal_point: Smart
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
+links: 
 slides: example
-summary: the Undergraduate of Hu Chuan-Peng
+summary: __Sep-21 ~ Now__  <br/> Let life be beautiful like summer flowers,death like autumn leaves.
 tags:
 - Undergraduate
 title: Xinyi Zhang
@@ -19,9 +15,7 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/zxy1.png)
 希望能天天开心，学习不止永远保持好奇心。爱好唱歌，擅长流行和合唱。
-
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学心理学院_  
 {{< icon name="heart" pack="fas" >}} _认知_  

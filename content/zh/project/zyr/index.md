@@ -1,5 +1,5 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2019-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 郑元瑞
@@ -8,9 +8,13 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/hcp4715
+  url: https://twitter.com/AaronZheng87
+- icon: mastodon
+  icon_pack: fab
+  name: Follow
+  url: https://mastodon.social/@zhengyuanrui@mastodon.world
 slides: example
-summary: 传鹏的研究助理
+summary: __Sep-19 ~ Now__  <br/> 一个一无所知的人
 tags:
 - Research Assistants
 title: 郑元瑞
@@ -19,7 +23,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/zyr1.png)
 喜欢看书，一般看《周易》和王阳明心学相关的书
 
 {{< icon name="graduation-cap" pack="fas" >}} _云南师范大学商学院_  

@@ -5,12 +5,8 @@ image:
   caption: 徐成东
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: 毕业的成员
+summary: 北京师范大学研究助理
 tags:
 - Alumni
 title: 徐成东
@@ -19,5 +15,4 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/xcd1.png)
 

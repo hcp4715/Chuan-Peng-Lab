@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2019-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: Lei Yue
   focal_point: Smart
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
+links: 
 slides: example
-summary: ...
+summary: __Aug-22 ~ Now__  <br/> I wanted to do something meaningful with my short life.
 tags:
 - 
 title: Lei Yue
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/yl1.png)
 希望成为一个好的心理学科普者。
 
 {{< icon name="heart" pack="fas" >}} _Meta-Science，文献计量_  

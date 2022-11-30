@@ -2,24 +2,19 @@
 date: "2022-11-06T00:00:00Z"
 external_link: ""
 image:
-  caption: 李露露
+  caption: 李璐璐
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: ...
+summary: __Sep-22 ~ Now__  <br/> 南京师范大学在读博士
 tags:
 - 
-title: 李露露
+title: 李璐璐
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/lll1.png)
 希望能早日找到自己的科研兴趣点，多做贡献，实现价值。喜欢卡通、旅行，也爱独处看书。
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学，发展与教育心理学博士在读_  

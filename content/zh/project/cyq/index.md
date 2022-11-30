@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2022-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 蔡玉清
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: 毕业的成员
+summary: 荷兰乌特勒支大学在读博士，毕业于UCL发展心理学硕士项目，目前研究方向为视知觉、注意、瞳孔测量，对社会经济地位和open science相关研究也很感兴趣
 tags:
 - Alumni
 title: 蔡玉清
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/cyq1.png)
 希望能坚持学习，减少焦虑，找到自己喜欢的研究方向。
 
 {{< icon name="graduation-cap" pack="fas" >}} _UCL，发展心理学硕士_  

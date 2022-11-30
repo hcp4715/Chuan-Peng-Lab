@@ -1,25 +1,20 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2022-09-01T00:00:00Z"
 external_link: ""
 image:
-  caption: 陈楚云
+  caption: 陈楚芸
   focal_point: Smart
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
+links: 
 slides: example
 summary: ...
 tags:
 - 
-title: 陈楚云
+title: 陈楚芸
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/ccy1.png)
 喜欢尝试新鲜事物，也可以对一件感兴趣的事物专注很久。爱好旅行，动漫，剪视频。希望保持学习和探索。
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学心理学院_  

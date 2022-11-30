@@ -1,5 +1,5 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2019-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 王楠
@@ -8,9 +8,9 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/hcp4715
+  url: https://twitter.com/MaryWan58804772
 slides: example
-summary: 传鹏的本科生
+summary: __Sep-19 ~ Now__  <br/> 探究语言，心智，认知
 tags:
 - Undergraduate
 title: 王楠
@@ -19,7 +19,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/wn1.png)
 科幻爱好者，星球大战星际穿越星际迷航都喜欢。闲时喜欢摸狗摸鱼。
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学，英语师范_  

@@ -5,12 +5,8 @@ image:
   caption: Chengdong Xu
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: the alumni of Hu Chuan-Peng
+summary: RA at Beijing Normal University
 tags:
 - Alumni
 title: Chengdong Xu
@@ -19,5 +15,4 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/xcd1.png)
 

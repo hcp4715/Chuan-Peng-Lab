@@ -1,5 +1,5 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2020-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: Chenghao Zhou
@@ -8,9 +8,9 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/hcp4715
+  url: https://twitter.com/ChenghaoZhou3
 slides: example
-summary: the alumni of Hu Chuan-Peng
+summary: __Nov-20 ~ Now__  <br/> Now studying cognitive psychology at NYU. Interested in decision making and human interaction.
 tags:
 - Alumni
 title: Chenghao Zhou
@@ -19,7 +19,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/zch.png)
 吃饭，睡觉，炼丹。
 
 {{< icon name="graduation-cap" pack="fas" >}} _纽约大学，认知心理学硕士_  

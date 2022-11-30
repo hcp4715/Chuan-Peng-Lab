@@ -1,25 +1,24 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2020-10-01T00:00:00Z"
 external_link: ""
 image:
-  caption: Helen (刘铮)
+  caption: 刘铮 Helen
   focal_point: Smart
 links:
-- icon: twitter
+- icon: github
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/hcp4715
+  url: https://github.com/HelenLiu0609
 slides: example
-summary: 毕业的成员
+summary: __Oct-20 ~ Jul-22__  <br/> 一个不吃辣椒的四川人。
 tags:
 - Alumni
-title: Helen (刘铮)
+title: 刘铮 Helen
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/lz1.png)
 一个不吃辣的川渝人。目前希望能在科研路上多多闯荡（早日躺平）。逐渐感受到编程的快乐，平时不是在debug，就是在写bug的路上。 业余爱好：看海、看雪、煲汤、写伤痛文学和晒太阳。
 
 {{< icon name="graduation-cap" pack="fas" >}} _香港中文大学（深圳），应用心理学博士生一年级在读_  

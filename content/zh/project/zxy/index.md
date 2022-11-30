@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2021-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 张心怡
   focal_point: Smart
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
+links: 
 slides: example
-summary: 传鹏的本科生
+summary: __Sep-21 ~ Now__  <br/> 半个浪漫主义诗人，半个现实主义人。
 tags:
 - Undergraduate
 title: 张心怡
@@ -19,9 +15,7 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/zxy1.png)
 希望能天天开心，学习不止永远保持好奇心。爱好唱歌，擅长流行和合唱。
-
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学心理学院_  
 {{< icon name="heart" pack="fas" >}} _认知_  

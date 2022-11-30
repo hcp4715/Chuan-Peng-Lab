@@ -1,14 +1,10 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2022-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: Songshi Bai
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
 summary: the Undergraduate of Hu Chuan-Peng
 tags:
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/bss1.png)
 闲不住的人，喜欢厚重的书、电影和用薯条蘸土豆泥；理想是用心理学创造社会价值；无限进步。
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学心理学院_  

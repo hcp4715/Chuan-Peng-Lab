@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/hcp4715
 slides: example
-summary: Principal Investigator
+summary: the Principal Investigator of Chuanpeng Lab
 tags:
 - Principal Investigator
 title: 胡传鹏

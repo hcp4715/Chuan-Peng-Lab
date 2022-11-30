@@ -1,16 +1,12 @@
 ---
-date: "2022-11-06T00:00:00Z"
+date: "2019-09-01T00:00:00Z"
 external_link: ""
 image:
   caption: 武辰囡
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: 传鹏的本科生
+summary: __Sep-19 ~ Now__  <br/> 南京师范大学心理学院2019级本科生，时滞效应信徒，稳定的ISTJ，人生体验官～
 tags:
 - Undergraduate
 title: 武辰囡
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/wcn1.png)
 希望学习到专业的技能，少想多做，保持开放和探索，过程比结果重要
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学心理学院_  

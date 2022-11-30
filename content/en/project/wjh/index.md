@@ -5,12 +5,8 @@ image:
   caption: Jiahui Wen
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/hcp4715
 slides: example
-summary: the Postgraduate of Hu Chuan-Peng
+summary: __Sep-22 ~ Now__  <br/> Take it easy and keep it going.
 tags:
 - Postgraduate 
 title: Jiahui Wen
@@ -19,7 +15,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/wjh1.png)
 阴天爱好者，猫头鹰型选手，活跃在每天凌晨两点半。工作时带着*ntj的面具，本质intp。间歇性凌云壮志，努力不混吃等死。
 
 {{< icon name="graduation-cap" pack="fas" >}} _南京师范大学，基础心理学硕士在读_  
