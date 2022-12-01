@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: 持续分期不稳定输出干货的游荡者。
+summary: __Feb-21 ~ Now__  <br/>  持续分期不稳定输出干货的游荡者。
 tags:
 - 
 title: 王新洋

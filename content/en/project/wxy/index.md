@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: Been on the underground, looking for that new sound.
+summary: __Feb-21 ~ Now__  <br/>  Been on the underground, looking for that new sound.
 tags:
 - 
 title: Xin Yang Wang
