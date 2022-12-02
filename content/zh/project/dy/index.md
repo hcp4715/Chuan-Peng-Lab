@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: 日本东北大学博士在读，研究方向是自我评价，社会认知
+summary: __Aug-15 ~ Sep-18__  <br/>  日本东北大学博士在读，研究方向是自我评价，社会认知
 tags:
 - Alumni
 title: 丁一

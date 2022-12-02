@@ -25,7 +25,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: chuanpeng_lab@gmail.com(None)
+  email: hu.chuan-peng@nnu.edu.cn
   address:
     street: School of psychopy, Nanjing Normal University, 122 Ninghai Road, Gulou District
     city: Nanjing

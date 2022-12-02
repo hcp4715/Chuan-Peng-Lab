@@ -25,7 +25,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: chuanpeng_lab@gmail.com(None)
+  email: hu.chuan-peng@nnu.edu.cn
   address:
     street: 鼓楼区，宁海路122号，南京师范大学 心理学院
     city: 南京

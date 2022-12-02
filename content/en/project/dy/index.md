@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: a doctoral student at Tohoku University, study self-evaluation, social cognition
+summary: __Aug-15 ~ Sep-18__  <br/>  a doctoral student at Tohoku University, study self-evaluation, social cognition
 tags:
 - Alumni
 title: Yi Ding
