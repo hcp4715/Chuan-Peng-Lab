@@ -8,12 +8,12 @@ author_notes:
 - 
 -
 authors:
-- Qing-Lan Liu
-- Fei Wang
-- Wenjing Yan
-- Kaiping Peng
-- Jie Sui
-- Chuan-Peng Hu
+- Liu, Q
+- Wang, F
+- Yan, W
+- Peng, K
+- Sui, J
+- Hu, C-P
 date: "2020-01-06T00:00:00Z"
 doi: "10.5334/jopd.49"
 featured: false

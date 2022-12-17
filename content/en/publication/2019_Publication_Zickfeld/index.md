@@ -7,11 +7,11 @@ author_notes:
 - 
 - 
 authors:
-- Zickfeld JH
-- Schubert TW
-- Seibt B
-- ... Hu CP
-- ... Fiske AP
+- Zickfeld, JH
+- Schubert, TW
+- Seibt, B
+- ... Hu, C-P
+- ... Fiske, AP
 date: "2019-04-19T00:00:00Z"
 doi: "10.1037/emo0000450."
 featured: false

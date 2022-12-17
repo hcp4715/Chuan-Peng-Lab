@@ -6,9 +6,9 @@ author_notes:
 - 
 - 
 authors:
-- Ziyang Lyu
-- Kaiping Peng
-- Chuan-Peng Hu
+- Lyu, Z
+- Peng, K
+- Hu, C-P
 date: "2019-06-28T00:00:00Z"
 doi: "10.1360/N972018-01104"
 featured: ture

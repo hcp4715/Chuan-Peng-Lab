@@ -4,10 +4,11 @@ author_notes:
 - 
 - 
 authors:
-- Wang Jun
-- Song Qiongya
-- Xu Yuepei
-- HU Chuanpeng
+- Wang, J
+- Song, Q
+- Xu, Y
+- Jia, B
+- Hu, C-P
 date: "2019-05-01T00:00:00Z"
 doi: "10.16842/j.cnki.issn2095-5588.2019.05.003"
 featured: ture

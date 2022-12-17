@@ -6,12 +6,12 @@ author_notes:
 - 
 - 
 authors:
-- XU Yue-pei
-- LU Chun-lei
-- WANG Jun
-- SONG Qiong-ya
-- JIA Bin-bin
-- HU Chuan-peng
+- Xu, Y-P
+- Lu, C-L
+- Wang, J
+- Song, Q-Y
+- Jia, B-B
+- Hu, C-P
 date: "2021-10-13T00:00:00Z"
 doi: "http://www.appliedpsy.cn/CN/abstract/abstract331.shtml"
 featured: false

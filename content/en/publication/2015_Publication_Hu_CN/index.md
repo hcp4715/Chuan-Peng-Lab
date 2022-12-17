@@ -4,11 +4,11 @@ author_notes:
 - 
 - 
 authors:
-- HU Chuan-Peng
-- Xin Di
-- Jiawei Li
-- Jie Sui
-- Kaiping Peng
+- Hu, C
+- Di, X
+- Li, J
+- Peng, K
+- Sui, J
 date: "2014-11-17T00:00:00Z"
 doi: "10.3724/SP.J.1042.2015.01118"
 featured: false

@@ -3,11 +3,13 @@ abstract: Neurolaw (also known as law and neuroscience) is a newly established i
 author_notes:
 - 
 - 
+- 
+- 
 authors:
-- HU Chuan-Peng
-- Xiaohong Deng
-- Zhijin Zhou
-- Xiaogang Deng
+- Hu, C
+- Deng, XH
+- Zhou, Z
+- Deng, XG
 date: "2011-11-15T00:00:00Z"
 doi: "10.1360/972011-1911"
 featured: true

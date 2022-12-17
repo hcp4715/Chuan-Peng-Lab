@@ -7,11 +7,11 @@ author_notes:
 - 
 - 
 authors:
-- Botvinik-Nezer R
-- Holzmeister F
-- Camerer CF
-- ... Hu CP
-- ... Schonberg T 
+- Botvinik-Nezer, R
+- Holzmeister, F
+- Camerer, CF
+- ... Hu, C-P
+- ... Schonberg, T 
 date: "2020-03-20T00:00:00Z"
 doi: "https://www.nature.com/articles/s41586-020-2314-9"
 featured: false

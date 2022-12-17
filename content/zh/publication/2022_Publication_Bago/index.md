@@ -10,13 +10,13 @@ author_notes:
 - 
 - 
 authors:
-- Bago B
-- Kovacs M
-- Protzko J
-- Nagy T
-- Kekecs Z
-- ... Chuan-Peng Hu
-- ... Aczel B
+- Bago, B
+- Kovacs, M
+- Protzko, J
+- Nagy, T
+- Kekecs, Z
+- ... Chuan-Peng, Hu
+- ... Aczel, B
 date: "2022-06-06T00:00:00Z"
 doi: "10.1038/s41562-022-01319-5"
 featured: false

@@ -5,9 +5,9 @@ author_notes:
 - 
 - 
 authors:
-- Ziyang Lyu
-- Kaiping Peng
-- Chuan-Peng Hu
+- Lyu, Z
+- Peng, K
+- Hu, C-P
 date: "2018-06-08T00:00:00Z"
 doi: "10.3389/fpsyg.2018.00868"
 featured: false

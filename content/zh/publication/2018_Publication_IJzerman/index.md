@@ -8,12 +8,12 @@ author_notes:
 - 
 - 
 authors:
-- IJzerman H
-- Lindenberg SM
-- Dalğar İ
-- Weissgerber S
-- ... Hu CP
-- ... Zickfeld J
+- IJzerman, H
+- Lindenberg, SM
+- Dalğar, İ
+- Weissgerber, S
+- ... Hu, C-P
+- ... Zickfeld, J
 date: "2018-10-19T00:00:00Z"
 doi: "10.1525/collabra.165"
 featured: false

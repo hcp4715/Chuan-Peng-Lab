@@ -7,11 +7,11 @@ author_notes:
 - 
 - 
 authors:
-- Levitis E
-- van Praag C D G
-- Gau R
-- ... Chuan-Peng H
-- ... Maumet C
+- Levitis, E
+- van Praag, C D G
+- Gau, R
+- ... Chuan-Peng, H
+- ... Maumet, C
 date: "2021-08-08T00:00:00Z"
 doi: "10.1093/gigascience/giab051"
 featured: false

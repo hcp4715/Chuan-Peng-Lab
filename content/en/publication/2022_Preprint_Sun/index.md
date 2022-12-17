@@ -7,10 +7,10 @@ author_notes:
 - Equal contribution
 - Corresponding author
 authors:
-- Shuting Sun
-- Nan Wang
-- Jiahui Wen
-- Chuanpeng Hu
+- Sun, S
+- Wang, N
+- Wen, J
+- Chuan-Peng, H
 date: "2022-07-02T00:00:00Z"
 doi: "10.12074/202207.00005"
 featured: false

@@ -6,21 +6,15 @@ author_notes:
 - 
 - 
 authors:
-- Yu LIU
-- ShuQuan CHEN
-- FuMin FAN
-- Xin DI
-- HuiYong FAN
-- ChunLiang FENG
-- ShuangShuang GUO
-- YiQun GAN
-- HuiJie LI
-- XiaoKang LV
-- ZhiHong REN
-- PengFei XU
-- Bo YUAN
-- XiNian ZUO
-- Chuan-Peng HU
+- Liu, Y
+- Cheng, S
+- Fan, F
+- Di, X
+- Fan, H
+- Feng, C
+- Zuo, X-N
+- ... XiNian ZUO
+- Hu, C-P
 date: "2021-04-14T00:00:00Z"
 doi: "https://doi.org/10.1360/SSV-2021-0009"
 featured: false

@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- Wang K
-- Goldenberg A
-- ... Chuan-Peng H
-- ... Dixson B J W
+- Wang, K
+- Goldenberg, A
+- ... Chuan-Peng, H
+- ... Dixson, B J W
 date: "2021-08-24T00:00:00Z"
 doi: "10.1038/s41562-021-01173-x"
 featured: false

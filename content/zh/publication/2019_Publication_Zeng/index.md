@@ -5,9 +5,9 @@ author_notes:
 - 
 - 
 authors:
-- Guang Zeng
-- Kaiping Peng
-- Chuan-Peng Hu 
+- Zeng, G
+- Peng, K
+- Hu, C-P
 date: "2019-12-20T00:00:00Z"
 doi: "articles/s41597-019-0029-2"
 featured: false

@@ -7,11 +7,11 @@ author_notes:
 - 
 - 
 authors:
-- Xiao-Kang Lyu
-- Yuepei Xu
-- Xiao-Fan Zhao
-- Xi-Nian Zuo
-- Chuan-Peng Hu
+- Lyu, X
+- Xu, Y
+- Zhao, X
+- Zuo, X
+- Hu, C-P
 date: "2020-03-03T00:00:00Z"
 doi: "10.1017/prp.2019.28"
 featured: false

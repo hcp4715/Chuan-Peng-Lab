@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- Gamboa O L
-- Chuan-Peng H
-- Salas C E
-- Yuen K S L
+- Gamboa, O L
+- Chuan-Peng, H
+- Salas, C E
+- Yuen, K S L
 date: "2022-06-04T00:00:00Z"
 doi: "10.3390/biomedicines10071555"
 featured: false

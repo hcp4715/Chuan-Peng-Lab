@@ -7,11 +7,11 @@ author_notes:
 - 
 - 
 authors:
-- Jones B C
-- DeBruine L
+- Jones, B C
+- DeBruine, L
 - Flake, J K
-- ... Hu C P
-- ... Chartier C
+- ... Hu, C-P
+- ... Chartier, C
 date: "2021-01-04T00:00:00Z"
 doi: "10.6084/m9.figshare.7611443.v1"
 featured: false

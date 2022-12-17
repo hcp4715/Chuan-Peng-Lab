@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- Wenwen Zheng
-- Ting Luo
-- Chuan-Peng Hu
-- Kaiping Peng
+- Zheng, W
+- Luo, T
+- Hu, C-P
+- Peng, K
 date: "2018-03-06T00:00:00Z"
 doi: "10.3389/fpsyg.2018.00286"
 featured: false

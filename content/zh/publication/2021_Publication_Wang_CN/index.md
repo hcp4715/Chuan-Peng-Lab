@@ -6,22 +6,13 @@ author_notes:
 - 
 - 
 authors:
-- WANG Jun
-- SONG Qiongya
-- XU Yuepei
-- JIA Binbin
-- LU Chunlei
-- CHEN Xi
-- DAI Zixu
-- HUANG Zhiyue
-- LI Zhenjiang
-- LIN Jingxi
-- LUO Wanying
-- SHI Sainan
-- ZHANG Yingying
-- ZANG Yufeng
-- ZUO Xi-Nian
-- HU Chuanpeng
+- Wang, J
+- Song, Q
+- Xu, Y
+- Jia, B
+- Lu, C
+- Chen, X
+- ... Hu, C-P
 date: "2021-01-27T00:00:00Z"
 doi: "https://doi.org/10.1360/SSV-2021-0009"
 featured: false

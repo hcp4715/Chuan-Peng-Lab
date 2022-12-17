@@ -4,12 +4,12 @@ author_notes:
 - 
 - 
 authors:
-- HU Chuan-Peng
-- WANG Fei
-- GUO Jichengsi
-- SONG Mengdi
-- SUI Jie
-- PENG Kaiping
+- Hu, C
+- Wang, F
+- Guo, J
+- Song, M
+- Sui, J
+- Peng, K
 date: "2016-01-02T00:00:00Z"
 doi: "10.3724/SP.J.1042.2016.01504"
 featured: false

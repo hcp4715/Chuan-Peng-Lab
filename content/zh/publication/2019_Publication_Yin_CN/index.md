@@ -4,8 +4,8 @@ author_notes:
 - 
 - 
 authors:
-- YIN Jixing
-- HU Chuanpeng
+- Yin, J
+- Hu, C-P
 date: "2019-01-31T00:00:00Z"
 doi: "10.3724/SP.J.1042.2019.01988"
 featured: ture

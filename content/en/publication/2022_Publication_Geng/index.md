@@ -11,15 +11,13 @@ author_notes:
 - 
 - 
 authors:
-- Haiyang Geng
-- Ji Chen
-- Hu Chuan-Peng
-- Jingwen Jin
-- Raymond C. K.
-- Chan, Ying Li
-- Xiaoqing Hu
-- Ru-Yuan Zhang
-- Lei Zhang 
+- Geng, H
+- Chen, J
+- Chuan-Peng, H
+- Jin, J
+- Chan, R. C. K.
+- Li, Y
+- ... Zhang, L
 date: "2022-03-28T00:00:00Z"
 doi: "10.1038/s41562-022-01328-4"
 featured: false

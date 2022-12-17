@@ -6,13 +6,13 @@ author_notes:
 - 
 - 
 authors:
-- LIU Yu
-- HU Chuan-Peng
-- FAN Fumin
-- SUN Pei1
-- XU Jie
-- CAI Yuqing
-- LIU Xueli
+- Liu, Y
+- Hu, C-P
+- Fan, F
+- Sun, P
+- Xu, J
+- Cai, Y
+- Liu, X
 date: "2022-07-13T00:00:00Z"
 doi: "10.3724/SP.J.1042.2021.00296"
 featured: false

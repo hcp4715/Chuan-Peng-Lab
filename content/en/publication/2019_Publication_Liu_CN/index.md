@@ -5,9 +5,10 @@ author_notes:
 - 
 - 
 authors:
-- Yuanyuan LIU
-- Yi DING
-- Chuanpeng HU
+- Liu, Y
+- Ding, Y
+- Peng, K
+- Hu, C
 date: "2019-01-01T00:00:00Z"
 doi: "10.16719/j.cnki.1671-6981.20190224"
 featured: ture

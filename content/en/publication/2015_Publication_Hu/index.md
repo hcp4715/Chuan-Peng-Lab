@@ -9,13 +9,13 @@ author_notes:
 - 
 - 
 authors:
-- Chuanpeng Hu
-- Xin Di
-- Simon B. Eickhoff
-- Mingjun Zhang
-- Kaiping Peng
-- Hua Guo
-- Jie Sui
+- Hu, C
+- Di, X
+- Eickhoff, S. B
+- Zhang, M
+- Peng, K
+- Guo, H
+- Sui, J
 date: "2015-12-13T00:00:00Z"
 doi: "110.1016/j.neubiorev.2015.12.003"
 featured: true

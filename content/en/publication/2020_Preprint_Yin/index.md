@@ -4,9 +4,9 @@ author_notes:
 - 
 - 
 authors:
-- Ji-Xing Yin
-- Yuepei Xu
-- Chuan-Peng Hu
+- Yin, J-X
+- Xu, Y
+- Hu, C-P
 date: "2020-07-08T00:00:00Z"
 doi: "10.31234/osf.io/bqprd"
 featured: ture

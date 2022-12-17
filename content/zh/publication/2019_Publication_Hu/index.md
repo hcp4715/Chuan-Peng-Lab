@@ -8,12 +8,12 @@ author_notes:
 - 
 -
 authors:
-- Chuan-Peng Hu
-- Yin JX
-- Lindenberg SM
-- Dalğar İ
-- Weissgerber S
-- ... Ijzerman H
+- Hu, C-P
+- Yin, J-X
+- Lindenberg, SM
+- Dalğar, İ
+- Weissgerber, S
+- ... Ijzerman, H
 date: "2019-04-17T00:00:00Z"
 doi: "articles/s41597-019-0029-2"
 featured: false

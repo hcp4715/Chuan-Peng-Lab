@@ -4,8 +4,8 @@ author_notes:
 - 
 - 
 authors:
-- Chuanpeng Hu
-- Xiaoming Jiang
+- Hu, C
+- Jiang, X
 date: "2014-10-28T00:00:00Z"
 doi: "10.1017/S0140525X16001035"
 featured: false

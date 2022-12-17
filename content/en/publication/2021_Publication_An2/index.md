@@ -7,11 +7,11 @@ author_notes:
 - 
 - 
 authors:
-- Yuanyuan An
-- Chuan-Peng Hu
-- Jiaqi Zhao
-- Yaru Chen 
-- Xinchun Wu
+- An, Y
+- Hu, C-P
+- Zhao, J
+- Chen, Y
+- Wu, X
 date: "2021-04-27T00:00:00Z"
 doi: "10.1007/s10578-020-00995-6"
 featured: false

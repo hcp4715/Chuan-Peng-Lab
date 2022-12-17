@@ -8,13 +8,13 @@ author_notes:
 - 
 - 
 authors:
-- Nicole L
-- Nguyen T
-- Dunsky N
-- Moller A
-- Legault L
-- ... Chuan-Peng Hu
-- ... Primbs M A
+- Nicole, L
+- Nguyen, T
+- Dunsky, N
+- Moller, A
+- Legault, L
+- ... Chuan-Peng, Hu
+- ... Primbs, M A
 date: "2022-03-27T00:00:00Z"
 doi: "10.1073/pnas.2111091119"
 featured: false

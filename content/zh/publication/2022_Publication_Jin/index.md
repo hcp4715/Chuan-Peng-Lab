@@ -22,26 +22,26 @@ author_notes:
 - 
 - Corresponding author
 authors:
-- Haiyang Jin
-- Qing Wang
-- Yu-Fang Yang
-- Han Zhang
-- Mengyu Gao
-- Shuxian Jin
-- Sharon Chen
-- Ting Xu
-- Yuan-Rui Zheng
-- Ji Chen
-- Qinyu Xiao
-- Jinbiao Yang
-- Xindi Wang
-- Haiyang Geng
-- Jianqiao Ge
-- Wei-Wei Wang 
-- Xi Chen
-- Lei Zhang
-- Xi-Nian Zuo
-- Chuan-Peng Hu
+- Jin, H
+- Wang, Q
+- Yang, Y-F
+- Zhang, H
+- Gao, M
+- Jin, S
+- Chen, S
+- Xu, T
+- YuanRui, Z
+- Chen, J
+- Xiao, Q
+- Yang, J
+- Wang, X
+- Geng, H
+- Ge, J
+- Wang, W-W
+- Chen, X
+- Zhang, L
+- Zuo, X-N
+- Chuan-Peng, Hu
 date: "2022-08-14T00:00:00Z"
 doi: "10.31234/osf.io/ac9by"
 featured: true

@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- CAI Yuqing
-- DONG Shuyang
-- YUAN Shuai
-- HU Chuan-Peng
+- Cai, Y
+- Dong, S
+- Yuan, S
+- Hu, C-P
 date: "2020-01-15T00:00:00Z"
 doi: "10.3724/SP.J.1042.2020.00178"
 featured: ture

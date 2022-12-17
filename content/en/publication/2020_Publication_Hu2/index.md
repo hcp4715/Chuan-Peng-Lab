@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- Chuan-Peng Hu
-- Lan Y
-- Macrae CN
-- Jie Sui 
+- Hu, C-P
+- Lan, Y
+- Macrae, CN
+- Sui, J
 date: "2020-04-07T00:00:00Z"
 doi: "10.31234/osf.io/9fczh"
 featured: false

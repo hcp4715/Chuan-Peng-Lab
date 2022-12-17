@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- Hu C
+- Hu C-P
 - Jiang X
 - Jeffrey R
-- Zuo X
+- Zuo X-N
 date: "2018-10-14T00:00:00Z"
 doi: "10.1016/j.scib.2018.11.015"
 featured: false

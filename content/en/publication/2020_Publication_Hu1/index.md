@@ -8,12 +8,11 @@ author_notes:
 - 
 - 
 authors:
-- Chuan-Peng Hu
-- Yi Huang 
-- Simon B
-- Eickhoff
-- Kaiping Peng
-- Jie Sui 
+- Chuan-Peng, H
+- Huang, Y
+- Eickhoff, S. B
+- Peng, K
+- Sui, J
 date: "2020-10-21T00:00:00Z"
 doi: "10.3758/s13415-020-00827-z"
 featured: false

@@ -7,11 +7,11 @@ author_notes:
 - 
 - 
 authors:
-- Bannier E
-- Barker G 
+- Bannier, E
+- Barker, G 
 - ... Borghesani
-- Hu CP 
-- ... Zhu H
+- Hu, C-P 
+- ... Zhu, H
 date: "2021-02-01T00:00:00Z"
 doi: "10.1002/hbm.25351"
 featured: false

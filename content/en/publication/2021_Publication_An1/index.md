@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- Yuanyuan An
-- Junyi Shi
-- Chuan-Peng Hu
-- Xinchun Wu
+- An, Y
+- Shi, J
+- Chuan-Peng, H
+- Wu, X
 date: "2021-10-01T00:00:00Z"
 doi: "10.1016/j.jad.2021.06.065"
 featured: false
