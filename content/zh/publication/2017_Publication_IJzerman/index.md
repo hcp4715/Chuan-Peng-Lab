@@ -4,13 +4,15 @@ author_notes:
 - 
 - 
 - 
+- 
+- 
 authors:
 - IJzerman H
 - Čolić MV
 - Hennecke M
 - Hong Y
-- Hu CP
-- Joy-Gaba J
+- ... Hu CP
+- ... Joy-Gaba J
 - Lindenberg S
 date: "2017-05-11T00:00:00Z"
 doi: "10.1017/S0140525X16001035"

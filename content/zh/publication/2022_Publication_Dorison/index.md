@@ -12,8 +12,8 @@ authors:
 - Lerner J S
 - Heller B H
 - Rothman A J
-- Chuan-Peng H
-- Pinto I
+- ... Chuan-Peng H
+- ... Pinto I
 date: "2022-09-26T00:00:00Z"
 doi: "10.1007/s42761-022-00128-3"
 featured: false

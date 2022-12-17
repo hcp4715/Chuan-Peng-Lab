@@ -3,12 +3,13 @@ abstract: Statistical inference plays a critical role in modern scientific resea
 author_notes:
 - 
 - 
+- 
 authors:
-- HU Chuan-Peng
-- KONG Xiang-Zhen
+- Hu Chuan-Peng
+- Kong Xiang-Zhen
 - Eric-Jan WAGENMAKERS
 - Alexander LY
-- PENG Kaiping
+- Peng Kaiping
 date: "2018-06-01T00:00:00Z"
 doi: "10.3724/SP.J.1042.2018.00951"
 featured: false

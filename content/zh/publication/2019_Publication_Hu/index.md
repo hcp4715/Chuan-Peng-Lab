@@ -13,7 +13,7 @@ authors:
 - Lindenberg SM
 - Dalğar İ
 - Weissgerber S
-- Ijzerman H
+- ... Ijzerman H
 date: "2019-04-17T00:00:00Z"
 doi: "articles/s41597-019-0029-2"
 featured: false

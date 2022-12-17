@@ -20,7 +20,7 @@ date: "2015-12-13T00:00:00Z"
 doi: "110.1016/j.neubiorev.2015.12.003"
 featured: true
 image:
-  caption: 'Image credit: [**Fig1**](https://www.sciencedirect.com/science/article/abs/pii/S0149763415300920?via%3Dihub)'
+  caption: 'Image credit: [**Fig3**](https://www.sciencedirect.com/science/article/abs/pii/S0149763415300920?via%3Dihub)'
   focal_point: ""
   preview_only: false
 projects: ""
