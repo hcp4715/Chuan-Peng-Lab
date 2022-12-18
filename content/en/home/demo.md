@@ -8,8 +8,9 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = "Know Thyself"
+title = ""
 subtitle = ""
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -50,7 +51,9 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-<p align="center">If (hu)man is the measure of all things, what is the measure of human?</p>
+<p align="left" style="font-size: 30px">Know Thyself</p>
+<p align="left" style="font-size: 20px">If (hu)man is the measure of all things, what is the measure of human?</p>
+
 
 
 

@@ -8,18 +8,15 @@ organizations:
   url: http://schools.njnu.edu.cn/psy/
 role: 
 social:
-- icon: square-twitter
+- icon: twitter
   icon_pack: fab
   link: https://twitter.com/hcp4715
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.de/citations?user=pp-6MkUAAAAJ&hl=en
-- icon: square-github
+- icon: github
   icon_pack: fab
   link: https://github.com/hcp4715
-- icon: publons
-  icon_pack: ai
-  link: https://publons.com/researcher/1617517/chuan-peng-hu
 - icon: note-sticky
   icon_pack: fas
   link: '#contact'

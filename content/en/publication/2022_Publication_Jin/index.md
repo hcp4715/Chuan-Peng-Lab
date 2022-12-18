@@ -46,7 +46,7 @@ date: "2022-08-14T00:00:00Z"
 doi: "10.31234/osf.io/ac9by"
 featured: true
 image:
-  caption: 'Image credit: [**Fig1-OS_organizations**](https://osf.io/tc5k3/)'
+  caption: 'Image credit: [**Fig2-cosn_organization**](https://osf.io/tc5k3/)'
   focal_point: ""
   preview_only: false
 projects:
