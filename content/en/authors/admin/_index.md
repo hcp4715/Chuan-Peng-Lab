@@ -1,10 +1,10 @@
 ---
 bio: If (hu)man is the measure of all things, what is the measure of human?
   matter.
-email: "hcp4715@gmail.com"
+email: "hcp4715@hotmail.com"
 highlight_name: true
 organizations:
-- name: School of Psychology,Nanjing Normal University
+- name: School of Psychology, Nanjing Normal University
   url: http://schools.njnu.edu.cn/psy/
 role: Welcome to the Meta-Self Lab
 social:
@@ -21,14 +21,16 @@ social:
   icon_pack: fas
   link: '#contact'
 superuser: true
-title: Chuan-Peng Lab
+title: Meta-Self Lab
 ---
 
 # Home
 
-Welcome to Meta-self Lab!
+Welcome to the Meta-Self Lab!
 
-The lab aims to probe into the essence of self, employing meta-analytic tools and modeling methods. Transparency and reproducibility are at the core of our research, as we replicate important studies, re-examine key findings and redefine concepts. We do, and only do, rigorous and robust science. 
+The lab is lead by Prof., Dr., Hu Chuan-Peng at the school of psychology, Nanjing Normal University, Nanjing, China. We interested in how human process self-related information, with a "3M" approach: meta-science, (cognitive) modeling, and (psychological) measurement. We are also trying to apply the "3M" approach to the mental health issues in the real world.
 
-Equality is another core value of our lab. We are dedicated to fostering a culture where everyone is respected and every idea is valued. Regardless of your gender, ethnicity, or academic background, you're welcomed to join our quest for truth. 
+Openness, transparency, and reproducibility are core values in our research. We keep learning new methods and and adopting new practices to make our research as rigorous and robust as possible. 
+
+Equality is another core value of our lab. We are dedicated to fostering a culture where everyone involved is respected and every idea is valued. 
 
