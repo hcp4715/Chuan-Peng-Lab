@@ -6,7 +6,7 @@ highlight_name: true
 organizations:
 - name: School of Psychology, Nanjing Normal University
   url: http://schools.njnu.edu.cn/psy/
-role: Welcome to the Meta-Self Lab
+role: 
 social:
 - icon: twitter
   icon_pack: fab

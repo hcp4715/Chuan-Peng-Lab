@@ -92,3 +92,7 @@ v0.1.5.1
 	demo文字左对齐
 	publication1的图片更改
 	chuanpeng个人图标删除p
+v1.0.0
+	修改了about中实验室名称
+	正式网页
+	
