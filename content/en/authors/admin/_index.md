@@ -24,11 +24,11 @@ superuser: true
 title: Meta-Self Lab
 ---
 
-# Home
+<span style="font-size: 60px;">Home</span>
 
 Welcome to the Meta-Self Lab!
 
-The lab is lead by Prof., Dr., Hu Chuan-Peng at the school of psychology, Nanjing Normal University, Nanjing, China. We interested in how human process self-related information, with a "3M" approach: meta-science, (cognitive) modeling, and (psychological) measurement. We are also trying to apply the "3M" approach to the mental health issues in the real world.
+The lab is led by Prof., Dr., Hu Chuan-Peng at the School of Psychology, Nanjing Normal University, Nanjing, China. We are interested in how human beings process self-related information, with a "3M" approach: meta-science, (cognitive) modeling, and (psychological) measurement. We are also trying to apply the "3M" approach to the mental health issues in the real world.
 
 Openness, transparency, and reproducibility are core values in our research. We keep learning new methods and and adopting new practices to make our research as rigorous and robust as possible. 
 

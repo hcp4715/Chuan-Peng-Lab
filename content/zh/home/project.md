@@ -29,9 +29,9 @@ content:
       tag: Principal Investigator
     - name: 研究助理
       tag: Research Assistants
-    - name: 本科生
-      tag: Postgraduate 
     - name: 研究生
+      tag: Postgraduate 
+    - name: 本科生
       tag: Undergraduate
     - name: 毕业的成员
       tag: Alumni

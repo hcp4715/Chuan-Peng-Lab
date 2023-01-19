@@ -23,8 +23,7 @@ social:
 superuser: true
 title: 元自我研究小组
 ---
-
-# 关于我们
+<span style="font-size: 60px;">关于我们</span>
 
 欢迎来到"元自我"研究小组！
 
