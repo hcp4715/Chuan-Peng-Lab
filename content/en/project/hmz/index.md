@@ -8,11 +8,11 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/YuKi64810517
+  url: https://twitter.com/YuKi_961004
 - icon: instagram
   icon_pack: fab
   name: Follow
-  url: https://www.instagram.com/sinnyuki/
+  url: https://www.instagram.com/yuki_961004
 - icon: github
   icon_pack: fab
   name: Follow
