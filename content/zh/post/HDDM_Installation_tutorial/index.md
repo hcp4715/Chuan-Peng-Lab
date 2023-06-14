@@ -5,7 +5,6 @@ date: 2023-06-14T13:01:27+08:00
 author: Wanke Pan
 layout: post
 guid: http://www.huchuanpeng.com/?p=862
-permalink: /2019/04/29/how-to-install-and-use-hddm/
 categories:
   - Modelling
   - Methods
