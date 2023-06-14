@@ -1,6 +1,6 @@
 ---
 id: 862
-title: 如何安装HDDM(基于windows下 docker 和 linux)
+title: How to install HDDM (suitable for docker and linux)
 date: 2023-06-14T13:01:27+08:00
 author: Wanke Pan
 layout: post
@@ -25,30 +25,30 @@ tags:
 下载 docker，有 600M
 [Docker: Accelerated, Containerized Application Development](https://www.docker.com/)
 
-![](HDDM安装教程_.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程_.png)
 
-![](HDDM安装教程__1.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__1.png)
 注意：Windows 10 版本 2004 或更高版本才能使用 wsl2。 可以在命令行中使用 winver 查看版本号。
 如果版本低于 2004，请不要勾选 wsl2，此时可以使用 Hyper-V 来运行 docker 环境。
 如果不存在 wsl2，可以参考该安装方法 [官方文档](https://docs.microsoft.com/en-us/windows/wsl/install-win10)。
-![](HDDM安装教程__9.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__9.png)
 
-![](HDDM安装教程__2.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__2.png)
 由于只能装 C 盘，所以直接点 "ok" 就开始安装了。
 大概安装 2-3分钟
 
 如果提醒 "log out"，就需要注销电脑，请注意。
-![](HDDM安装教程__3.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__3.png)
 
 
 注销或重启后，点击"接受"协议即可。
-![](HDDM安装教程__10.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__10.png)
 
 
 ## docker 设置 + 安装 HDDM
 
 在设置->安装后选择启用WSL2引擎
-![](HDDM安装教程__11.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__11.png)
 
 
 ### 可选：配置数据和镜像源的存放位置 + 镜像源
@@ -76,7 +76,7 @@ tags:
 }
 ```
 
-![](HDDM安装教程__12.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__12.png)
 
 ### 可选：将 docker 移除 C 盘，以节省空间
 
@@ -99,7 +99,7 @@ wsl --import Ubuntu-22.04 D:\Ubuntu_2204 D:\docker\Ubuntu-22.04.tar --version 2
 
 之后就可以在wsl命令行中使用docker了。
 找到 HDDM docker
-![](HDDM安装教程__13.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__13.png)
 - 可直接点解 pull
 - 也可以运行命令 `docker pull hcp4715/hddm -o /path/to/my/images`
 - 其中，-o 可以设置储存的**相对位置**
@@ -116,16 +116,16 @@ docker run -it --rm --cpus=4 \
 -p 8888:8888 hcp4715/hddm:0.8 jupyter notebook
 ```
 
-![](HDDM安装教程__5.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__5.png)
 
 也可以通过界面操作启动 
-![](HDDM安装教程__6.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__6.png)
 
 新建一个 notebook
-![](HDDM安装教程__7.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__7.png)
 
 导入 hddm 进行测试
-![](HDDM安装教程__8.png)
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__8.png)
 
 
 ---
