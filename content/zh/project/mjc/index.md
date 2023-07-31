@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/JiachenJackie
 slides: example
-summary: __Sep-21 ~ Now__  <br/> 充满好奇心的心理浮潜人
+summary: __Sep-21 ~ Jun-23__  <br/> 充满好奇心的心理浮潜人
 tags:
-- Undergraduate
+- Alumni
 title: 马嘉晨
 url_code: ""
 url_pdf: ""

@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://twitter.com/MaryWan58804772
 slides: example
-summary: __Sep-19 ~ Now__  <br/> to study language, mind, and cognition in its entirety
+summary: __Sep-19 ~ Jun-23__  <br/> to study language, mind, and cognition in its entirety
 tags:
-- Undergraduate
+- Alumni
 title: Nan Wang
 url_code: ""
 url_pdf: ""

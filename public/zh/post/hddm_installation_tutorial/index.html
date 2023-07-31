@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 2023年7月31日 --><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e5d7adca760216d3b7e28ea434e81f6f.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HF4NMVMD3W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-HF4NMVMD3W', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="元自我研究小组" />
+
+
+
+
+
+  
+
+<meta name="description" content="本文将介绍两种在 windows 平台下安装 HDDM(0.9.8) 的方法。
+主要通过 wsl2 安装 docker 或者 linux 环境 然后再在 docker 或者 linux 环境下安装 HDDM 通过 docker 部署 HDDM 首先，安装 docker
+下载 docker，有 600M Docker: Accelerated, Containerized Application Development" />
+
+
+
+  <link rel="alternate" hreflang="en" href="https://chuan-peng-lab.netlify.app/post/hddm_installation_tutorial/" />
+
+<link rel="alternate" hreflang="zh-Hans" href="https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/" />
+<link rel="canonical" href="https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/" />
+
+
+
+  <link rel="manifest" href="/zh/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="传鹏的实验室" />
+<meta property="og:url" content="https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/" />
+<meta property="og:title" content="如何安装HDDM(基于windows下 docker 和 linux) | 传鹏的实验室" />
+<meta property="og:description" content="本文将介绍两种在 windows 平台下安装 HDDM(0.9.8) 的方法。
+主要通过 wsl2 安装 docker 或者 linux 环境 然后再在 docker 或者 linux 环境下安装 HDDM 通过 docker 部署 HDDM 首先，安装 docker
+下载 docker，有 600M Docker: Accelerated, Containerized Application Development" /><meta property="og:image" content="https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hans" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-06-14T13:01:27&#43;08:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-06-14T13:01:27&#43;08:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/"
+  },
+  "headline": "如何安装HDDM(基于windows下 docker 和 linux)",
+  
+  "datePublished": "2023-06-14T13:01:27+08:00",
+  "dateModified": "2023-06-14T13:01:27+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "元自我研究小组"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "传鹏的实验室",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "本文将介绍两种在 windows 平台下安装 HDDM(0.9.8) 的方法。\n主要通过 wsl2 安装 docker 或者 linux 环境 然后再在 docker 或者 linux 环境下安装 HDDM 通过 docker 部署 HDDM 首先，安装 docker\n下载 docker，有 600M Docker: Accelerated, Containerized Application Development"
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>如何安装HDDM(基于windows下 docker 和 linux) | 传鹏的实验室</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="565be9d3e75277d959e36e20b82aad99" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/zh/">传鹏的实验室</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/zh/">传鹏的实验室</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#about"><span>首页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#project"><span>团队</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#featured"><span>出版物</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#accomplishments"><span>合作者</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#posts"><span>博文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#contact"><span>联系我们</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>浅色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>深色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>自动</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="语言">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>中文 (简体)</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://chuan-peng-lab.netlify.app/post/hddm_installation_tutorial/">
+              <span>English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>如何安装HDDM(基于windows下 docker 和 linux)</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    6月 14, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 分钟阅读时长
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/zh/category/modelling/">Modelling</a>, <a href="/zh/category/methods/">Methods</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>本文将介绍两种在 windows 平台下安装 HDDM(0.9.8) 的方法。</p>
+<ul>
+<li>主要通过 wsl2 安装 docker 或者 linux 环境</li>
+<li>然后再在 docker 或者 linux 环境下安装 HDDM</li>
+</ul>
+<h1 id="通过-docker-部署-hddm">通过 docker 部署 HDDM</h1>
+<p>首先，安装 docker</p>
+<p>下载 docker，有 600M
+<a href="https://www.docker.com/" target="_blank" rel="noopener">Docker: Accelerated, Containerized Application Development</a></p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_f454fd8729183b807f7a25dd9512ddea.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_90c23abea89dad254b26e0e76d538756.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_f454fd8729183b807f7a25dd9512ddea.webp"
+               width="760"
+               height="275"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_e0a709fc07a34ed6d58166e40c61af3a.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_0c721ca067122856ac500b79e8440c41.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_e0a709fc07a34ed6d58166e40c61af3a.webp"
+               width="760"
+               height="517"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+注意：Windows 10 版本 2004 或更高版本才能使用 wsl2。 可以在命令行中使用 winver 查看版本号。
+如果版本低于 2004，请不要勾选 wsl2，此时可以使用 Hyper-V 来运行 docker 环境。
+如果不存在 wsl2，可以参考该安装方法 <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10" target="_blank" rel="noopener">官方文档</a>。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_6f067c299b7948cecc90525c3b282a97.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_1bba4762e24b9dbb82dc4161ac9e750d.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_6f067c299b7948cecc90525c3b282a97.webp"
+               width="760"
+               height="458"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_3c5fe4f11e1a98ec0ddd4b2aeaf06eb1.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_bb2fdaeec7edcffbbe1688b1a9635e88.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_3c5fe4f11e1a98ec0ddd4b2aeaf06eb1.webp"
+               width="760"
+               height="509"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+由于只能装 C 盘，所以直接点 &ldquo;ok&rdquo; 就开始安装了。
+大概安装 2-3分钟</p>
+<p>如果提醒 &ldquo;log out&rdquo;，就需要注销电脑，请注意。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_a7fa640a761d37dc04fa117f348c0650.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_f1c246b0bdea3b48cc9770614905436a.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_a7fa640a761d37dc04fa117f348c0650.webp"
+               width="760"
+               height="540"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>注销或重启后，点击&quot;接受&quot;协议即可。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_c61e406e83afeadd4eea59922bc5b856.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_500e51d286d1fac228625ffd40e07a91.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_c61e406e83afeadd4eea59922bc5b856.webp"
+               width="760"
+               height="467"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="docker-设置--安装-hddm">docker 设置 + 安装 HDDM</h2>
+<p>在设置-&gt;安装后选择启用WSL2引擎
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_d67e10fd36fe63060d7573eac0031384.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_ef1e68e05f4ddb8f6c68948969a29aef.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_d67e10fd36fe63060d7573eac0031384.webp"
+               width="760"
+               height="434"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h3 id="可选配置数据和镜像源的存放位置--镜像源">可选：配置数据和镜像源的存放位置 + 镜像源</h3>
+<p>配置数据和镜像源的存放位置 + 镜像源, 这里配置的官方镜像，大家可以自行配置</p>
+<ul>
+<li>也可在 <code>C:\Users\&lt;UserName&gt;\.docker\daemon.json</code> 中进行设置</li>
+<li>其中，<code>&quot;data-root&quot;:&quot;d\\docker&quot;</code> 设定了数据的存放位置。</li>
+<li><code>&quot;registry-mirrors&quot;</code> 设置了镜像源</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">  &#34;builder&#34;: {
+</span></span><span class="line"><span class="cl">    &#34;gc&#34;: {
+</span></span><span class="line"><span class="cl">      &#34;defaultKeepStorage&#34;: &#34;20GB&#34;,
+</span></span><span class="line"><span class="cl">      &#34;enabled&#34;: true
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">  },
+</span></span><span class="line"><span class="cl">  &#34;experimental&#34;: false,
+</span></span><span class="line"><span class="cl">  &#34;features&#34;: {
+</span></span><span class="line"><span class="cl">    &#34;buildkit&#34;: true
+</span></span><span class="line"><span class="cl">  },
+</span></span><span class="line"><span class="cl">  &#34;data-root&#34;:&#34;d\\docker&#34;,
+</span></span><span class="line"><span class="cl">  &#34;registry-mirrors&#34;: [
+</span></span><span class="line"><span class="cl">	  &#34;https://registry.docker-cn.com&#34;
+</span></span><span class="line"><span class="cl">  ]
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_64341bfbdd9f9526dd9f616736dcf230.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_53fa0f4fe468dd1b4ad2cdb1ccc84049.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_64341bfbdd9f9526dd9f616736dcf230.webp"
+               width="760"
+               height="412"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h3 id="可选将-docker-移除-c-盘以节省空间">可选：将 docker 移除 C 盘，以节省空间</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wsl --export docker-desktop D:\docker\docker-desktop.tar
+</span></span><span class="line"><span class="cl">wsl --export docker-desktop-data D:\docker\docker-desktop-data.tar
+</span></span><span class="line"><span class="cl">wsl --export Ubuntu-22.04 D:\docker\Ubuntu-22.04.tar
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">wsl --unregister docker-desktop
+</span></span><span class="line"><span class="cl">wsl --unregister docker-desktop-data
+</span></span><span class="line"><span class="cl">wsl --unregister Ubuntu-22.04
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">wsl --import docker-desktop D:\docker\docker-desktop D:\docker\docker-desktop.tar --version 2
+</span></span><span class="line"><span class="cl">wsl --import docker-desktop-data D:\docker\docker-desktop-data D:\docker\docker-desktop-data.tar --version 2
+</span></span><span class="line"><span class="cl">wsl --import Ubuntu-22.04 D:\Ubuntu_2204 D:\docker\Ubuntu-22.04.tar --version 2
+</span></span></code></pre></div><h3 id="正式安装-hddm">正式安装 HDDM</h3>
+<p>之后就可以在wsl命令行中使用docker了。
+找到 HDDM docker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_03c0f28857e399f927e111abf97353b6.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_e2801f8e78d62f384d644de69f9e900f.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_03c0f28857e399f927e111abf97353b6.webp"
+               width="760"
+               height="434"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<ul>
+<li>可直接点解 pull</li>
+<li>也可以运行命令 <code>docker pull hcp4715/hddm -o /path/to/my/images</code></li>
+<li>其中，-o 可以设置储存的<strong>相对位置</strong></li>
+</ul>
+<h3 id="docker-启动-hddm-镜像">docker 启动 HDDM 镜像</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># windows
+</span></span><span class="line"><span class="cl">docker run -it --rm --cpus=4 -v /d/hcp4715/hddm_docker:/home/jovyan/work -p 8888:8888 hcp4715/hddm jupyter notebook 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Ubantu
+</span></span><span class="line"><span class="cl">docker run -it --rm --cpus=4 \
+</span></span><span class="line"><span class="cl">-v /home/hcp4715/hddm_docker:/home/jovyan/work \
+</span></span><span class="line"><span class="cl">-p 8888:8888 hcp4715/hddm:0.8 jupyter notebook
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_79777cb7ff4e8f4bbce36b98a6dbd007.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_f8f647a16699b7b6d1aa9f7d395efacb.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_79777cb7ff4e8f4bbce36b98a6dbd007.webp"
+               width="760"
+               height="396"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>也可以通过界面操作启动 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_660a56cd1a169ae9f4b46f55af2d872b.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_0bec5dd19f5001f9d06071c134175229.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_660a56cd1a169ae9f4b46f55af2d872b.webp"
+               width="760"
+               height="249"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>新建一个 notebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_6a4ef1e952260b1cb1f6f61b49ed90ae.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_85ee46047dc7d9e84cf2ccb483daa109.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_6a4ef1e952260b1cb1f6f61b49ed90ae.webp"
+               width="760"
+               height="174"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>导入 hddm 进行测试
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_1594ebe77145eec53970dbe45ddbd56f.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_4c584d3827e39730e2b2244bcedf5b3b.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_1594ebe77145eec53970dbe45ddbd56f.webp"
+               width="760"
+               height="573"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h1 id="通过-ubuntu-1804-部署-hddm">通过 Ubuntu-18.04 部署 HDDM</h1>
+<p>以 windows 系统下，使用 wsl2 + ubuntu 系统安装 hddm 为例。</p>
+<p>首先确保系统已经安装 Windows Subsystem for Linux 2 (WSL2) ，具体安装方法可以参考 <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10" target="_blank" rel="noopener">官方文档</a>。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wsl --install -d Ubuntu-18.04
+</span></span></code></pre></div><ul>
+<li>注意，此时可能需要设置linux系统账号和密码。</li>
+<li>注意，输入密码时并不会显示，请输入完成后直接点击回车。</li>
+</ul>
+<p>(可选)：由于 linux 子系统默认安装在 c 盘。因此，可以将起移动到其他磁盘中。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 导出子系统</span>
+</span></span><span class="line"><span class="cl">wsl --export Ubuntu-18.04 D:<span class="se">\\</span>docker<span class="se">\\</span>wsl-Ubuntu-18.04.tar
+</span></span><span class="line"><span class="cl"><span class="c1"># 关闭子系统</span>
+</span></span><span class="line"><span class="cl">wsl --shutdown
+</span></span><span class="line"><span class="cl"><span class="c1"># 注销(删除)子系统</span>
+</span></span><span class="line"><span class="cl">wsl --unregister Ubuntu-18.04
+</span></span><span class="line"><span class="cl"><span class="c1"># 导入系统文件到其他磁盘</span>
+</span></span><span class="line"><span class="cl">wsl --import Ubuntu-18.04 d:<span class="se">\\</span>docker<span class="se">\\</span>wsl2_ubuntu1804 d:<span class="se">\\</span>docker<span class="se">\\</span>wsl-Ubuntu-18.04.tar --version <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 注意，第一个路径为新的安装路径，第二路径为导出的系统文件，--version 2 表明了后端为 wsl2。</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 启动系统</span>
+</span></span><span class="line"><span class="cl">wsl -d Ubuntu-18.04
+</span></span></code></pre></div><h2 id="安装依赖">安装依赖</h2>
+<p>由于 HDDM ，包括起依赖 pymc, ssms 需要进行编译。因此我们需要提前配置好环境，包括 GCC、Gfortran。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get update
+</span></span><span class="line"><span class="cl">sudo apt install gcc
+</span></span><span class="line"><span class="cl">sudo apt install gfortran
+</span></span><span class="line"><span class="cl">sudo apt install build-essential
+</span></span></code></pre></div><h2 id="安装-miniconda">安装 Miniconda</h2>
+<p>之后，我们需要安装 python 环境，最好的方式是通过 conda 进行 Python 环境的配置</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 下载 miniconda</span>
+</span></span><span class="line"><span class="cl">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+</span></span><span class="line"><span class="cl"><span class="c1"># 可自行去官网选择其他版本，比如 &lt;https://repo.anaconda.com/miniconda/Miniconda3-py37_4.12.0-Linux-x86_64.sh&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置权限</span>
+</span></span><span class="line"><span class="cl">chmod +x Miniconda3-latest-Linux-x86_64.sh
+</span></span><span class="line"><span class="cl"><span class="c1"># 安装 miniconda</span>
+</span></span><span class="line"><span class="cl">./Miniconda3-latest-Linux-x86_64.sh
+</span></span><span class="line"><span class="cl"><span class="c1"># 记得看完协议后 yes</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 进入 conda 环境</span>
+</span></span><span class="line"><span class="cl">bash
+</span></span></code></pre></div><p>这一段代码是安装 Miniconda，它是一个流行的 Python 包管理器和环境管理器。安装 Miniconda 后，我们可以使用它来安装 Python 和其他必要的包。</p>
+<p>(可选)设置国内镜像：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># (可选)配置国内镜像</span>
+</span></span><span class="line"><span class="cl">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+</span></span><span class="line"><span class="cl">conda config --set show_channel_urls yes
+</span></span><span class="line"><span class="cl"><span class="c1"># 等同于打开 ~/.condarc文件   (sudo gedit ~/.condarc)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 可以删除 - defaults 选项</span>
+</span></span></code></pre></div><h2 id="创建并激活虚拟环境--安装-hddm-和其它必要的包">创建并激活虚拟环境 + 安装 HDDM 和其它必要的包</h2>
+<p>最后，创建并激活名为 hddm 的虚拟环境。虚拟环境是一种将 Python 依赖项隔离开的机制，可以让我们在同一系统上管理多个 Python 环境。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">conda create -n hddm <span class="nv">python</span><span class="o">=</span>3.9
+</span></span><span class="line"><span class="cl">conda activate hddm
+</span></span></code></pre></div><p>安装 HDDM 相关包</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install <span class="nv">numpy</span><span class="o">==</span>1.22.4 -i &lt;https://pypi.tuna.tsinghua.edu.cn/simple&gt;
+</span></span><span class="line"><span class="cl">pip install git+https://gitee.com/epool/pymc2.git
+</span></span><span class="line"><span class="cl">pip install git+https://gitee.com/epool/kabuki.git -i &lt;https://pypi.tuna.tsinghua.edu.cn/simple&gt;
+</span></span><span class="line"><span class="cl">pip install git+https://gitee.com/epool/ssm-simulators.git -i &lt;https://pypi.tuna.tsinghua.edu.cn/simple&gt;
+</span></span><span class="line"><span class="cl">pip install git+https://gitee.com/epool/hddm.git
+</span></span></code></pre></div><h2 id="测试-hddm-是否成功安装">测试 hddm 是否成功安装：</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">hddm</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">data</span><span class="p">,</span> <span class="n">params</span> <span class="o">=</span> <span class="n">hddm</span><span class="o">.</span><span class="n">generate</span><span class="o">.</span><span class="n">gen_rand_data</span><span class="p">({</span><span class="s1">&#39;v&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">:</span><span class="mf">.3</span><span class="p">},</span> <span class="n">size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">subjs</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="n">hddm</span><span class="o">.</span><span class="n">HDDM</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">include</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;v&#39;</span><span class="p">,</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;t&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">gen_stats</span><span class="p">()</span>
+</span></span></code></pre></div><hr>
+<p>(可选)： 安装 torch，以使用 hddm 中的 <a href="https://elifesciences.org/articles/65074" target="_blank" rel="noopener">LANs</a> 方法，即基于神经网络(neural network) + 贝叶斯近似(Approximate Bayesian Computation, ABC)的参数估计方法。</p>
+<ul>
+<li>注意，安装前请 <code>nvcc --version</code>, <code>nvidia-smi</code> 查看CUDA版本和CUDA工具包的版本号，以正确下载对应项 pytorch 版本。</li>
+<li>此外，最新的 pytorch 2.0 似乎不持支 HDDM。请使用更低的pytorch版本。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">torch</span><span class="o">==</span><span class="mf">1.11.0</span> <span class="n">torchvision</span><span class="o">==</span><span class="mf">0.12.0</span> <span class="n">torchaudio</span><span class="o">==</span><span class="mf">0.11.0</span> <span class="o">-</span><span class="n">i</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">pypi</span><span class="o">.</span><span class="n">tuna</span><span class="o">.</span><span class="n">tsinghua</span><span class="o">.</span><span class="n">edu</span><span class="o">.</span><span class="n">cn</span><span class="o">/</span><span class="n">simple</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 安装 arviz 方便数据操作与绘图</span>
+</span></span><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">arviz</span> <span class="o">-</span><span class="n">i</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">pypi</span><span class="o">.</span><span class="n">tuna</span><span class="o">.</span><span class="n">tsinghua</span><span class="o">.</span><span class="n">edu</span><span class="o">.</span><span class="n">cn</span><span class="o">/</span><span class="n">simple</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 由于安装以上扩展包后，依赖会发生变化，建议重新安装 hddm 和 numpy等扩展包。</span>
+</span></span><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">gitee</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">epool</span><span class="o">/</span><span class="n">hddm</span><span class="o">.</span><span class="n">git</span>
+</span></span><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span><span class="o">==</span><span class="mf">1.22.4</span> <span class="o">-</span><span class="n">i</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">pypi</span><span class="o">.</span><span class="n">tuna</span><span class="o">.</span><span class="n">tsinghua</span><span class="o">.</span><span class="n">edu</span><span class="o">.</span><span class="n">cn</span><span class="o">/</span><span class="n">simple</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># pip install pymc ssms --no-cache-dir</span>
+</span></span></code></pre></div><p>测试 LANs 是否成功安装以及可以成功运行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">conda</span> <span class="n">activate</span> <span class="n">hddm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">hddm</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">data</span><span class="p">,</span> <span class="n">params</span> <span class="o">=</span> <span class="n">hddm</span><span class="o">.</span><span class="n">generate</span><span class="o">.</span><span class="n">gen_rand_data</span><span class="p">({</span><span class="s1">&#39;v&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">:</span><span class="mf">.3</span><span class="p">},</span> <span class="n">size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">subjs</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="s2">&#34;ddm&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="n">hddm</span><span class="o">.</span><span class="n">HDDMnn</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">model</span> <span class="o">=</span> <span class="n">model</span><span class="p">,</span> <span class="n">include</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;v&#39;</span><span class="p">,</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;t&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">gen_stats</span><span class="p">()</span>
+</span></span></code></pre></div>
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/zh/tag/hddm/">HDDM</a>
+  
+  <a class="badge badge-light" href="/zh/tag/docker/">docker</a>
+  
+  <a class="badge badge-light" href="/zh/tag/linux/">linux</a>
+  
+  <a class="badge badge-light" href="/zh/tag/python/">python</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fchuan-peng-lab.netlify.app%2Fzh%2Fpost%2Fhddm_installation_tutorial%2F&amp;text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85HDDM%28%E5%9F%BA%E4%BA%8Ewindows%E4%B8%8B&#43;docker&#43;%E5%92%8C&#43;linux%29" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fchuan-peng-lab.netlify.app%2Fzh%2Fpost%2Fhddm_installation_tutorial%2F&amp;t=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85HDDM%28%E5%9F%BA%E4%BA%8Ewindows%E4%B8%8B&#43;docker&#43;%E5%92%8C&#43;linux%29" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85HDDM%28%E5%9F%BA%E4%BA%8Ewindows%E4%B8%8B%20docker%20%E5%92%8C%20linux%29&amp;body=https%3A%2F%2Fchuan-peng-lab.netlify.app%2Fzh%2Fpost%2Fhddm_installation_tutorial%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fchuan-peng-lab.netlify.app%2Fzh%2Fpost%2Fhddm_installation_tutorial%2F&amp;title=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85HDDM%28%E5%9F%BA%E4%BA%8Ewindows%E4%B8%8B&#43;docker&#43;%E5%92%8C&#43;linux%29" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85HDDM%28%E5%9F%BA%E4%BA%8Ewindows%E4%B8%8B&#43;docker&#43;%E5%92%8C&#43;linux%29%20https%3A%2F%2Fchuan-peng-lab.netlify.app%2Fzh%2Fpost%2Fhddm_installation_tutorial%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fchuan-peng-lab.netlify.app%2Fzh%2Fpost%2Fhddm_installation_tutorial%2F&amp;title=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85HDDM%28%E5%9F%BA%E4%BA%8Ewindows%E4%B8%8B&#43;docker&#43;%E5%92%8C&#43;linux%29" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://chuan-peng-lab.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/zh/authors/admin/avatar_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_270x270_fill_lanczos_center_3.png" alt="元自我研究小组"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chuan-peng-lab.netlify.app/">元自我研究小组</a></h5>
+      
+      <p class="card-text">If (hu)man is the measure of all things, what is the measure of human? matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/hcp4715" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.de/citations?user=pp-6MkUAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/hcp4715" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/zh/#contact" >
+        <i class="fas fa-note-sticky"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      由<a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>支持发布——免费<a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">开源</a>网站，为创作者赋能。
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/zh/js/wowchemy.min.b031b58d2daeebaaee5c315db61367f3.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

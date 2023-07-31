@@ -5,12 +5,547 @@
     <link>https://chuan-peng-lab.netlify.app/zh/category/methods/</link>
       <atom:link href="https://chuan-peng-lab.netlify.app/zh/category/methods/index.xml" rel="self" type="application/rss+xml" />
     <description>Methods</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Mon, 29 Apr 2019 02:13:27 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 14 Jun 2023 13:01:27 +0800</lastBuildDate>
     <image>
       <url>https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png</url>
       <title>Methods</title>
       <link>https://chuan-peng-lab.netlify.app/zh/category/methods/</link>
     </image>
+    
+    <item>
+      <title>如何安装HDDM(基于windows下 docker 和 linux)</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/</link>
+      <pubDate>Wed, 14 Jun 2023 13:01:27 +0800</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/</guid>
+      <description>&lt;p&gt;本文将介绍两种在 windows 平台下安装 HDDM(0.9.8) 的方法。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主要通过 wsl2 安装 docker 或者 linux 环境&lt;/li&gt;
+&lt;li&gt;然后再在 docker 或者 linux 环境下安装 HDDM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;通过-docker-部署-hddm&#34;&gt;通过 docker 部署 HDDM&lt;/h1&gt;
+&lt;p&gt;首先，安装 docker&lt;/p&gt;
+&lt;p&gt;下载 docker，有 600M
+&lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker: Accelerated, Containerized Application Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_f454fd8729183b807f7a25dd9512ddea.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_90c23abea89dad254b26e0e76d538756.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__hu42575f5ebce503a8d25d2bb51b326f88_107718_f454fd8729183b807f7a25dd9512ddea.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;275&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_e0a709fc07a34ed6d58166e40c61af3a.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_0c721ca067122856ac500b79e8440c41.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__1_hu14b656de2d5a1fe6f317d34c4f699b23_177090_e0a709fc07a34ed6d58166e40c61af3a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;517&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+注意：Windows 10 版本 2004 或更高版本才能使用 wsl2。 可以在命令行中使用 winver 查看版本号。
+如果版本低于 2004，请不要勾选 wsl2，此时可以使用 Hyper-V 来运行 docker 环境。
+如果不存在 wsl2，可以参考该安装方法 &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/install-win10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官方文档&lt;/a&gt;。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_6f067c299b7948cecc90525c3b282a97.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_1bba4762e24b9dbb82dc4161ac9e750d.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__9_hub9d84c4b51173d382eed7cc164baf271_545009_6f067c299b7948cecc90525c3b282a97.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;458&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_3c5fe4f11e1a98ec0ddd4b2aeaf06eb1.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_bb2fdaeec7edcffbbe1688b1a9635e88.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__2_hu5afa50073fd1b4fb06fa791b3c9c4646_289372_3c5fe4f11e1a98ec0ddd4b2aeaf06eb1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;509&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+由于只能装 C 盘，所以直接点 &amp;ldquo;ok&amp;rdquo; 就开始安装了。
+大概安装 2-3分钟&lt;/p&gt;
+&lt;p&gt;如果提醒 &amp;ldquo;log out&amp;rdquo;，就需要注销电脑，请注意。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_a7fa640a761d37dc04fa117f348c0650.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_f1c246b0bdea3b48cc9770614905436a.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__3_hu60f81e9d61881b7532bc6268f9d238b0_239621_a7fa640a761d37dc04fa117f348c0650.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;540&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;注销或重启后，点击&amp;quot;接受&amp;quot;协议即可。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_c61e406e83afeadd4eea59922bc5b856.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_500e51d286d1fac228625ffd40e07a91.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__10_hu3781274cf8cda934e65a2dfac00c95a7_612058_c61e406e83afeadd4eea59922bc5b856.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;467&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;docker-设置--安装-hddm&#34;&gt;docker 设置 + 安装 HDDM&lt;/h2&gt;
+&lt;p&gt;在设置-&amp;gt;安装后选择启用WSL2引擎
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_d67e10fd36fe63060d7573eac0031384.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_ef1e68e05f4ddb8f6c68948969a29aef.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__11_hu329bb966a89f4abf724583327b7a677d_152351_d67e10fd36fe63060d7573eac0031384.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;434&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;可选配置数据和镜像源的存放位置--镜像源&#34;&gt;可选：配置数据和镜像源的存放位置 + 镜像源&lt;/h3&gt;
+&lt;p&gt;配置数据和镜像源的存放位置 + 镜像源, 这里配置的官方镜像，大家可以自行配置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;也可在 &lt;code&gt;C:\Users\&amp;lt;UserName&amp;gt;\.docker\daemon.json&lt;/code&gt; 中进行设置&lt;/li&gt;
+&lt;li&gt;其中，&lt;code&gt;&amp;quot;data-root&amp;quot;:&amp;quot;d\\docker&amp;quot;&lt;/code&gt; 设定了数据的存放位置。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;registry-mirrors&amp;quot;&lt;/code&gt; 设置了镜像源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;builder&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;gc&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;defaultKeepStorage&amp;#34;: &amp;#34;20GB&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;enabled&amp;#34;: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  },
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;experimental&amp;#34;: false,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;features&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;buildkit&amp;#34;: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  },
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;data-root&amp;#34;:&amp;#34;d\\docker&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;registry-mirrors&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &amp;#34;https://registry.docker-cn.com&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_64341bfbdd9f9526dd9f616736dcf230.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_53fa0f4fe468dd1b4ad2cdb1ccc84049.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_64341bfbdd9f9526dd9f616736dcf230.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;412&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;可选将-docker-移除-c-盘以节省空间&#34;&gt;可选：将 docker 移除 C 盘，以节省空间&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --export docker-desktop D:\docker\docker-desktop.tar
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --export docker-desktop-data D:\docker\docker-desktop-data.tar
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --export Ubuntu-22.04 D:\docker\Ubuntu-22.04.tar
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --unregister docker-desktop
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --unregister docker-desktop-data
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --unregister Ubuntu-22.04
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --import docker-desktop D:\docker\docker-desktop D:\docker\docker-desktop.tar --version 2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --import docker-desktop-data D:\docker\docker-desktop-data D:\docker\docker-desktop-data.tar --version 2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --import Ubuntu-22.04 D:\Ubuntu_2204 D:\docker\Ubuntu-22.04.tar --version 2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;正式安装-hddm&#34;&gt;正式安装 HDDM&lt;/h3&gt;
+&lt;p&gt;之后就可以在wsl命令行中使用docker了。
+找到 HDDM docker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_03c0f28857e399f927e111abf97353b6.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_e2801f8e78d62f384d644de69f9e900f.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__13_huc64be0d3283d9b308ef061b3358387d7_172633_03c0f28857e399f927e111abf97353b6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;434&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可直接点解 pull&lt;/li&gt;
+&lt;li&gt;也可以运行命令 &lt;code&gt;docker pull hcp4715/hddm -o /path/to/my/images&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;其中，-o 可以设置储存的&lt;strong&gt;相对位置&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;docker-启动-hddm-镜像&#34;&gt;docker 启动 HDDM 镜像&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# windows
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -it --rm --cpus=4 -v /d/hcp4715/hddm_docker:/home/jovyan/work -p 8888:8888 hcp4715/hddm jupyter notebook 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Ubantu
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -it --rm --cpus=4 \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-v /home/hcp4715/hddm_docker:/home/jovyan/work \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-p 8888:8888 hcp4715/hddm:0.8 jupyter notebook
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_79777cb7ff4e8f4bbce36b98a6dbd007.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_f8f647a16699b7b6d1aa9f7d395efacb.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__5_hu88a8fee882960b116ee652d7211cb56e_184861_79777cb7ff4e8f4bbce36b98a6dbd007.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;也可以通过界面操作启动 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_660a56cd1a169ae9f4b46f55af2d872b.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_0bec5dd19f5001f9d06071c134175229.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__6_hu94389e52d74f504cb1d5eaa77326bff0_61811_660a56cd1a169ae9f4b46f55af2d872b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;249&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;新建一个 notebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_6a4ef1e952260b1cb1f6f61b49ed90ae.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_85ee46047dc7d9e84cf2ccb483daa109.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__7_hu853c431e018496eca23204326d1f2c43_52225_6a4ef1e952260b1cb1f6f61b49ed90ae.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;174&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;导入 hddm 进行测试
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_1594ebe77145eec53970dbe45ddbd56f.webp 400w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_4c584d3827e39730e2b2244bcedf5b3b.webp 760w,
+               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__8_hu126ea05e2d592fb5afeadafcde195cc0_208547_1594ebe77145eec53970dbe45ddbd56f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;573&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;通过-ubuntu-1804-部署-hddm&#34;&gt;通过 Ubuntu-18.04 部署 HDDM&lt;/h1&gt;
+&lt;p&gt;以 windows 系统下，使用 wsl2 + ubuntu 系统安装 hddm 为例。&lt;/p&gt;
+&lt;p&gt;首先确保系统已经安装 Windows Subsystem for Linux 2 (WSL2) ，具体安装方法可以参考 &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/install-win10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官方文档&lt;/a&gt;。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --install -d Ubuntu-18.04
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;注意，此时可能需要设置linux系统账号和密码。&lt;/li&gt;
+&lt;li&gt;注意，输入密码时并不会显示，请输入完成后直接点击回车。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(可选)：由于 linux 子系统默认安装在 c 盘。因此，可以将起移动到其他磁盘中。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 导出子系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --export Ubuntu-18.04 D:&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;docker&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;wsl-Ubuntu-18.04.tar
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 关闭子系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --shutdown
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 注销(删除)子系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --unregister Ubuntu-18.04
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 导入系统文件到其他磁盘&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl --import Ubuntu-18.04 d:&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;docker&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;wsl2_ubuntu1804 d:&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;docker&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;wsl-Ubuntu-18.04.tar --version &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 注意，第一个路径为新的安装路径，第二路径为导出的系统文件，--version 2 表明了后端为 wsl2。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 启动系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wsl -d Ubuntu-18.04
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安装依赖&#34;&gt;安装依赖&lt;/h2&gt;
+&lt;p&gt;由于 HDDM ，包括起依赖 pymc, ssms 需要进行编译。因此我们需要提前配置好环境，包括 GCC、Gfortran。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install gcc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install gfortran
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install build-essential
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安装-miniconda&#34;&gt;安装 Miniconda&lt;/h2&gt;
+&lt;p&gt;之后，我们需要安装 python 环境，最好的方式是通过 conda 进行 Python 环境的配置&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 下载 miniconda&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 可自行去官网选择其他版本，比如 &amp;lt;https://repo.anaconda.com/miniconda/Miniconda3-py37_4.12.0-Linux-x86_64.sh&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 设置权限&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chmod +x Miniconda3-latest-Linux-x86_64.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 安装 miniconda&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./Miniconda3-latest-Linux-x86_64.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 记得看完协议后 yes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 进入 conda 环境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这一段代码是安装 Miniconda，它是一个流行的 Python 包管理器和环境管理器。安装 Miniconda 后，我们可以使用它来安装 Python 和其他必要的包。&lt;/p&gt;
+&lt;p&gt;(可选)设置国内镜像：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# (可选)配置国内镜像&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda config --set show_channel_urls yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 等同于打开 ~/.condarc文件   (sudo gedit ~/.condarc)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 可以删除 - defaults 选项&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;创建并激活虚拟环境--安装-hddm-和其它必要的包&#34;&gt;创建并激活虚拟环境 + 安装 HDDM 和其它必要的包&lt;/h2&gt;
+&lt;p&gt;最后，创建并激活名为 hddm 的虚拟环境。虚拟环境是一种将 Python 依赖项隔离开的机制，可以让我们在同一系统上管理多个 Python 环境。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda create -n hddm &lt;span class=&#34;nv&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3.9
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda activate hddm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装 HDDM 相关包&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install &lt;span class=&#34;nv&#34;&gt;numpy&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;1.22.4 -i &amp;lt;https://pypi.tuna.tsinghua.edu.cn/simple&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install git+https://gitee.com/epool/pymc2.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install git+https://gitee.com/epool/kabuki.git -i &amp;lt;https://pypi.tuna.tsinghua.edu.cn/simple&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install git+https://gitee.com/epool/ssm-simulators.git -i &amp;lt;https://pypi.tuna.tsinghua.edu.cn/simple&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install git+https://gitee.com/epool/hddm.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;测试-hddm-是否成功安装&#34;&gt;测试 hddm 是否成功安装：&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;hddm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;params&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hddm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;generate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gen_rand_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;v&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;t&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;.3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;subjs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hddm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;HDDM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;v&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;t&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sample&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gen_stats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;(可选)： 安装 torch，以使用 hddm 中的 &lt;a href=&#34;https://elifesciences.org/articles/65074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LANs&lt;/a&gt; 方法，即基于神经网络(neural network) + 贝叶斯近似(Approximate Bayesian Computation, ABC)的参数估计方法。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注意，安装前请 &lt;code&gt;nvcc --version&lt;/code&gt;, &lt;code&gt;nvidia-smi&lt;/code&gt; 查看CUDA版本和CUDA工具包的版本号，以正确下载对应项 pytorch 版本。&lt;/li&gt;
+&lt;li&gt;此外，最新的 pytorch 2.0 似乎不持支 HDDM。请使用更低的pytorch版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;pip&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;torch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.11.0&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;torchvision&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.12.0&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;torchaudio&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.11.0&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pypi&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tuna&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tsinghua&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;edu&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;simple&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 安装 arviz 方便数据操作与绘图&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;pip&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;arviz&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pypi&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tuna&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tsinghua&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;edu&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;simple&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 由于安装以上扩展包后，依赖会发生变化，建议重新安装 hddm 和 numpy等扩展包。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;pip&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;git&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gitee&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;epool&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hddm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;pip&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;numpy&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.22.4&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pypi&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tuna&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tsinghua&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;edu&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;simple&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# pip install pymc ssms --no-cache-dir&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;测试 LANs 是否成功安装以及可以成功运行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;conda&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;activate&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hddm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;hddm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;params&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hddm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;generate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gen_rand_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;v&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;t&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;.3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;subjs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;ddm&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hddm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;HDDMnn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;model&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;v&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;t&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sample&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gen_stats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>How to install and use HDDM</title>
