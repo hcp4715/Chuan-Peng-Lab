@@ -5,12 +5,42 @@
     <link>https://chuan-peng-lab.netlify.app/zh/</link>
       <atom:link href="https://chuan-peng-lab.netlify.app/zh/index.xml" rel="self" type="application/rss+xml" />
     <description>传鹏的实验室</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 14 Jun 2023 13:01:27 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png</url>
       <title>传鹏的实验室</title>
       <link>https://chuan-peng-lab.netlify.app/zh/</link>
     </image>
+    
+    <item>
+      <title>张睿哲</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/zrz/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/zrz/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南师大在读&lt;/em&gt;&lt;br&gt;
+喜欢积极心理学，擅长写作与演说，enfj，能量值很高，比较社牛，与我相处不会累～
+欢迎加微信03101820，送你一份我写的《社牛养成攻略》～&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>潘晚坷</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/pwk/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/pwk/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;2023-：南京师范大学心理学博士在读&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;2023-：2020-2023：上海师范大学心理学硕士&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;2023-：2016-2020：成都师范学院心理学学士&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;音乐制作、跑酷、围棋、小众软件以及任何不熟悉的自由的活动&lt;/em&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;话题终结和独处&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>如何安装HDDM(基于windows下 docker 和 linux)</title>
@@ -608,6 +638,42 @@ As an early career researcher who request data for the first time, I have learne
     </item>
     
     <item>
+      <title>A Unified Approach to Demographic Data Collection for Research with Young Children Across Diverse Cultures.</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_singh/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_singh/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Journal article in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trait salivary alpha-amylase activity levels define the conditions for facilitation by L-DOPA of extinction consolidation</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_andres/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_andres/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Journal article in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>丁一</title>
       <link>https://chuan-peng-lab.netlify.app/zh/project/dy/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
@@ -651,6 +717,24 @@ As an early career researcher who request data for the first time, I have learne
   &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;道德，建模，元分析&lt;/em&gt;&lt;br&gt;
 
   &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R基本统计分析，R meta包、meta for包的使用，实验室相关资源的使用与管理.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Hitchhiker&#39;s Guide to Bayesian Hierarchical Drift-Diffusion Modeling with dockerHDDM.</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_hu1/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_hu1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Journal article in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
