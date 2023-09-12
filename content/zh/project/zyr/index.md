@@ -14,9 +14,9 @@ links:
   name: Follow
   url: https://mastodon.social/@zhengyuanrui@mastodon.world
 slides: example
-summary: __Sep-19 ~ Now__  <br/> 一个一无所知的人
+summary: __Sep-19 ~ Jun-23__  <br/> 一个一无所知的人
 tags:
-- Research Assistants
+- Alumni
 title: 郑元瑞
 url_code: ""
 url_pdf: ""

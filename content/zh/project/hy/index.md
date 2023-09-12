@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-22 ~ Now__  <br/> 目前研究方向：知觉决策
+summary: __Sep-22 ~ Jun-23__  <br/> 目前研究方向：知觉决策
 tags:
-- Research Assistants
+- Alumni
 title: 胡岳
 url_code: ""
 url_pdf: ""

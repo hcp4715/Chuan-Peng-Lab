@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-22 ~ Now__  <br/> Current research:&nbsp;perceptual decision-making
+summary: __Sep-22 ~ Jun-23__  <br/> Current research:&nbsp;perceptual decision-making
 tags:
-- Research Assistants
+- Alumni
 title: Yue Hu
 url_code: ""
 url_pdf: ""
