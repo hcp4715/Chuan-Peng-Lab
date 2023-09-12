@@ -453,6 +453,16 @@
     <loc>https://chuan-peng-lab.netlify.app/publication/2023_publication_zheng_cn/</loc>
     <lastmod>2023-03-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/publication/2023_publication_zheng_cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/publication/2023_publication_zheng_cn/"
+                />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/publication/2023_preprint_yuki/</loc>
     <lastmod>2023-03-11T00:00:00+00:00</lastmod>
@@ -485,6 +495,16 @@
     <loc>https://chuan-peng-lab.netlify.app/publication/2023_publication_buchanan/</loc>
     <lastmod>2023-02-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/publication/2023_publication_buchanan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/publication/2023_publication_buchanan/"
+                />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/publication/2023_publication_chen/</loc>
     <lastmod>2023-01-12T00:00:00+00:00</lastmod>
