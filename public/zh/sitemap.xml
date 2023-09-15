@@ -100,20 +100,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/project/zss/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/pwk/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/pwk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/pwk/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/qzp/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -182,6 +168,90 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/publication/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/tag/alumni/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/tag/alumni/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/tag/alumni/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/wcn/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/wcn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/wcn/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/wn/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/wn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/wn/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/hy/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/hy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/hy/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/zyr/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/zyr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/zyr/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/mjc/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/mjc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/mjc/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2023_publication_chen-zhiyi2/</loc>
@@ -562,34 +632,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2022_preprint_andres/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/tag/alumni/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/tag/alumni/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/tag/alumni/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/dy/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/dy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/dy/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/xcd/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -602,20 +644,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/project/xcd/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/lll/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/lll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/lll/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/wjh/</loc>
@@ -644,6 +672,20 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2022_preprint_hu1/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/lz/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/lz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/lz/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2022_publication_dorison/</loc>
@@ -702,32 +744,18 @@
                 href="https://chuan-peng-lab.netlify.app/zh/project/lyk/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/lsz/</loc>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/zch/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/lsz/"
+                href="https://chuan-peng-lab.netlify.app/project/zch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/lsz/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/yq/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/yq/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/yq/"
+                href="https://chuan-peng-lab.netlify.app/zh/project/zch/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/yjx/</loc>
@@ -744,20 +772,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/project/yjx/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/wxy/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/wxy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/wxy/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/tlq/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -772,20 +786,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/project/tlq/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/hy/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/hy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/hy/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/cyq/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -798,34 +798,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/project/cyq/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/gmq/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/gmq/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/gmq/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/ccy/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/ccy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/ccy/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_liu2_cn/</loc>
@@ -968,20 +940,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/project/sst/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/mjc/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/mjc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/mjc/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2021_publication_wang/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1094,20 +1052,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2020_publication_hu1/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/lz/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/lz/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/lz/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/tag/undergraduate/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1122,18 +1066,18 @@
                 href="https://chuan-peng-lab.netlify.app/zh/tag/undergraduate/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/zch/</loc>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/lql/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/zch/"
+                href="https://chuan-peng-lab.netlify.app/project/lql/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/zch/"
+                href="https://chuan-peng-lab.netlify.app/zh/project/lql/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/project/shj/</loc>
@@ -1246,62 +1190,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_zeng/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/yl/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/yl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/yl/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/wcn/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/wcn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/wcn/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/wn/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/wn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/wn/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/zyr/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/zyr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/zyr/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_lyu_cn/</loc>
@@ -1430,6 +1318,20 @@
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2019_publication_liu_cn/"
                 />
   </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/zh/project/dy/</loc>
+    <lastmod>2018-11-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/project/dy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/project/dy/"
+                />
+  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2018_publication_ijzerman/</loc>
     <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1528,34 +1430,6 @@
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2017_publication_ijzerman/"
                 />
   </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/tag/principal-investigator/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/tag/principal-investigator/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/tag/principal-investigator/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/hcp/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/hcp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/hcp/"
-                />
-  </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2016_publication_hu_cn/</loc>
     <lastmod>2016-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1610,20 +1484,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chuan-peng-lab.netlify.app/zh/publication/2014_publication_hu/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/zh/project/lql/</loc>
-    <lastmod>2012-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/project/lql/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/project/lql/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/zh/publication/2011_publication_hu_cn/</loc>
