@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSF | 传鹏的实验室</title>
+    <link>https://chuan-peng-lab.netlify.app/zh/tag/osf/</link>
+      <atom:link href="https://chuan-peng-lab.netlify.app/zh/tag/osf/index.xml" rel="self" type="application/rss+xml" />
+    <description>OSF</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Mon, 09 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png</url>
+      <title>OSF</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/tag/osf/</link>
+    </image>
+    
+    <item>
+      <title>DataPipe：如何免费保存&#43;备份实验数据</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/post/datapipe/</link>
+      <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/post/datapipe/</guid>
+      <description>&lt;h1 id=&#34;datapipe如何免费保存备份实验数据&#34;&gt;DataPipe：如何免费保存+备份实验数据&lt;/h1&gt;
+&lt;p&gt;你是否因为电脑损害而弄丢过实验数据？明明是线上实验，但数据却不能上传云端？或者你也是OpenScience的拥趸(检索该公众号试试)，想把自己的实验数据放到开放平台 OSF，做出自己的贡献?&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /zh/post/datapipe/imgs/image17_hu5e831f3bce36e448e5d9c4dfdcf089a4_2731618_4396a1c7513fa8437bff42f739438d25.webp 400w,
+               /zh/post/datapipe/imgs/image17_hu5e831f3bce36e448e5d9c4dfdcf089a4_2731618_98b66cf24f9b32c2c0d81111d07aeb3a.webp 760w,
+               /zh/post/datapipe/imgs/image17_hu5e831f3bce36e448e5d9c4dfdcf089a4_2731618_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/datapipe/imgs/image17_hu5e831f3bce36e448e5d9c4dfdcf089a4_2731618_4396a1c7513fa8437bff42f739438d25.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;没错，就在今天，这一切可以轻松的完成。今天我要隆重的给大家介绍一个非常好用的数据收集工具——DataPipe。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;DataPipe 是一个开放平台，提供REST API接口，可以让你在任何实验程序上把实验数据上传到OSF(Open Science Framework)。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果你不知什么是 REST API。没关系，你就当他是一个网站，当你访问他，你就可以上传数据，只不过这一切可以用一行简单的代码实现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果你不知道 OSF。没关系，你就当他是 github 或者一个云盘，可以用来存储你的代码和实验数据等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DataPipe 已经集成到实验编程工具 &lt;a href=&#34;https://www.jspsych.org/7.3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jsPsych&lt;/a&gt; 当中，你可以很方便的在 jsPsych 调用 DataPipe 的API。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;如果你不了解 jsPsych，可以理解为他是类似于 E-prime, psychtoolbox(Matlab), psychopy(Python), OpenSesame的实验编程工具。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;此外，它可以方便的用于在线实验，或在线问卷数据的收集。类似于 Qualtrics, Credamo等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;你可以点击连接 &lt;a href=&#34;https://www.jspsych.org/7.3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jsPsych&lt;/a&gt;  进行了解。它使用前端代码 html + js 来实现实验程序的编程。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;让我们回到正题，今天我将以 jspsych 和 psychopy 为例，演示如何使用DataPipe来收集数据，并把数据上传到 osf中。&lt;/p&gt;
+&lt;p&gt;后面涉及到的测试材料在这里 &lt;a href=&#34;https://gitee.com/epool/data-pipe_primer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gitee.com/epool/data-pipe_primer&lt;/a&gt; 大家可以自行体验和设置。&lt;/p&gt;
+&lt;h2 id=&#34;前提准备&#34;&gt;前提准备&lt;/h2&gt;
+&lt;p&gt;在 jspsych 和 psychopy 进行加入 DataPipe 功能前，你需要做如下配置：注册 osf 账号，在 osf 中创建项目；在 DataPipe 中创建项目，连接 osf 的项目，进行一些基本配置。跟着我的步伐，5分钟完成配置。&lt;/p&gt;
+&lt;h3 id=&#34;创建osf项目&#34;&gt;创建OSF项目&lt;/h3&gt;
+&lt;p&gt;如果你还没有 osf 账号，请 &lt;a href=&#34;https://osf.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://osf.io/&lt;/a&gt; 登陆官网进行简单的注册。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image.png&#34; srcset=&#34;
+               /zh/post/datapipe/imgs/image_hu0a21cc497d224bf5db827d1d480ce2ee_913015_7d17204bbab8669e1c5efb3e166e1a8a.webp 400w,
+               /zh/post/datapipe/imgs/image_hu0a21cc497d224bf5db827d1d480ce2ee_913015_f31ed886a24571a3d4ac29753eb8dc3d.webp 760w,
+               /zh/post/datapipe/imgs/image_hu0a21cc497d224bf5db827d1d480ce2ee_913015_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/datapipe/imgs/image_hu0a21cc497d224bf5db827d1d480ce2ee_913015_7d17204bbab8669e1c5efb3e166e1a8a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;301&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;然后，为了给 DataPipe 的访问权限，我们需要生成&lt;strong&gt;密钥(token)&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%201.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%202.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%203.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%204.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;最后，在OSF主页点击“Create Project”就可以创建项目了。注意，你需要复制&lt;strong&gt;项目的编号&lt;/strong&gt;，在下图中。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%205.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%206.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%207.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;在datapipe上创建实验&#34;&gt;在DataPipe上创建实验&lt;/h2&gt;
+&lt;p&gt;完成 OSF 的配置后，我们需要对 DataPipe进行配置。&lt;/p&gt;
+&lt;p&gt;首先，进入 &lt;a href=&#34;https://pipe.jspsych.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pipe.jspsych.org/&lt;/a&gt;。 进行注册和登陆。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%208.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;之后，将之前 osf 的密钥(token)配置到 DataPipe 中。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%209.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%2010.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;最后，创建项目（实验），Done。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%2011.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%2012.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;这样你就进入了这个实验的控制面板,可以设置一些实验参数了。有些功能我们暂时用不到，就先不介绍了。&lt;/p&gt;
+&lt;p&gt;注意，请一定要复制实验ID备用。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1696770274540.png&#34; srcset=&#34;
+               /zh/post/datapipe/imgs/1696770274540_hub4b5e767f4acf68ea4d71cbb29060dd0_313566_27ddbde95116d6eb01686fcf5e0da30f.webp 400w,
+               /zh/post/datapipe/imgs/1696770274540_hub4b5e767f4acf68ea4d71cbb29060dd0_313566_8117948e679578b505a9ef00b6087f62.webp 760w,
+               /zh/post/datapipe/imgs/1696770274540_hub4b5e767f4acf68ea4d71cbb29060dd0_313566_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/datapipe/imgs/1696770274540_hub4b5e767f4acf68ea4d71cbb29060dd0_313566_27ddbde95116d6eb01686fcf5e0da30f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;490&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;在实验中集成datapipe&#34;&gt;在实验中集成DataPipe&lt;/h2&gt;
+&lt;p&gt;为了能够将数据发送到DataPipe,你需要在实验代码中调用DataPipe的API。如果你在使用jsPsych来编写实验,可以直接使用jsPsychPipe插件调用DataPipe。如果不使用jsPsych,也可以直接通过fetch API调用DataPipe。&lt;/p&gt;
+&lt;p&gt;在DataPipe的实验页面,已经提供了不同语言调用DataPipe API的代码示例。选择适合你的语言,根据页面上的指引就可以轻松地在实验中集成DataPipe了。&lt;/p&gt;
+&lt;h3 id=&#34;在-jspsych-中进行设置&#34;&gt;在 jspsych 中进行设置&lt;/h3&gt;
+&lt;p&gt;具体代码见 &lt;a href=&#34;http://epool.gitee.io/data-pipe_primer/jspsych_exp_test.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jspsych_exp_test.html&lt;/a&gt;。 大家可以下载该模板自行进行更改。&lt;/p&gt;
+&lt;p&gt;这里指针对关键代码进行解释。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;filename&lt;/code&gt; 为上传的文件名称。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;experiment_id&lt;/code&gt; 为 DataPipe 配置中的 ID。这个非常关键，确保填写正确。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%2013.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;大家可以进入 &lt;a href=&#34;http://epool.gitee.io/data-pipe_primer/jspsych_exp_test.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://epool.gitee.io/data-pipe_primer/jspsych_exp_test.html&lt;/a&gt; 进行测试。在本地运行也是相同的，点击下一页就会上传数据。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%2014.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;上传的数据如下，名称为之前设置的 &lt;code&gt;filename&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%2015.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;在-psychopy-中进行设置&#34;&gt;在 psychopy 中进行设置&lt;/h3&gt;
+&lt;p&gt;打开psychopy，我们以自带的 stroop 实验为例。(注意，我是用的psychopy版本为 2023.2.2)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;屏幕截图 2023-10-08 213712.png&#34; srcset=&#34;
+               /zh/post/datapipe/imgs/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE&amp;#43;2023-10-08&amp;#43;213712_hud7d5d384c4e7bb341613d33d8ebc7eae_220279_8974d23516d5c085daf39d4000cacf8a.webp 400w,
+               /zh/post/datapipe/imgs/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE&amp;#43;2023-10-08&amp;#43;213712_hud7d5d384c4e7bb341613d33d8ebc7eae_220279_9a87c59c2b1cea42eaec6592f234cd51.webp 760w,
+               /zh/post/datapipe/imgs/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE&amp;#43;2023-10-08&amp;#43;213712_hud7d5d384c4e7bb341613d33d8ebc7eae_220279_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chuan-peng-lab.netlify.app/zh/post/datapipe/imgs/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE&amp;#43;2023-10-08&amp;#43;213712_hud7d5d384c4e7bb341613d33d8ebc7eae_220279_8974d23516d5c085daf39d4000cacf8a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;339&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;然后，添加 code 模块。并进行相应的设置，也就是最关键的，实验ID，文件名和数据。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在 python 中可以通过 &lt;code&gt;thisExp.getJSON()&lt;/code&gt; 获取数据。 这里将数据保存为 json，你也可以自行转化为 csv。&lt;strong&gt;注意，在我自己的测试中，python 代码会遇到 SSL 错误。所以我使用 js 的实现方式，见下方。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 js code 中，可以通过 &lt;code&gt;psychoJS.experiment.getJSON();&lt;/code&gt;获取数据。注意：js code 需要将实验全部转化为 js + html 后再游览器里运行。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;imgs/image%2016.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;最后，运行实验 (注意，我运行的 html 的实验程序而不是 python 代码)就可以上传数据了。&lt;/p&gt;
+&lt;h2 id=&#34;额外阅读发布实验&#34;&gt;额外阅读：发布实验&lt;/h2&gt;
+&lt;p&gt;把编写好的实验文件发布到网上,以便参与者可以访问。发布实验的方式很多,但我这里推荐使用GitHub Pages 或者 Gitee Pages (就像我提供的那个仓库一样),因为它完全免费,使用非常方便。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先,在GitHub上创建一个新的仓库。在仓库的设置页面,打开GitHub Pages功能,选择从main分支部署。这样就可以通过&lt;code&gt;https://[your username].github.io/[your repository name]&lt;/code&gt;来访问你的实验页面了。最后,将你的实验文件上传到仓库中,这样参与者就可以访问了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果你的HTML文件不是index.html,那么需要在URL后面加上HTML文件名,比如&lt;code&gt;https://[your username].github.io/[your repository name]/experiment.html&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果使用的是 psychopy 也可以通过 pavlovia.org 来进行线上实验的部署。&lt;/p&gt;
+&lt;h2 id=&#34;额外阅读配置实验&#34;&gt;额外阅读：配置实验&lt;/h2&gt;
+&lt;p&gt;在控制面板上,你可以启用DataPipe的一些高级功能:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;条件分配:可以向DataPipe请求下一个条件编号,用于在多条件实验中指派参与者到不同的条件中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据验证:在将数据发往OSF之前,先检查数据的格式是否正确。这可以避免误传或恶意传输错误数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;会话上限:限制每次实验收集的数据条数上限,也是为了避免误传或恶意传输大量无效数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;建议根据实验需要谨慎启用这些功能。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参考资料 source:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pipe.jspsych.org/homepipe.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pipe.jspsych.org/homepipe.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pipe.jspsych.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pipe.jspsych.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;De Leeuw, J. R. (2023). DataPipe: Born-open data collection for online experiments. &lt;em&gt;Behavior Research Methods&lt;/em&gt;. &lt;a href=&#34;https://doi.org/10.3758/s13428-023-02161-x&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.3758/s13428-023-02161-x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

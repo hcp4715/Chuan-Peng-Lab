@@ -1,3 +1,16 @@
+
+## baisc usage
+
+Clone this repo, and run below code in R: 
+- `blogdown:::serve_site()` run serve at local host
+- `blogdown:::new_post_addin()` add new posts. 
+- `blogdown::build_site()` build the site. 
+- After that, you can commit the change and push it to github.
+
+---
+
+## version history
+
 v0.0.0
 	最初版
 v0.0.1
