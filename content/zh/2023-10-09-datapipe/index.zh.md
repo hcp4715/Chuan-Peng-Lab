@@ -1,17 +1,27 @@
 ---
-id: 863
 title: DataPipe：如何免费保存+备份实验数据
-date: 2023-06-14T13:01:27+08:00
 author: Wanke Pan
-layout: post
-guid: http://www.huchuanpeng.com/?p=863
+date: '2023-10-09'
+slug: datapipe
 categories:
   - Methods
 tags:
-  - OSF
-  - jspsych
-  - psychopy
   - data
+  - jspsych
+  - OSF
+  - Open Science
+  - psychopy
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2023-10-09T21:36:57+08:00'
+featured: no
+draft: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
 ---
 
 # DataPipe：如何免费保存+备份实验数据
@@ -170,3 +180,5 @@ tags:
 > * [https://pipe.jspsych.org/homepipe.png](https://pipe.jspsych.org/homepipe.png)
 > * [pipe.jspsych.org](https://pipe.jspsych.org/)
 > * De Leeuw, J. R. (2023). DataPipe: Born-open data collection for online experiments. *Behavior Research Methods*. [https://doi.org/10.3758/s13428-023-02161-x](https://doi.org/10.3758/s13428-023-02161-x)
+
+
