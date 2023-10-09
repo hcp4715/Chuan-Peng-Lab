@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/ChenghaoZhou3
 slides: example
-summary: __Nov-20 ~ Dec-22__  <br/> Now studying cognitive psychology at NYU. Interested in decision making and human interaction.
+summary: __Nov. 2020 ~ Dec. 2022__  <br/> Now studying cognitive psychology at NYU. Interested in decision making and human interaction.
 tags:
 - Alumni
 title: Chenghao Zhou

@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Jan-16 ~ Dec-22__  <br/>  RA at West China Hospital of Sichuan University
+summary: __Jan. 2016 ~ Dec. 2022__  <br/>  RA at West China Hospital of Sichuan University
 tags:
 - Alumni
 title: Jixing Yin

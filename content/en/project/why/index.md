@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep-17 ~ Now__  <br/> Just want an easy life
+summary: __Sep. 2017 ~ Now__  <br/> Just want an easy life
 tags:
 - Research Assistants
 title: Haoyuan Wang

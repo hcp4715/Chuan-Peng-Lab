@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-22 ~ Now__  <br/> 间歇性壮志凌云，努力不混吃等死。
+summary: __Sep. 2022 ~ Now__  <br/> 间歇性壮志凌云，努力不混吃等死。
 tags:
 - Postgraduate 
 title: 温佳慧

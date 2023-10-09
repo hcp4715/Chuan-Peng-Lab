@@ -1,5 +1,5 @@
 ---
-date: "2123-09-11T00:00:00Z"
+date: "2023-10-01T00:00:00Z"
 external_link: ""
 image:
   caption: 潘晚坷
@@ -14,7 +14,7 @@ links:
   name: Follow
   url: https://github.com/Asynchro-Epool/
 slides: example
-summary: __Sep-23 ~ Now__  <br/> 垂天雌霓云端下，快意雄风海上来
+summary: __Sep. 2023 ~ Now__  <br/> 垂天雌霓云端下，快意雄风海上来
 tags:
 - Postgraduate
 title: 潘晚坷

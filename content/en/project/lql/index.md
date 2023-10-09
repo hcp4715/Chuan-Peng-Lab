@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-12 ~ Jun-20__  <br/>  Researcher of Beijing Youse Technology Co., Ltd
+summary: __Sep. 2012 ~ Jun. 2020__  <br/>  Researcher of Beijing Youse Technology Co., Ltd
 tags:
 - Alumni
 title: Qinglan Liu

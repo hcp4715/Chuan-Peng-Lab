@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Jul-22 ~ Now__  <br/> 爱运动的科研新手。
+summary: __Jul. 2022 ~ Now__  <br/> 爱运动的科研新手。
 tags:
 - Research Assistants
 title: 刘伟彪

@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep-17 ~ Now__  <br/> 只想过轻松的生活
+summary: __Sep. 2017 ~ Now__  <br/> 只想过轻松的生活
 tags:
 - Research Assistants
 title: 汪浩远

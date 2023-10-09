@@ -15,7 +15,7 @@ links:
   url: https://space.bilibili.com/9116293
     
 slides: example
-summary: __Sep-20 ~ Now__  <br/> I’m living in a fascinating planet.
+summary: __Sep. 2020 ~ Now__  <br/> I’m living in a fascinating planet.
 tags:
 - Undergraduate
 title: Hejia Sun

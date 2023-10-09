@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary:  __Mar-18 ~ Dec-22__  <br/>  a doctoral student at Utrecht University, study visual perception, attention, and pupil measurement; also interested in socio-economic status and open science related research
+summary:  __Mar. 2018 ~ Dec. 2022__  <br/>  a doctoral student at Utrecht University, study visual perception, attention, and pupil measurement; also interested in socio-economic status and open science related research
 tags:
 - Alumni
 title: Yuqing Cai

@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Jan-16 ~ Dec-22__  <br/>  四川大学华西医院研究助理
+summary: __Jan. 2016 ~ Dec. 2022__  <br/>  四川大学华西医院研究助理
 tags:
 - Alumni
 title: 殷继兴

@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/MaryWan58804772
 slides: example
-summary: __Sep-19 ~ Jun-23__  <br/> 探究语言，心智，认知
+summary: __Sep. 2019 ~ Jun. 2023__  <br/> 探究语言，心智，认知
 tags:
 - Alumni
 title: 王楠

@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://github.com/st1119
 slides: example
-summary: __Sep-21 ~ Now__  <br/> Interested in differences between people and brain plasticity.Love exploring new things.
+summary: __Sep. 2021 ~ Now__  <br/> Interested in differences between people and brain plasticity.Love exploring new things.
 tags:
 - Postgraduate
 title: Shuting Sun

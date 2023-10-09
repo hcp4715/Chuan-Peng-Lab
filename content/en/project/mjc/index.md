@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/JiachenJackie
 slides: example
-summary: __Sep-21 ~ Jun-23__  <br/> a curious student, fascinated by how the mind works
+summary: __Sep. 2021 ~ Jun. 2023__  <br/> a curious student, fascinated by how the mind works
 tags:
 - Alumni
 title: Jiachen Ma

@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-19 ~ Jun-23__  <br/> 南京师范大学心理学院2019级本科生，时滞效应信徒，稳定的ISTJ，人生体验官～
+summary: __Sep. 2019 ~ Jun. 2023__  <br/> 南京师范大学心理学院2019级本科生，时滞效应信徒，稳定的ISTJ，人生体验官～
 tags:
 - Alumni
 title: 武辰囡

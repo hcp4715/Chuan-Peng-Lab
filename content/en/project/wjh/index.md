@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-22 ~ Now__  <br/> Take it easy and keep it going.
+summary: __Sep. 2022 ~ Now__  <br/> Take it easy and keep it going.
 tags:
 - Postgraduate 
 title: Jiahui Wen

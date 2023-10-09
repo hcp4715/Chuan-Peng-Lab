@@ -15,7 +15,7 @@ links:
   url: https://space.bilibili.com/9116293
     
 slides: example
-summary: __Sep-20 ~ Now__  <br/> 想去探索所有令人感动的事物
+summary: __Sep. 2020 ~ Now__  <br/> 想去探索所有令人感动的事物
 tags:
 - Undergraduate
 title: 孙禾嘉

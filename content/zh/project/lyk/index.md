@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep-22 ~ Now__  <br/> 爱猫人士
+summary: __Sep. 2022 ~ Now__  <br/> 爱猫人士
 tags:
 - Postgraduate 
 title: 刘逸康

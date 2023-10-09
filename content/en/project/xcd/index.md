@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Jan-21 ~ May-22__  <br/>  RA at Beijing Normal University
+summary: __Jan. 2021 ~ May. 2022__  <br/>  RA at Beijing Normal University
 tags:
 - Alumni
 title: Chengdong Xu

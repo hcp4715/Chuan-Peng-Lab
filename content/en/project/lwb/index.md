@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Jul-22 ~ Now__  <br/> Grit is my trait！
+summary: __Jul. 2022 ~ Now__  <br/> Grit is my trait！
 tags:
 - Research Assistants
 title: Weibiao Liu

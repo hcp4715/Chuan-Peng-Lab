@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep-23 ~ Now__  <br/> The proactive person enjoys the world first.
+summary: __Sep. 2023 ~ Now__  <br/> The proactive person enjoys the world first.
 tags:
 - Postgraduate
 title: Ruizhe Zhang

@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Jun-22 ~ Now__  <br/> 喜欢一个人安静的坐着读书，对新事物充满好奇
+summary: __Jun. 2022 ~ Now__  <br/> 喜欢一个人安静的坐着读书，对新事物充满好奇
 tags:
 - Research Assistants
 title: 田柳青

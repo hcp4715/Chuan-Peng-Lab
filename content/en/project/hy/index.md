@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-22 ~ Jun-23__  <br/> Current research:&nbsp;perceptual decision-making
+summary: __Sep. 2022 ~ Jun. 2023__  <br/> Current research:&nbsp;perceptual decision-making
 tags:
 - Alumni
 title: Yue Hu

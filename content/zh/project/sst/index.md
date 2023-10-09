@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://github.com/st1119
 slides: example
-summary: __Sep-21 ~ Now__  <br/> 竞走爱好者，喜欢反差和新奇事物，关注差异，热衷写作，学术小白。
+summary: __Sep. 2021 ~ Now__  <br/> 竞走爱好者，喜欢反差和新奇事物，关注差异，热衷写作，学术小白。
 tags:
 - Postgraduate
 title: 孙淑婷

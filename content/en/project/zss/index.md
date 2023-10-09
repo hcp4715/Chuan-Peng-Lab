@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep-23 ~ Now__  <br/> Life is a wilderness, not a track
+summary: __Sep. 2023 ~ Now__  <br/> Life is a wilderness, not a track
 tags:
 - Postgraduate
 title: Shanshan ZHU

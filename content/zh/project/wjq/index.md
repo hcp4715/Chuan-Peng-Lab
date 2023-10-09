@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep-23 ~ Now__  <br/> Keep it simple and stupid.
+summary: __Sep. 2023 ~ Now__  <br/> Keep it simple and stupid.
 tags:
 - Postgraduate
 title: 伍嘉琪

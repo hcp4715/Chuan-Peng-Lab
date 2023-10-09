@@ -14,7 +14,7 @@ links:
   name: Follow
   url: https://mastodon.social/@zhengyuanrui@mastodon.world
 slides: example
-summary: __Sep-19 ~ Jun-23__  <br/> I don't mind not knowing. It doesn't scare me. - Richard Feynman
+summary: __Sep. 2019 ~ Jun. 2023__  <br/> I don't mind not knowing. It doesn't scare me. - Richard Feynman
 tags:
 - Alumni
 title: Yuanrui Zheng

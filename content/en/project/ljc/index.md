@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Jun-22 ~ Now__  <br/> The former advertising director, who loves digital,film and design, is now working hard for user research.
+summary: __Jun. 2022 ~ Now__  <br/> The former advertising director, who loves digital,film and design, is now working hard for user research.
 tags:
 - Postgraduate
 title: Jiachen Liu

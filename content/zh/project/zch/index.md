@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/ChenghaoZhou3
 slides: example
-summary: __Nov-20 ~ Dec-22__  <br/> 在NYU读硕士，对知觉决策过程与人际接触感兴趣XD
+summary: __Nov. 2020 ~ Dec. 2022__  <br/> 在NYU读硕士，对知觉决策过程与人际接触感兴趣XD
 tags:
 - Alumni
 title: 周诚皓

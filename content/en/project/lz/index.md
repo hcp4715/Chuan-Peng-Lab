@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://github.com/HelenLiu0609
 slides: example
-summary: __Oct-20 ~ Jul-22__  <br/> Laziness is the true mother of coding.
+summary: __Oct. 2020 ~ Jul. 2022__  <br/> Laziness is the true mother of coding.
 tags:
 - Alumni
 title: Helen (Zheng Liu)

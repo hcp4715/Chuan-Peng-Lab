@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-19 ~ Jun-23__  <br/> I’m a 2019 undergraduate student at School of Psychology, Nanjing Normal University, a time lag effect believer, a stable ISTJ. I approach life with an experiencial mindset.
+summary: __Sep. 2019 ~ Jun. 2023__  <br/> I’m a 2019 undergraduate student at School of Psychology, Nanjing Normal University, a time lag effect believer, a stable ISTJ. I approach life with an experiencial mindset.
 tags:
 - Alumni
 title: Chennan Wu

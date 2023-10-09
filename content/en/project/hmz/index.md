@@ -18,7 +18,7 @@ links:
   name: Follow
   url: https://github.com/yuki-961004
 slides: example
-summary: __Jun-22 ~ Now__ <br/> World Rim Residents
+summary: __Jun. 2022 ~ Now__ <br/> World Rim Residents
 tags:
 - Research Assistants
 title: YuKi (Mengzhen Hu)

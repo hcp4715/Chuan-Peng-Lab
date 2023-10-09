@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Sep-12 ~ Jun-20__  <br/>  北京各色科技有限公司研究员
+summary: __Sep. 2012 ~ Jun. 2020__  <br/>  北京各色科技有限公司研究员
 tags:
 - Alumni
 title: 刘青兰

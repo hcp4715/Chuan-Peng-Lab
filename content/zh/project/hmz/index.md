@@ -18,7 +18,7 @@ links:
   name: Follow
   url: https://github.com/sinnyuki
 slides: example
-summary: __Jun-22 ~ Now__  <br/>  环世界区居民
+summary: __Jun. 2022 ~ Now__  <br/>  环世界区居民
 tags:
 - Research Assistants
 title: YuKi (胡孟真)

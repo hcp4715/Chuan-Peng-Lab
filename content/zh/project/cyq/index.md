@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 slides: example
-summary: __Mar-18 ~ Dec-22__  <br/> 荷兰乌特勒支大学在读博士，毕业于UCL发展心理学硕士项目，目前研究方向为视知觉、注意、瞳孔测量，对社会经济地位和open science相关研究也很感兴趣
+summary: __Mar. 2018 ~ Dec. 2022__  <br/> 荷兰乌特勒支大学在读博士，毕业于UCL发展心理学硕士项目，目前研究方向为视知觉、注意、瞳孔测量，对社会经济地位和open science相关研究也很感兴趣
 tags:
 - Alumni
 title: 蔡玉清

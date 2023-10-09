@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://github.com/HelenLiu0609
 slides: example
-summary: __Oct-20 ~ Jul-22__  <br/> 一个不吃辣椒的四川人。
+summary: __Oct. 2020 ~ Jul. 2022__  <br/> 一个不吃辣椒的四川人。
 tags:
 - Alumni
 title: 刘铮 Helen

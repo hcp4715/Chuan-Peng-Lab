@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Jun-22 ~ Now__  <br/> I am curious about new things. Reading books is my favourite activity.
+summary: __Jun. 2022 ~ Now__  <br/> I am curious about new things. Reading books is my favourite activity.
 tags:
 - Research Assistants
 title: Liuqing Tian
