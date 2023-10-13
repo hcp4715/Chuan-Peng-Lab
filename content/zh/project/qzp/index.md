@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep. 2023 ~ Now__  <br/> The proactive person enjoys the world first.
+summary: __Sep. 2023 ~ Now__  <br/> 活在当下.
 tags:
 - Postgraduate
 title: 邱志鹏 (Cesare)
