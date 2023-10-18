@@ -9,20 +9,22 @@ main:
     weight: 10
   - name: Team
     url: '#project'
-    weight: 20
+    weight: 30
   - name: Publications
     url: '#featured'
-    weight: 30
+    weight: 40
   - name: Collaborators
     url: '#accomplishments'
-    weight: 40 
+    weight: 50 
   - name: Blog Posts
     url: '#posts'
-    weight: 50
+    weight: 60
   - name: Contact
     url: '#contact'
-    weight: 60
-
+    weight: 80
+  - name: Join Us
+    url: '#demo_join_us'
+    weight: 90
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
