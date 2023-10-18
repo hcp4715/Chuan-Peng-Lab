@@ -1,20 +1,21 @@
 ---
 title: Join Us
 author: ''
-date: '2023-10-18'
+date: '2023-01-01'
 slug: join-us
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2023-10-18T15:16:27+08:00'
+lastmod: '2023-01-01T15:16:27+08:00'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
 projects: []
+draft: true
 ---
 ## Join Us for the Prestigious Chinese Government Scholarship 2024-2025
 

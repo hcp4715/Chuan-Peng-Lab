@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://chuan-peng-lab.netlify.app/</loc>
-    <lastmod>2023-10-18T15:16:27+08:00</lastmod>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -14,24 +14,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://chuan-peng-lab.netlify.app/"
-                />
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/post/join-us/</loc>
-    <lastmod>2023-10-18T15:16:27+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chuan-peng-lab.netlify.app/post/</loc>
-    <lastmod>2023-10-18T15:16:27+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chuan-peng-lab.netlify.app/zh/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chuan-peng-lab.netlify.app/post/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/project/hcp/</loc>
@@ -452,6 +434,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://chuan-peng-lab.netlify.app/category/modelling/"
+                />
+  </url><url>
+    <loc>https://chuan-peng-lab.netlify.app/post/</loc>
+    <lastmod>2023-06-14T13:01:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chuan-peng-lab.netlify.app/zh/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chuan-peng-lab.netlify.app/post/"
                 />
   </url><url>
     <loc>https://chuan-peng-lab.netlify.app/tag/python/</loc>
