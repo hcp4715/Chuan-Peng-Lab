@@ -57,7 +57,7 @@ subtitle = ""
 
 - ✉️ If you wish to join us, send E-mail to hu.chuan-peng@nnu.edu.cn.
 
-- 👉 [**More Detials**](https://huchuanpeng.com/post/2023-10-18-join-us/)
+- 👉 [**More Details**](https://huchuanpeng.com/post/join-us/)
 
 
 
