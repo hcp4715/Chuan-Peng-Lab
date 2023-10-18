@@ -53,7 +53,7 @@ subtitle = ""
 
 - 💬 Instruction Language: Chinese
 
-- 💰 Tuition: 24,000 CNY per year
+- 💰 Tuition: Full Scholarship
 
 - ✉️ If you wish to join us, send E-mail to hu.chuan-peng@nnu.edu.cn.
 
