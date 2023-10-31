@@ -6,7 +6,7 @@ slug: join-us
 categories: []
 tags: []
 subtitle: ''
-summary: ''
+summary: '南京师范大学2024年接收硕士推免生的招生工作开始了，详情见[南师研招](https://mp.weixin.qq.com/s/PmpkZ3lGTVbSZ5dBZNjcOA)，欢迎感兴趣的小伙伴加入Meta Self Lab~'
 authors: []
 lastmod: '2023-01-01T15:16:27+08:00'
 featured: no
@@ -22,9 +22,13 @@ projects: []
 
 <br>胡传鹏教授、博士生导师， 2017年于清华大学心理学系获得博士学位，2017 ~ 2020在德国莱布尼茨心理韧性研究所进行博士后研究。研究兴趣包括元科学(metascience)、认知建模和社会认知。以第一/通讯作者在Science Bulletin、Neuroscience & Beiobehavioral Reviews、科学通报等期刊发表中英论文22篇。担任学术期刊Advances in Methods and Practices in Psychological Science (影响因子 15.8)、Scientific Reports (影响因子 4.9)和Collabra: Psychology（影响因子 3）的编委，为Royal Society Open Science; Social Psychological and Personality Science等十余期刊审稿人。发起并主编OpenScience学术公众号，推广开放科学和可重复性的理念；联合创办了欧洲地区的华人心理与脑科学学会（Chinese Association for Psychological & Brain Science)。参与多项国际关于可重复性问题的大型合作项目，项目结果发表在Nature, Nature Human Behavior等。读博期间，完成过一次北京马拉松，是清华大学登山队（2014）队员，参与多次高海拔登山活动。
 
+![](./hcp.png)
+
 ## 二、课题组简介
 
 <br>本小组对人类如何处理与自我相关的信息感兴趣，采用“3M”方法:元科学(meta science)、(认知)建模(cognitive modeling)和(心理)测量(psychological measurement)。我们也在尝试将“3M”方法应用于现实世界中的心理健康问题。
+
+![](./3m.png)
 
 <br>本小组试图打造一个立足于中国现状，同时也国际化的研究团队。团队气氛上力图平等与自由。随着与研究生相处经验的增加，以及对教职员工作内容的熟悉，本人也慢慢更加清楚需要什么样的团队成员的加入，能够更加清晰透明地表达自己对未来团队成员的一些预期。以下是三点比较重要的预期。
 

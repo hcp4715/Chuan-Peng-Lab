@@ -59,6 +59,7 @@ subtitle = ""
 
 - 👉 [**More Details**](https://huchuanpeng.com/post/join-us/)
 
+- 🇨🇳 For Students in mainland China, please see this  [**blogpost**](https://huchuanpeng.com/zh/post/join-us/) for details
 
 
 

@@ -57,7 +57,7 @@ subtitle = ""
 
 - ✉️ 发送邮件到 hu.chuan-peng@nnu.edu.cn.
 
-- 👉 [**More Details**](https://mp.weixin.qq.com/s/yaWcRI_5RKGP6R__1iEUBw)
+- 👉 [**More Details**](https://huchuanpeng.com/zh/post/join-us/)
 
 
 
