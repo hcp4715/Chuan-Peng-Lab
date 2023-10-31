@@ -9,20 +9,22 @@ main:
     weight: 10
   - name: 团队
     url: '#project'
-    weight: 20
+    weight: 30
   - name: 出版物
     url: '#featured'
-    weight: 30
+    weight: 40
   - name: 合作者
     url: '#accomplishments'
-    weight: 40 
+    weight: 50 
   - name: 博文
     url: '#posts'
-    weight: 50
+    weight: 60
   - name: 联系我们
     url: '#contact'
-    weight: 60
-
+    weight: 80
+  - name: 加入我们
+    url: '#demo_join_us'
+    weight: 90
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
