@@ -33,3 +33,5 @@ I'm married to my work~
 {{< icon name="heart" pack="fas" >}} _Questionnaire, TidyCodes, PC, Anime_  
 {{< icon name="star" pack="fas" >}} _R Packages on GitHub: "yuki-961004/yukiSH" & "yuki-961004/yukiBP"_  
 {{< icon name="star" pack="fas" >}} _Honestly, I'm really best at is SEM_  
+
+[Easter egg](https://yukis-blog.netlify.app/post/egg/)
