@@ -15,6 +15,10 @@ tags:
   - python
 ---
 
+**<span style="color:red">
+Nov 10, 2023 update: We strongely recommend readers of this blog use [docker image](https://hub.docker.com/r/hcp4715/hddm) instead of conda/anaconda for installation, unless you are a big fun of debugging python errors.
+</span>**
+
 **Feburary 14, 2021 update: Please note that this blog post was outdated because of the updates of Anaconda/miniconda.**
 
 August 2020 update: I've created a [HDDM docker image](https://hub.docker.com/r/hcp4715/hddm), which can be easily installed and used after installing [docker](https://www.docker.com/).
