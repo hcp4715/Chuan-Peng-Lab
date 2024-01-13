@@ -12,7 +12,7 @@ authors:
 - Wen, J
 - Chuan-Peng, H
 date: "2023-09-08T00:00:00Z"
-doi: "10.12074/202207.00005V3"
+doi: "10.11922/11-6035.csd.2022.0047.zh"
 featured: false
 image:
   caption: ''
@@ -20,8 +20,8 @@ image:
   preview_only: false
 projects:
 - example
-publication: In *Chinaxiv*
-publication_short: In *Chinaxiv*
+publication: China Scientific Data
+publication_short: Chin Sci Data
 publication_types:
 - "2"
 publishDate: "2023-09-08T00:00:00Z"
@@ -30,8 +30,8 @@ summary: Self-reference (or self-referentialprocessing) refers to the cognitive 
 tags: []
 title: A cognitive ontological dataset for neuroimaging studies of self-reference
 url_code: ""
-url_dataset: ""
-url_pdf: ""
+url_dataset: "https://doi.org/10.57760/sciencedb.j00001.00469"
+url_pdf: "http://www.csdata.org/en/p/979/"
 url_poster: ""
 url_project: ""
 url_slides: ""
