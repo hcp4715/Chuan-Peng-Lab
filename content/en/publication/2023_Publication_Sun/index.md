@@ -1,10 +1,10 @@
 ---
-abstract: Self-reference (or self-referentialprocessing) refers to the cognitive processes underlying self-related information processing.It iswidely studied in cognitive neuroscience to betterunderstand the neural basis of self-cognitionof human beings.However, does the termself-reference mean the same psychological processes across studies? This fundamental question has been largely disregarded and has not received the attention it deserves. To fill the gap, webuiltanontological dataset based on neuroimaging studies ofself-reference.We searched theliterature and screened the articles following a standard protocol. Then,two independent codersextracted data and standardized operationalizations of self-reference onbothbehavioral and neural levels, resulting ina cognitive ontological datasetforneuroimaging studies ofself-reference. This dataset consists of operationalizations of self-reference (in CSV file format) from 66 neuroimaging articles, coordinates dataof brain areas activated by self-reference (in BrainMap format), and corresponding codebooks.The inter-rater reliability analysisindicatesthatthe coding process exhibits an exceptional level of quality. Compared with automatic meta-analytical platforms, i.e., Neurosynth, the current dataset provides a fine-grained granularity in article selection, which allows the comparison ofbrain regions activated by different operationalizationsof self-reference. This dataset lays a foundation for the understanding of neural mechanisms underlyingself-cognition. It mayalso facilitate the study of cognitive ontology by serving as an exemplary model for the creation of similar metascience datasets.
+abstract: Self-reference (or self-referential processing) refers to the cognitive processes underlying selfrelated information processing. It is widely studied in cognitive neuroscience to better understand the neural basis of self-cognition of human beings. However, does the term “self-reference” mean the same psychological processes across studies? This fundamental question has been largely disregarded and has not received the attention it deserves. To fill the gap, we built an ontological dataset based on neuroimaging studies of self-reference. We searched the literature and screened the articles following a standard protocol. Then, two independent coders extracted data and standardized operationalizations of self-reference on both behavioral and neural levels, resulting in a cognitive ontological dataset for neuroimaging studies of selfreference. This dataset consists of operationalizations of self-reference (in CSV file format) from 66 neuroimaging articles, coordinates data of brain areas activated by self-reference (in BrainMap format), and corresponding codebooks. The inter-rater reliability analysis indicates that the coding process exhibits an exceptional level of quality. Compared with automatic meta-analytical platforms, i.e., Neurosynth, the current dataset provides a fine-grained granularity in article selection, which allows the comparison of brain regions activated by different operationalizations of self-reference. This dataset lays a foundation for the understanding of neural mechanisms underlying self-cognition. It may also facilitate the study of cognitive ontology by serving as an exemplary model for the creation of similar metascience datasets.
 #no space  
 author_notes:
 - Equal contribution
-- Equal contribution
-- Equal contribution
+- 
+- 
 - Corresponding author
 authors:
 - Sun, S
@@ -21,7 +21,7 @@ image:
 projects:
 - example
 publication: China Scientific Data
-publication_short: Chin Sci Data
+publication_short: China Scientific Data
 publication_types:
 - "2"
 publishDate: "2023-09-08T00:00:00Z"

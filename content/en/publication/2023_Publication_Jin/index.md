@@ -52,7 +52,7 @@ image:
 projects:
 - COSN_accepted
 publication: In *Advances in Methods and Practices in Psychological Science*
-publication_short: In *Adv Methods Pract Psychol Sci.*
+publication_short: In *AMPPS*
 publication_types: 
 - "2"
 publishDate: "2023-03-27T00:00:00Z"
@@ -60,7 +60,7 @@ slides: example
 summary: Open Science is becoming a mainstream scientific ideology in psychology and related fields. However, researchers, especially early-career researchers (ECRs) in developing countries, are facing significant hurdles in engaging in Open Science and moving it forward. 
 tags: []
 title: The Chinese Open Science Network (COSN) Building an Open Science Community From Scratch
-url_code: ""
+url_code: "https://github.com/OpenSci-CN/COSN_AMPPS_Paper"
 url_dataset: ""
 url_pdf: ""
 url_poster: ""
