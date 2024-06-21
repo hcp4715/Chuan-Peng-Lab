@@ -35,7 +35,11 @@ content\en(zh)
 		demo_join_us: join us
 	post: blog posts
 	project: informations of team members
-	publication: publication
+	publication: 
+		index.md: title, abstract, publication date... [fill in all the information here]
+		cite.bib: copy from Google Scholar
+		featured.jpg: pic in paper
+
 
 static
 	To insert an image, please place the image here.
