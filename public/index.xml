@@ -5,12 +5,30 @@
     <link>https://chuan-peng-lab.netlify.app/</link>
       <atom:link href="https://chuan-peng-lab.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Chuan-Peng Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png</url>
       <title>Chuan-Peng Lab</title>
       <link>https://chuan-peng-lab.netlify.app/</link>
     </image>
+    
+    <item>
+      <title>Big-team science does not guarantee generalizability</title>
+      <link>https://chuan-peng-lab.netlify.app/publication/2024_publication_ghai/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/publication/2024_publication_ghai/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal Article&lt;/em&gt; button below abstract to check all other Journal Article in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Hu Chuan-Peng</title>
@@ -733,24 +751,6 @@ As an early career researcher who request data for the first time, I have learne
     </item>
     
     <item>
-      <title>The illusion of generalizability in one big team science study</title>
-      <link>https://chuan-peng-lab.netlify.app/publication/2023_preprint_ghai/</link>
-      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/publication/2023_preprint_ghai/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Preprint&lt;/em&gt; button below abstract to check all other Preprint in the website.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The WEIRD problem in a &#34;non-WEIRD&#34; context A meta-research on therepresentativeness of human subjects in Chinese psychological research</title>
       <link>https://chuan-peng-lab.netlify.app/publication/2023_preprint_yue/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
@@ -787,7 +787,7 @@ As an early career researcher who request data for the first time, I have learne
     </item>
     
     <item>
-      <title>Sequential Bayes Factor Analysis Balance Informativeness and Efficiency in Designing Experiments</title>
+      <title>贝叶斯因子序列分析：实验设计中平衡信息与效率的新方法</title>
       <link>https://chuan-peng-lab.netlify.app/publication/2023_publication_zheng_cn/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/publication/2023_publication_zheng_cn/</guid>
@@ -798,7 +798,7 @@ As an early career researcher who request data for the first time, I have learne
 &lt;/div&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Journal article in the website.
+    Click the &lt;em&gt;Journal Article&lt;/em&gt; button below abstract to check all other Journal Article in the website.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>

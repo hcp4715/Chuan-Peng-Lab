@@ -5,7 +5,7 @@
     <link>https://chuan-peng-lab.netlify.app/zh/publication/</link>
       <atom:link href="https://chuan-peng-lab.netlify.app/zh/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,9 +13,27 @@
     </image>
     
     <item>
-      <title>A cognitive ontological dataset for neuroimaging studies of self-reference</title>
+      <title>Big-team science does not guarantee generalizability</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/publication/2024_publication_ghai/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2024_publication_ghai/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Journal Article&lt;/em&gt; button below abstract to check all other Journal Article in the website.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>自我参照的神经成像认知本体论数据集</title>
       <link>https://chuan-peng-lab.netlify.app/zh/publication/2023_publication_sun/</link>
-      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/publication/2023_publication_sun/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -67,24 +85,6 @@
     </item>
     
     <item>
-      <title>The illusion of generalizability in one big team science study</title>
-      <link>https://chuan-peng-lab.netlify.app/zh/publication/2023_preprint_ghai/</link>
-      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/zh/publication/2023_preprint_ghai/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Preprint&lt;/em&gt; button below abstract to check all other Preprint in the website.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The WEIRD problem in a &#34;non-WEIRD&#34; context A meta-research on therepresentativeness of human subjects in Chinese psychological research</title>
       <link>https://chuan-peng-lab.netlify.app/zh/publication/2023_preprint_yue/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
@@ -121,7 +121,7 @@
     </item>
     
     <item>
-      <title>Sequential Bayes Factor Analysis Balance Informativeness and Efficiency in Designing Experiments</title>
+      <title>贝叶斯因子序列分析：实验设计中平衡信息与效率的新方法</title>
       <link>https://chuan-peng-lab.netlify.app/zh/publication/2023_publication_zheng_cn/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/zh/publication/2023_publication_zheng_cn/</guid>
@@ -132,7 +132,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Journal article&lt;/em&gt; button below abstract to check all other Journal article in the website.
+    Click the &lt;em&gt;Journal Article&lt;/em&gt; button below abstract to check all other Journal Article in the website.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
