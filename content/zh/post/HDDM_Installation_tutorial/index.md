@@ -50,51 +50,6 @@ tags:
 在设置->安装后选择启用WSL2引擎
 ![](HDDM安装教程__11.png)
 
-
-### 可选：配置数据和镜像源的存放位置 + 镜像源
-配置数据和镜像源的存放位置 + 镜像源, 这里配置的官方镜像，大家可以自行配置
-- 也可在 `C:\Users\<UserName>\.docker\daemon.json` 中进行设置
-- 其中，`"data-root":"d\\docker"` 设定了数据的存放位置。
-- `"registry-mirrors"` 设置了镜像源
-
-```
-{
-  "builder": {
-    "gc": {
-      "defaultKeepStorage": "20GB",
-      "enabled": true
-    }
-  },
-  "experimental": false,
-  "features": {
-    "buildkit": true
-  },
-  "data-root":"d\\docker",
-  "registry-mirrors": [
-	  "https://registry.docker-cn.com"
-  ]
-}
-```
-
-![](HDDM安装教程__12.png)
-
-### 可选：将 docker 移除 C 盘，以节省空间
-
-```
-wsl --export docker-desktop D:\docker\docker-desktop.tar
-wsl --export docker-desktop-data D:\docker\docker-desktop-data.tar
-wsl --export Ubuntu-22.04 D:\docker\Ubuntu-22.04.tar
-
-
-wsl --unregister docker-desktop
-wsl --unregister docker-desktop-data
-wsl --unregister Ubuntu-22.04
-
-wsl --import docker-desktop D:\docker\docker-desktop D:\docker\docker-desktop.tar --version 2
-wsl --import docker-desktop-data D:\docker\docker-desktop-data D:\docker\docker-desktop-data.tar --version 2
-wsl --import Ubuntu-22.04 D:\Ubuntu_2204 D:\docker\Ubuntu-22.04.tar --version 2
-```
-
 ### 正式安装 HDDM
 
 之后就可以在wsl命令行中使用docker了。
@@ -265,4 +220,48 @@ model = hddm.HDDMnn(data, model = model, include = ['v','a','t'])
 model.sample(1000)
 model.gen_stats()
 ```
+## 其他
 
+### 可选：配置数据和镜像源的存放位置 + 镜像源
+配置数据和镜像源的存放位置 + 镜像源, 这里配置的官方镜像，大家可以自行配置
+- 也可在 `C:\Users\<UserName>\.docker\daemon.json` 中进行设置
+- 其中，`"data-root":"d\\docker"` 设定了数据的存放位置。
+- `"registry-mirrors"` 设置了镜像源
+
+```
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "features": {
+    "buildkit": true
+  },
+  "data-root":"d\\docker",
+  "registry-mirrors": [
+	  "https://registry.docker-cn.com"
+  ]
+}
+```
+
+![](../../../zh/post/HDDM_Installation_tutorial/HDDM安装教程__12.png)
+
+### 可选：将 docker 移除 C 盘，以节省空间
+
+```
+wsl --export docker-desktop D:\docker\docker-desktop.tar
+wsl --export docker-desktop-data D:\docker\docker-desktop-data.tar
+wsl --export Ubuntu-22.04 D:\docker\Ubuntu-22.04.tar
+
+
+wsl --unregister docker-desktop
+wsl --unregister docker-desktop-data
+wsl --unregister Ubuntu-22.04
+
+wsl --import docker-desktop D:\docker\docker-desktop D:\docker\docker-desktop.tar --version 2
+wsl --import docker-desktop-data D:\docker\docker-desktop-data D:\docker\docker-desktop-data.tar --version 2
+wsl --import Ubuntu-22.04 D:\Ubuntu_2204 D:\docker\Ubuntu-22.04.tar --version 2
+```
