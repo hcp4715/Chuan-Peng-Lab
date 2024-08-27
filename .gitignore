@@ -4,5 +4,16 @@
 .Rhistory
 .RData
 .Ruserdata
-._*
 .Rhistory
+
+# MocOS file
+._*
+*/._*
+*/*/._*
+*/*/*/._*
+*/*/*/*/._*
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*/.DS_Store
+*/*/*/*/.DS_Store
