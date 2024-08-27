@@ -1,5 +1,8 @@
+
+# R related files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 ._*
+.Rhistory
