@@ -26,9 +26,9 @@ publication_types:
 - "2"
 publishDate: "2023-09-08T00:00:00Z"
 slides: example
-summary: Self-reference (or self-referentialprocessing) refers to the cognitive processes underlying self-related information processing.
+summary: Self-reference (or self-referential processing) refers to the cognitive processes underlying self-related information processing.
 tags: []
-title: A cognitive ontological dataset for neuroimaging studies of self-reference
+title: A cognitive ontological dataset for neuroimaging studies of self-reference (in Chinese)
 url_code: ""
 url_dataset: "https://doi.org/10.57760/sciencedb.j00001.00469"
 url_pdf: "http://www.csdata.org/en/p/979/"
