@@ -1,7 +1,8 @@
 ---
 abstract: Even after successful extinction, conditioned fear can return. Strengthening the consolidation of the fear-inhibitory safety memory formed during extinction is one way to counteract return of fear. In a previous study, we found that post-extinction L-DOPA administration improved extinction memory retrieval 24 h later. Furthermore, spontaneous post-extinction reactivations of a neural activation pattern evoked in the ventromedial prefrontal cortex (vmPFC) during extinction predicted extinction memory retrieval, L-DOPA increased the number of these reactivations, and this mediated the effect of L-DOPA on extinction memory retrieval. Here, we conducted a preregistered replication study of this work in healthy male participants. We confirm that spontaneous post-extinction vmPFC reactivations predict extinction memory retrieval. This predictive effect, however, was only observed 90 min after extinction, and was not statistically significant at 45 min as in the discovery study. In contrast to our previous study, we find no evidence that L-DOPA administration significantly enhances retrieval and that this is mediated by enhancement of the number of vmPFC reactivations. However, additional non-preregistered analyses reveal a beneficial effect of L-DOPA on extinction retrieval when controlling for the trait-like stable baseline levels of salivary alpha-amylase enzymatic activity. Further, trait salivary alpha-amylase negatively predicts retrieval, and this effect is reduced by L-DOPA treatment. Importantly, the latter findings result from non-preregistered analyses and thus further investigation is needed..
 author_notes:
-- 
+- Equal contribution
+- Equal contribution
 - 
 - 
 - 
