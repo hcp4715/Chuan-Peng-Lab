@@ -5,14 +5,18 @@ image:
   caption: Wanke Pan
   focal_point: Smart
 links:
+- icon: square-h
+  icon_pack: fas
+  name: omepage
+  url: https://homepage-panwanke.vercel.app/
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/EpoolPan
+  url: https://twitter.com/WankePan
 - icon: github
   icon_pack: fab
   name: Follow
-  url: https://github.com/Asynchro-Epool/
+  url: https://github.com/panwanke
 slides: example
 summary: __Sep. 2023 ~ Now__  <br/> Beneath the hanging rainbow in the sky, the joyful strong wind comes from the sea.
 tags:
