@@ -1,5 +1,5 @@
 ---
-date: "2020-09-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
 external_link: ""
 image:
   caption: 孙禾嘉
@@ -15,9 +15,9 @@ links:
   url: https://space.bilibili.com/9116293
     
 slides: example
-summary: __Sep. 2020 ~ Now__  <br/> 想去探索所有令人感动的事物
+summary: __Jun. 2024__  <br/> 想去探索所有令人感动的事物
 tags:
-- Undergraduate
+- Alumni
 title: 孙禾嘉
 url_code: ""
 url_pdf: ""

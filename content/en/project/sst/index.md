@@ -1,5 +1,5 @@
 ---
-date: "2021-09-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
 external_link: ""
 image:
   caption: Shuting Sun
@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://github.com/st1119
 slides: example
-summary: __Sep. 2021 ~ Now__  <br/> Interested in differences between people and brain plasticity.Love exploring new things.
+summary: __Sep. 2021 ~ Jun. 2024__  <br/> Interested in differences between people and brain plasticity.Love exploring new things.
 tags:
-- Postgraduate
+- Alumni
 title: Shuting Sun
 url_code: ""
 url_pdf: ""

@@ -1,5 +1,5 @@
 ---
-date: "2020-09-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
 external_link: ""
 image:
   caption: Hejia Sun
@@ -15,9 +15,9 @@ links:
   url: https://space.bilibili.com/9116293
     
 slides: example
-summary: __Sep. 2020 ~ Now__  <br/> I’m living in a fascinating planet.
+summary: __Sep. 2020 ~ Jun. 2024__  <br/> I’m living in a fascinating planet.
 tags:
-- Undergraduate
+- Alumni
 title: Hejia Sun
 url_code: ""
 url_pdf: ""

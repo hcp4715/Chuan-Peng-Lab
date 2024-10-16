@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: 2024年6月21日 --><html lang="zh-Hans" >
+<!-- Last Published: 2024年10月16日 --><html lang="zh-Hans" >
 
 
 <head>
@@ -1187,71 +1187,7 @@
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<h3 id="可选配置数据和镜像源的存放位置--镜像源">可选：配置数据和镜像源的存放位置 + 镜像源</h3>
-<p>配置数据和镜像源的存放位置 + 镜像源, 这里配置的官方镜像，大家可以自行配置</p>
-<ul>
-<li>也可在 <code>C:\Users\&lt;UserName&gt;\.docker\daemon.json</code> 中进行设置</li>
-<li>其中，<code>&quot;data-root&quot;:&quot;d\\docker&quot;</code> 设定了数据的存放位置。</li>
-<li><code>&quot;registry-mirrors&quot;</code> 设置了镜像源</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
-</span></span><span class="line"><span class="cl">  &#34;builder&#34;: {
-</span></span><span class="line"><span class="cl">    &#34;gc&#34;: {
-</span></span><span class="line"><span class="cl">      &#34;defaultKeepStorage&#34;: &#34;20GB&#34;,
-</span></span><span class="line"><span class="cl">      &#34;enabled&#34;: true
-</span></span><span class="line"><span class="cl">    }
-</span></span><span class="line"><span class="cl">  },
-</span></span><span class="line"><span class="cl">  &#34;experimental&#34;: false,
-</span></span><span class="line"><span class="cl">  &#34;features&#34;: {
-</span></span><span class="line"><span class="cl">    &#34;buildkit&#34;: true
-</span></span><span class="line"><span class="cl">  },
-</span></span><span class="line"><span class="cl">  &#34;data-root&#34;:&#34;d\\docker&#34;,
-</span></span><span class="line"><span class="cl">  &#34;registry-mirrors&#34;: [
-</span></span><span class="line"><span class="cl">	  &#34;https://registry.docker-cn.com&#34;
-</span></span><span class="line"><span class="cl">  ]
-</span></span><span class="line"><span class="cl">}
-</span></span></code></pre></div><p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_64341bfbdd9f9526dd9f616736dcf230.webp 400w,
-               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_53fa0f4fe468dd1b4ad2cdb1ccc84049.webp 760w,
-               /zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/zh/post/hddm_installation_tutorial/HDDM%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B__12_hu062b071e66f8068c69e23a4dabae478b_85476_64341bfbdd9f9526dd9f616736dcf230.webp"
-               width="760"
-               height="412"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<h3 id="可选将-docker-移除-c-盘以节省空间">可选：将 docker 移除 C 盘，以节省空间</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wsl --export docker-desktop D:\docker\docker-desktop.tar
-</span></span><span class="line"><span class="cl">wsl --export docker-desktop-data D:\docker\docker-desktop-data.tar
-</span></span><span class="line"><span class="cl">wsl --export Ubuntu-22.04 D:\docker\Ubuntu-22.04.tar
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">wsl --unregister docker-desktop
-</span></span><span class="line"><span class="cl">wsl --unregister docker-desktop-data
-</span></span><span class="line"><span class="cl">wsl --unregister Ubuntu-22.04
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">wsl --import docker-desktop D:\docker\docker-desktop D:\docker\docker-desktop.tar --version 2
-</span></span><span class="line"><span class="cl">wsl --import docker-desktop-data D:\docker\docker-desktop-data D:\docker\docker-desktop-data.tar --version 2
-</span></span><span class="line"><span class="cl">wsl --import Ubuntu-22.04 D:\Ubuntu_2204 D:\docker\Ubuntu-22.04.tar --version 2
-</span></span></code></pre></div><h3 id="正式安装-hddm">正式安装 HDDM</h3>
+<h3 id="正式安装-hddm">正式安装 HDDM</h3>
 <p>之后就可以在wsl命令行中使用docker了。
 找到 HDDM docker
 
@@ -1500,6 +1436,64 @@
 </span></span><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="n">hddm</span><span class="o">.</span><span class="n">HDDMnn</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">model</span> <span class="o">=</span> <span class="n">model</span><span class="p">,</span> <span class="n">include</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;v&#39;</span><span class="p">,</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;t&#39;</span><span class="p">])</span>
 </span></span><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">gen_stats</span><span class="p">()</span>
+</span></span></code></pre></div><h2 id="其他">其他</h2>
+<h3 id="可选配置数据和镜像源的存放位置--镜像源">可选：配置数据和镜像源的存放位置 + 镜像源</h3>
+<p>配置数据和镜像源的存放位置 + 镜像源, 这里配置的官方镜像，大家可以自行配置</p>
+<ul>
+<li>也可在 <code>C:\Users\&lt;UserName&gt;\.docker\daemon.json</code> 中进行设置</li>
+<li>其中，<code>&quot;data-root&quot;:&quot;d\\docker&quot;</code> 设定了数据的存放位置。</li>
+<li><code>&quot;registry-mirrors&quot;</code> 设置了镜像源</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">  &#34;builder&#34;: {
+</span></span><span class="line"><span class="cl">    &#34;gc&#34;: {
+</span></span><span class="line"><span class="cl">      &#34;defaultKeepStorage&#34;: &#34;20GB&#34;,
+</span></span><span class="line"><span class="cl">      &#34;enabled&#34;: true
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">  },
+</span></span><span class="line"><span class="cl">  &#34;experimental&#34;: false,
+</span></span><span class="line"><span class="cl">  &#34;features&#34;: {
+</span></span><span class="line"><span class="cl">    &#34;buildkit&#34;: true
+</span></span><span class="line"><span class="cl">  },
+</span></span><span class="line"><span class="cl">  &#34;data-root&#34;:&#34;d\\docker&#34;,
+</span></span><span class="line"><span class="cl">  &#34;registry-mirrors&#34;: [
+</span></span><span class="line"><span class="cl">	  &#34;https://registry.docker-cn.com&#34;
+</span></span><span class="line"><span class="cl">  ]
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="../../../zh/post/HDDM_Installation_tutorial/HDDM%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b__12.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h3 id="可选将-docker-移除-c-盘以节省空间">可选：将 docker 移除 C 盘，以节省空间</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wsl --export docker-desktop D:\docker\docker-desktop.tar
+</span></span><span class="line"><span class="cl">wsl --export docker-desktop-data D:\docker\docker-desktop-data.tar
+</span></span><span class="line"><span class="cl">wsl --export Ubuntu-22.04 D:\docker\Ubuntu-22.04.tar
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">wsl --unregister docker-desktop
+</span></span><span class="line"><span class="cl">wsl --unregister docker-desktop-data
+</span></span><span class="line"><span class="cl">wsl --unregister Ubuntu-22.04
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">wsl --import docker-desktop D:\docker\docker-desktop D:\docker\docker-desktop.tar --version 2
+</span></span><span class="line"><span class="cl">wsl --import docker-desktop-data D:\docker\docker-desktop-data D:\docker\docker-desktop-data.tar --version 2
+</span></span><span class="line"><span class="cl">wsl --import Ubuntu-22.04 D:\Ubuntu_2204 D:\docker\Ubuntu-22.04.tar --version 2
 </span></span></code></pre></div>
     </div>
 
