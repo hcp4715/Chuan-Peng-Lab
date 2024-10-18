@@ -5,8 +5,8 @@ author_notes:
 - 
 - Corresponding Author
 authors:
-- Weibiao Liu1
-- Zhiyi Chen2
+- Weibiao Liu
+- Zhiyi Chen
 - Chuan-Peng, H
 date: "2024-03-26T00:00:00Z"
 doi: "10.1360/TB-2024-0322"
