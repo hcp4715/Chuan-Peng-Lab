@@ -5,6 +5,7 @@
 .RData
 .Ruserdata
 .Rprofile
+.hugo_build.lock
 
 # MocOS file
 ._*
