@@ -27,7 +27,7 @@ slides: example
 summary: A new era of global ‘big-team science’studies has transformed human behaviour research.
 tags: []
 title: Big-team science does not guarantee generalizability
-url_code: ""
+url_code: "https://github.com/hcp4715/NHB_Globalization_Revisit"
 url_dataset: 
 url_pdf: 
 url_poster: ""
