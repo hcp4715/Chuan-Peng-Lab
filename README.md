@@ -45,4 +45,20 @@ static
 	To insert an image, please place the image here.
 
 no need editing other folders
+
 ```
+<!-- How to update introduction of the lab
+孟真，你能在这里把详细的步骤写一下吗？
+-->
+
+<!-- How to update team members's info
+孟真，你能在这里把详细的步骤写一下吗？
+-->
+
+<!-- How to add new Chinese publication:
+孟真，你能在这里把详细的步骤写一下吗？
+-->
+
+<!-- How to add new English publication:
+孟真，你能在这里把详细的步骤写一下吗？
+-->
