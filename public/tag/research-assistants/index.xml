@@ -49,18 +49,22 @@
     <item>
       <title>YuKi (Mengzhen Hu)</title>
       <link>https://chuan-peng-lab.netlify.app/project/hmz/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://chuan-peng-lab.netlify.app/project/hmz/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m married to my work~&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;NNU Master of Psychology(Currently Enrolled)&lt;/em&gt;&lt;br&gt;
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;NNU Master of Psychology(2021-2024)&lt;/em&gt;&lt;br&gt;
 
-  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Questionnaire, TidyCodes, PC, Anime&lt;/em&gt;&lt;br&gt;
+  &lt;i class=&#34;fas fa-heart  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Self-prioritization Effect, Decision Making, Reinforcement Learning&lt;/em&gt;&lt;br&gt;
 
-  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;R Packages on GitHub: &amp;ldquo;yuki-961004/yukiSH&amp;rdquo; &amp;amp; &amp;ldquo;yuki-961004/yukiBP&amp;rdquo;&lt;/em&gt;&lt;br&gt;
-
-  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;Honestly, I&amp;rsquo;m really best at is SEM&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yukis-blog.netlify.app/post/egg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Easter egg&lt;/a&gt;&lt;/p&gt;
+  &lt;i class=&#34;fas fa-star  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;for my own project, I always build a special R package&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;split-half data: &amp;ldquo;yuki-961004/yukiSH&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;calculating SPE:  &amp;ldquo;yuki-961004/yukiBP&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;reinforcement learning: &amp;ldquo;yuki-961004/yukiRL&amp;rdquo;&lt;/em&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/yuki-961004/yuki/blob/main/egg/egg.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;i class=&#34;fas fa-egg  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

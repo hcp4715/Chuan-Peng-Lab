@@ -1,14 +1,14 @@
 ---
-date: "2022-09-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
 external_link: ""
 image:
   caption: Jiachen Liu
   focal_point: Smart
 links:
 slides: example
-summary: __Jun. 2022 ~ Now__  <br/> The former advertising director, who loves digital,film and design, is now working hard for user research.
+summary: __Jun. 2022 ~ Jun. 2024__  <br/> The former advertising director, who loves digital,film and design, is now working hard for user research.
 tags:
-- Postgraduate
+- Alumni
 title: Jiachen Liu
 url_code: ""
 url_pdf: ""

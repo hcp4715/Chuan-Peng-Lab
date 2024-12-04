@@ -5,7 +5,7 @@
     <link>https://chuan-peng-lab.netlify.app/zh/tag/undergraduate/</link>
       <atom:link href="https://chuan-peng-lab.netlify.app/zh/tag/undergraduate/index.xml" rel="self" type="application/rss+xml" />
     <description>Undergraduate</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png</url>
       <title>Undergraduate</title>
@@ -13,14 +13,21 @@
     </image>
     
     <item>
-      <title>孙禾嘉</title>
-      <link>https://chuan-peng-lab.netlify.app/zh/project/shj/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/zh/project/shj/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://sengokucola.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;千石可乐的博客&lt;/a&gt;&lt;br&gt;
-想去探索所有令人感动的事物&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学心理学院&lt;/em&gt;&lt;/p&gt;
+      <title>陈思雨</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/csy/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/csy/</guid>
+      <description>&lt;p&gt;永远好奇因果，永远渴望真实；永远在探索自我，永远在寻找答案&amp;hellip;哲学和心理学成为我的药方，古典和爵士是我偏好的音乐风格。崇尚理性，保留质疑；如果有任何有趣的话题，我愿意与你一起发现更多。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>吕冬煦</title>
+      <link>https://chuan-peng-lab.netlify.app/zh/project/ldx/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/zh/project/ldx/</guid>
+      <description>&lt;p&gt;喜欢读书，喜欢古典音乐，喜欢大自然。一有闲暇就想去公园～
+希望能一直勇敢尝试，做自己真正热爱的事情。&lt;/p&gt;
 </description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://chuan-peng-lab.netlify.app/tag/undergraduate/</link>
       <atom:link href="https://chuan-peng-lab.netlify.app/tag/undergraduate/index.xml" rel="self" type="application/rss+xml" />
     <description>Undergraduate</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chuan-peng-lab.netlify.app/media/icon_hu3a6db96f210420c7d44d3ddf0142fcf7_129407_512x512_fill_lanczos_center_3.png</url>
       <title>Undergraduate</title>
@@ -13,14 +13,20 @@
     </image>
     
     <item>
-      <title>Hejia Sun</title>
-      <link>https://chuan-peng-lab.netlify.app/project/shj/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://chuan-peng-lab.netlify.app/project/shj/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://sengokucola.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;千石可乐的博客&lt;/a&gt;&lt;br&gt;
-想去探索所有令人感动的事物&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;em&gt;南京师范大学心理学院&lt;/em&gt;&lt;/p&gt;
+      <title>Dongxu Lv</title>
+      <link>https://chuan-peng-lab.netlify.app/project/ldx/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/project/ldx/</guid>
+      <description>&lt;p&gt;Reading, classical music, and the embrace of nature are my passions. I always enjoy spending leisure time in the park. I aspire to maintain the courage to try new things and to pursue what I truly love.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Siyu Chen</title>
+      <link>https://chuan-peng-lab.netlify.app/project/csy/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://chuan-peng-lab.netlify.app/project/csy/</guid>
+      <description>&lt;p&gt;I am such a curious girl thirsty for the truth of this world, and also trying to explore myself! Studying can be one of my interests. Besides, books related to psychology, ideas of philosophy and music which is classic or Jazz are all my favorites.  I love the rational thinking which means I am always ready to talk about any interesting but also critical topics with you.&lt;/p&gt;
 </description>
     </item>
     

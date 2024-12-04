@@ -1,24 +1,21 @@
 ---
-date: "2021-09-01T00:00:00Z"
+date: "2021-10-04T00:00:00Z"
 external_link: ""
 image:
   caption: YuKi (胡孟真)
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/YuKi_961004
-- icon: instagram
-  icon_pack: fab
-  name: Follow
-  url: https://www.instagram.com/yuki_961004/
 - icon: github
   icon_pack: fab
   name: Follow
-  url: https://github.com/sinnyuki
+  url: https://github.com/yuki-961004
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/yuki_961004
+
 slides: example
-summary: __Jun. 2022 ~ Now__  <br/>  环世界区居民
+summary: __Jun. 2022 ~ Now__  <br/>  不太聪明的样子
 tags:
 - Research Assistants
 title: YuKi (胡孟真)
@@ -27,9 +24,5 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-不喜欢文学和艺术的理科生不是好程序员
-
-{{< icon name="graduation-cap" pack="fas" >}} _南京师范大学，应用心理学硕士在读_  
-{{< icon name="heart" pack="fas" >}} _Questionnaire, TidyCodes, PC, Anime_  
-{{< icon name="star" pack="fas" >}} _R Packages on GitHub: "yuki-961004/yukiSH" & "yuki-961004/yukiBP"_  
-{{< icon name="star" pack="fas" >}} _Honestly, I'm really best at is SEM_  
+不想点开看看吗
+[{{< icon name="egg" pack="fas" >}}](https://htmlpreview.github.io/?https://github.com/yuki-961004/yuki/blob/main/egg/egg.html)
