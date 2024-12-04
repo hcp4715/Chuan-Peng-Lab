@@ -1,14 +1,14 @@
 ---
-date: "2022-09-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
 external_link: ""
 image:
   caption: 刘佳辰
   focal_point: Smart
 links:
 slides: example
-summary: __Jun. 2022 ~ Now__  <br/> 喜欢数码影视和设计的前广告导演，现在向着用研的目标努力学习，本体是兔子
+summary: __Jun. 2022 ~ Jun. 2024__  <br/> 喜欢数码影视和设计的前广告导演，现在向着用研的目标努力学习，本体是兔子
 tags:
-- Postgraduate
+- Alumni
 title: 刘佳辰
 url_code: ""
 url_pdf: ""

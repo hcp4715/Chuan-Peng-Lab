@@ -1,18 +1,22 @@
 ---
-date: "2023-10-01T00:00:00Z"
+date: "2024-10-01T00:00:00Z"
 external_link: ""
 image:
   caption: 潘晚坷
   focal_point: Smart
 links:
+- icon: square-h
+  icon_pack: fas
+  name: omepage
+  url: https://homepage-panwanke.vercel.app/
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/EpoolPan
+  url: https://twitter.com/WankePan
 - icon: github
   icon_pack: fab
   name: Follow
-  url: https://github.com/Asynchro-Epool/
+  url: https://github.com/panwanke
 slides: example
 summary: __Sep. 2023 ~ Now__  <br/> 垂天雌霓云端下，快意雄风海上来
 tags:

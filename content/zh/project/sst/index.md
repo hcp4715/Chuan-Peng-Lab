@@ -1,5 +1,5 @@
 ---
-date: "2021-09-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
 external_link: ""
 image:
   caption: 孙淑婷
@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://github.com/st1119
 slides: example
-summary: __Sep. 2021 ~ Now__  <br/> 竞走爱好者，喜欢反差和新奇事物，关注差异，热衷写作，学术小白。
+summary: __Sep. 2021 ~ Jun. 2024__  <br/> 竞走爱好者，喜欢反差和新奇事物，关注差异，热衷写作，学术小白。
 tags:
-- Postgraduate
+- Alumni
 title: 孙淑婷
 url_code: ""
 url_pdf: ""
