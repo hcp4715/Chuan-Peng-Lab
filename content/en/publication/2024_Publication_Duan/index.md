@@ -28,7 +28,7 @@ publication: In *Royal Society Open Science*
 publication_short: In *R Soc Open Sci*
 publication_types: 
 - "3"
-publishDate: "2024-08-13T00:00:00Z"
+publishDate: "2024-08-19T00:00:00Z"
 slides: example
 summary: Free will is assumed to be the core of an individual’s self-concept. Belief in free will has been studied extensively and was found to be correlated with many behavioral or psychological outcomes. 
 tags: []
@@ -48,5 +48,5 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 {{% /callout %}}
 
 {{% callout note %}}
-Click the _Preprint_ button below abstract to check all other Preprint in the website.
+Click the _Publication_ button below abstract to check all other Preprint in the website.
 {{% /callout %}}
