@@ -81,17 +81,18 @@ no need editing other folders
 2. 修改cite.bib, 该内容可以在Google scholar上复制得到
 3. 修改featured.jpg, 可以使用该文章内的任意一张图片
 4. 修改index.md (没有提到的可以不改)
-	abstract: 这部分直接复制文章的摘要. 但是注意不能有冒号
-	author_notes: 代表作者右上角的上标. 可以不写
-	authors: 作者的名字
-	date: 按照现有格式修改时间
-	doi: 正常填写doi
-	featured: 表示这张图片是否显示在主页预览中. 只有true会显示在主页上. false意味着显示在更多中
-	publication: 期刊
-	publication_short: 期刊的缩写名字. 也可以填全名
-	publication_types: 不同的数字代表发表方式, 一般是2(期刊), 1是会议文章. 3是preprint
-	summary: 显示在主页上的缩略介绍. 一般选择摘要的第一句话
-	title: 标题
+	abstract: 这部分直接复制文章的摘要. 但是注意不能有冒号 \
+	author_notes: 代表作者右上角的上标. 可以不写 \
+	authors: 作者的名字 \
+	date: 按照现有格式修改时间 \
+	doi: 正常填写doi \
+	featured: 表示这张图片是否显示在主页预览中. 只有true会显示在主页上. false意味着显示在更多中 \
+	publication: 期刊 \
+	publication_short: 期刊的缩写名字. 也可以填全名 \
+	publication_types: 不同的数字代表发表方式, 一般是2(期刊), 1是会议文章. 3是preprint \
+	summary: 显示在主页上的缩略介绍. 一般选择摘要的第一句话 \
+	title: 标题 \
+	
 "---" 分割线下方部分, 
 	Click the _Preprint_ button below abstract to check all other Preprint in the website.
 	注意这句话与上面的publication_types一致就行
