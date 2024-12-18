@@ -1,14 +1,14 @@
 ---
 title: Join Us
 author: ''
-date: '2024-12-18'
+date: '2023-01-11'
 slug: join_us
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2024-12-18T14:59:48+08:00'
+lastmod: '2023-01-11T14:59:48+08:00'
 featured: no
 draft: no
 image:
