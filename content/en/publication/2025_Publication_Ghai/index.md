@@ -24,8 +24,8 @@ image:
   focal_point: ""
   preview_only: false
 projects: ""
-publication: In *communications psychology *
-publication_short: In *communications psychology *
+publication: In *Communications Psychology*
+publication_short: In *Comm Psychol*
 publication_types: 
 - "2"
 publishDate: "2025-01-29T00:00:00Z"

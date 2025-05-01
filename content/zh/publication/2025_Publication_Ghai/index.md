@@ -24,8 +24,8 @@ image:
   focal_point: ""
   preview_only: false
 projects: ""
-publication: In *communications psychology *
-publication_short: In *communications psychology *
+publication: In *Communications Psychology*
+publication_short: In *Comm Psychol*
 publication_types: 
 - "2"
 publishDate: "2025-01-29T00:00:00Z"
@@ -35,7 +35,7 @@ tags: []
 title: A manifesto for a globally diverse, equitable, and inclusive open science
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "https://www.nature.com/articles/s44271-024-00179-1"
 url_poster: ""
 url_project: ""
 url_slides: ""

@@ -21,14 +21,14 @@ image:
   preview_only: false
 projects: ""
 publication: In *Advances in Methods and Practices in Psychological Science*
-publication_short: In *Advances in Methods and Practices in Psychological Science*
+publication_short: In *AMPPS*
 publication_types: 
 - "2"
 publishDate: "2025-02-13T00:00:00Z"
 slides: example
 summary: Drift-diffusion models (DDMs) are pivotal in understanding evidence-accumulation processes during decision-making across psychology, behavioral economics, neuroscience, and psychiatry.
 tags: []
-title: dockerHDDM A User-Friendly Environment for Bayesian Hierarchical Drift-Diffusion Modeling
+title: "dockerHDDM: A User-Friendly Environment for Bayesian Hierarchical Drift-Diffusion Modeling"
 url_code: ""
 url_dataset: ""
 url_pdf: ""
