@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep. 2023 ~ Now__  <br/> Live in the moment.
+summary: __Sep. 2023 ~ Jun. 2025__  <br/> Live in the moment.
 tags:
-- Postgraduate
+- Alumni
 title: Zhipeng Qiu (Cesare)
 url_code: ""
 url_pdf: ""

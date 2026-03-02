@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep. 2023 ~ Now__  <br/> 活在当下.
+summary: __Sep. 2023 ~ Jun. 2025__  <br/> 活在当下.
 tags:
-- Postgraduate
+- Alumni
 title: 邱志鹏 (Cesare)
 url_code: ""
 url_pdf: ""

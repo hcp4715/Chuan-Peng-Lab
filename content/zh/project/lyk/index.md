@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep. 2022 ~ Now__  <br/> 爱猫人士
+summary: __Sep. 2022 ~ Jun. 2025__  <br/> 爱猫人士
 tags:
-- Postgraduate 
+- Alumni
 title: 刘逸康
 url_code: ""
 url_pdf: ""
