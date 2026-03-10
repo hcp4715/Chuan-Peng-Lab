@@ -27,3 +27,5 @@ resources/_gen/
 *_files/
 # Sisyphus work files
 .sisyphus/
+
+/to_be_added_pubs
