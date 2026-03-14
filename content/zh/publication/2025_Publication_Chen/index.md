@@ -17,7 +17,7 @@ publication: In *心理科学进展*
 publication_short: In *心理科学进展*
 publication_types:
 - "2"
-publishDate: "2025-01-01T00:00:00Z"
+publishDate: "2025-12-01T00:00:00Z"
 slides: ""
 summary: 基于证据积累的认知决策神经网络模型为模拟人类决策全过程提供了新途径, 推动对人类认知的深入理解。
 tags: []
