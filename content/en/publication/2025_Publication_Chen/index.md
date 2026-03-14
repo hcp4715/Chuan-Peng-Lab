@@ -17,11 +17,11 @@ publication: In *Advances in Psychological Science*
 publication_short: In *Adv Psychol Sci*
 publication_types:
 - "2"
-publishDate: "2025-01-01T00:00:00Z"
+publishDate: "2025-12-01T00:00:00Z"
 slides: ""
 summary: Cognitive Decision Neural Networks based on evidence accumulation framework enable in silico modeling of human decision-making, providing a novel approach to understanding cognitive processes.
 tags: []
-title: Cognitive decision neural networks based on evidence accumulation framework
+title: Cognitive decision neural networks based on evidence accumulation framework (in Chinese)
 url_code: ""
 url_dataset: ""
 url_pdf: ""
