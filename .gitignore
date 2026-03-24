@@ -1,5 +1,6 @@
 
 # R related files
+*.Rproj
 .Rproj.user
 .Rhistory
 .RData
@@ -18,3 +19,13 @@
 */*/.DS_Store
 */*/*/.DS_Store
 */*/*/*/.DS_Store
+public/
+# Local Hugo/blogdown generated intermediates
+resources/_gen/
+*.utf8.md
+*.knit.md
+*_files/
+# Sisyphus work files
+.sisyphus/
+
+/to_be_added_pubs

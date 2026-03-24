@@ -1,0 +1,178 @@
+{{/* Portfolio Widget - Updated 2026-02-25 */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+{{ $view := $st.Params.design.view | default "masonry" }}
+
+{{/* Require Isotope */}}
+{{ $.Page.Store.Set "has_isotope" true }}
+
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+
+  {{ with $st.Content }}{{ . }}{{ end }}
+
+  {{ if $st.Params.content.filter_button }}
+
+    {{ $filter_default := default (int $st.Params.content.filter_default) 0 }}
+
+    {{/* Parse default filter tag from front matter in the form of either tag name or CSS class name. */}}
+    {{ $default_filter_item := (index $st.Params.content.filter_button ($filter_default)) }}
+    {{ $default_data_filter := "" }}
+    {{ with $default_filter_item.filter }}
+      {{ $default_data_filter = . }}
+    {{ else }}
+      {{ $default_filter_tag := $default_filter_item.tag }}
+      {{ if or (eq (substr $default_filter_tag 0 1) "*") (eq (substr $default_filter_tag 0 1) ".") }}
+        {{ $default_data_filter = $default_filter_tag }}
+      {{ else }}
+        {{ $default_data_filter = printf ".js-id-%s" (lower (replace $default_filter_tag " " "-")) }}
+      {{ end }}
+    {{end}}
+
+    <span class="d-none default-project-filter">{{ $default_data_filter }}</span>
+
+    {{/* Only show filter buttons if there are multiple filters. */}}
+    {{ if gt (len $st.Params.content.filter_button) 1 }}
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar {{if eq $columns "1"}}d-flex justify-content-center{{end}}">
+          <div class="btn-group flex-wrap">
+            {{ range $idx, $item := $st.Params.content.filter_button }}
+              {{/* Parse filter tag from front matter in the form of either tag name or CSS class name. */}}
+              {{ $data_filter := "" }}
+              {{ with .filter }}
+                {{ $data_filter = . }}
+              {{ else }}
+                {{ $filter_tag := .tag }}
+                {{ if or (eq (substr $filter_tag 0 1) "*") (eq (substr $filter_tag 0 1) ".") }}
+                  {{ $data_filter = $filter_tag }}
+                {{ else }}
+                  {{ $data_filter = printf ".js-id-%s" (lower (replace $filter_tag " " "-")) }}
+                {{ end }}
+              {{ end }}
+              <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}" class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">{{ $item.name }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+
+  <div class="{{ if or $st.Params.content.filter_button (in (slice "masonry" 3) $view) }}isotope projects-container{{end}} {{if in (slice "masonry" 3) $view}}js-layout-masonry{{else}}row js-layout-row{{end}} {{ if eq $view "showcase" }}project-showcase{{end}}">
+
+    {{/* Query */}}
+    {{ $query := site.Pages }}
+
+    {{/* Filters */}}
+    {{ with $st.Params.content.page_type }}
+      {{/* Legacy filter, superseded by `filters.folders` */}}
+      {{ $query = where $query "Type" . }}
+    {{ end }}
+    {{ with $st.Params.content.filters.folders }}
+      {{ $query = where $query "Section" "in" . }}
+    {{ end }}
+    {{ with $st.Params.content.filters.tags }}
+      {{ $query = where $query "Params.tags" "intersect" . }}
+    {{ end }}
+    {{ with $st.Params.content.filters.exclude_tags }}
+      {{ $query = $query | symdiff (where site.Pages "Params.tags" "intersect" .) }}
+    {{ end }}
+    {{ with ($st.Params.content.filters.kinds | default (slice "page")) }}
+      {{ $query = where $query "Kind" "in" . }}
+    {{ end }}
+
+    {{/* Custom sorting: PI first, then current members alphabetically, then Alumni by departure date descending */}}
+    {{ $pi_members := slice }}
+    {{ $current_members := slice }}
+    {{ $alumni_members := slice }}
+
+    {{/* Separate members into three groups */}}
+    {{ range $query }}
+      {{ $summary := .Params.summary }}
+      {{ $is_pi := false }}
+      {{ $is_alumni := false }}
+      {{ $is_current := false }}
+
+      {{/* Check member type */}}
+      {{ if in .Params.tags "Principal Investigator" }}
+        {{ $is_pi = true }}
+      {{ else if in .Params.tags "Alumni" }}
+        {{ $is_alumni = true }}
+      {{ else }}
+        {{ $is_current = true }}
+      {{ end }}
+
+      {{/* Process based on member type */}}
+      {{ if $is_pi }}
+        {{/* PI member - no date processing needed */}}
+        {{ $pi_members = $pi_members | append (dict "page" . "sortable_date" "00000000" "title" .Title) }}
+      {{ else if $is_current }}
+        {{/* Current member - use far future date for sorting, will be sorted alphabetically */}}
+        {{ $current_members = $current_members | append (dict "page" . "sortable_date" "99999999" "title" .Title) }}
+      {{ else if $is_alumni }}
+        {{/* Alumni member - extract departure date */}}
+        {{ $end_date := "" }}
+        {{ $sortable_date := "00000000" }}
+
+        {{/* Extract LAST date from date range using regex */}}
+        {{ $all_matches := findRE "~\\s*([A-Za-z]+\\.\\s*\\d{4})" $summary -1 }}
+        {{ if $all_matches }}
+          {{/* Get the last match (departure date) and convert to string */}}
+          {{ $last_match := printf "%s" (index $all_matches (sub (len $all_matches) 1)) }}
+          {{ $end_date = $last_match }}
+
+          {{/* Parse month and year */}}
+          {{ $month_year := strings.TrimPrefix "~ " $last_match }}
+          {{ $parts := split $month_year " " }}
+          {{ $month_abbr := index $parts 0 }}
+          {{ $year := index $parts 1 }}
+          {{ $month_num := partial "month-to-number.html" $month_abbr }}
+          {{ $sortable_date = printf "%04d%02d" (int $year) $month_num }}
+        {{ else if findRE "~\\s*Now" $summary }}
+          {{ $end_date = "~ Now" }}
+          {{ $sortable_date = "99999999" }}
+        {{ end }}
+
+        {{ $alumni_members = $alumni_members | append (dict "page" . "end_date" $end_date "sortable_date" $sortable_date "title" .Title) }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Sort each group */}}
+    {{/* PI members: keep as-is (only one PI) */}}
+    {{ $sorted_pi := $pi_members }}
+
+    {{/* Current members: sort alphabetically by title */}}
+    {{ $sorted_current := sort $current_members "title" "asc" }}
+
+    {{/* Alumni members: sort by departure date desc, then by title asc for tie-breaker */}}
+    {{ $sorted_alumni := sort $alumni_members "sortable_date" "desc" }}
+    {{ $sorted_alumni = sort $sorted_alumni "title" "asc" }}
+
+    {{/* Combine groups in correct order: PI → current → alumni */}}
+    {{ $sorted_query := slice }}
+    {{ range $sorted_pi }}
+      {{ $sorted_query = $sorted_query | append .page }}
+    {{ end }}
+    {{ range $sorted_current }}
+      {{ $sorted_query = $sorted_query | append .page }}
+    {{ end }}
+    {{ range $sorted_alumni }}
+      {{ $sorted_query = $sorted_query | append .page }}
+    {{ end }}
+
+    {{ range $index, $item := $sorted_query }}
+      {{ $js_tag_classes := delimit (apply (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") "lower" ".") " " }}
+        {{ if in (slice "masonry" 3) $view }}
+          <div class="project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+        {{else}}
+          <div class="col-12 isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+        {{end}}
+        {{ partial "functions/render_view" (dict "page" $st "item" . "view" $view "index" $index) }}
+      </div>
+    {{end}}
+
+  </div>
+</div>

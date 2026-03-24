@@ -21,9 +21,10 @@ url_video: ""
 ---
 A PhD student in Psychology at Nanjing Normal University.
 
-I enjoy trying various sports and love cats. <br>
-I’m waiting for a little stray cat to find its way to me. <br>
-Early bedtime, regular exercise, and a healthy lifestyle.
+**Strengths**: good appetite, not picky <br>
+**Specialties**: fast at eating, fast at falling asleep — eat well, sleep well <br>
+**Hobbies**: trying out different sports, petting and sniffing cats, currently recruiting a cat that willingly shows up at my door <br>
+**Daily routine**: early sleep, exercise, focus, wellness
 
 
 

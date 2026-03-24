@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep. 2022 ~ Now__  <br/> I love cats
+summary: __Sep. 2022 ~ Jun. 2025__  <br/> I love cats
 tags:
-- Postgraduate 
+- Alumni
 title: Yikang Liu
 url_code: ""
 url_pdf: ""

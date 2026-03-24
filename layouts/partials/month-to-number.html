@@ -1,0 +1,22 @@
+{{/*
+  monthToNumber - Convert month abbreviation to numeric value for date comparison
+
+  Usage:
+  {{ $month_num := partial "month-to-number.html" "Sep." }}
+
+  Parameters:
+  - $month_abbr - Month abbreviation (e.g., "Jan.", "Feb.", "Mar.", etc.)
+
+  Returns:
+  - Numeric month value (1-12) or 0 if not found
+*/}}
+{{- $month_abbr := . -}}
+{{- $month_num := 0 -}}
+
+{{- range $key, $value := dict "Jan." 1 "Feb." 2 "Mar." 3 "Apr." 4 "May." 5 "Jun." 6 "Jul." 7 "Aug." 8 "Sep." 9 "Oct." 10 "Nov." 11 "Dec." 12 -}}
+  {{- if eq $month_abbr $key -}}
+    {{- $month_num = $value -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $month_num -}}
