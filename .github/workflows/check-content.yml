@@ -1,0 +1,26 @@
+name: Check Content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate front matter
+        run: python .github/scripts/validate_frontmatter.py
+
+      - name: Check i18n sync
+        run: python .github/scripts/check_i18n_sync.py
