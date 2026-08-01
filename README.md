@@ -220,9 +220,26 @@ blogdown::build_site()   # 构建网站
 - 运行 `blogdown::serve_site()` 预览
 
 #### 成员离组
-- 将标签改为 `Alumni`
-- 更新 `summary` 中的时间范围（如 `__2022年9月 ~ 2024年6月__`）
-- 更新进行中项目的信息
+
+**推荐使用自动脚本**（一键更新中英文的 `tags` 和 `summary` 时间范围）：
+
+```bash
+python .github/scripts/mark_alumni.py <姓名缩写>... --end "2026"
+```
+
+例如：
+
+```bash
+python .github/scripts/mark_alumni.py wjq zrz zss --end "2026"
+```
+
+- 脚本会同时更新 `content/en/project/` 和 `content/zh/project/` 下的文件：`tags` 改为 `Alumni`，`summary` 时间范围由 `__Sep. 2023 ~ Now__` 改为 `__Sep. 2023 ~ 2026__`
+- `--start` 可省略（自动读取现有起始时间）；加 `--dry-run` 可先预览而不写入
+
+脚本不涉及的内容，需手动检查：
+- 正文中的"在读"等时效性信息
+- 进行中项目的关联信息
+- 用 `blogdown::serve_site()` 预览，提交推送（CI 会校验所有 Alumni 成员已填写结束时间、中英文一致）
 
 ### 论文信息变更
 
@@ -397,8 +414,8 @@ diff <(ls content/en/project) <(ls content/zh/project)
 - [ ] 提交并推送到 GitHub
 
 #### 成员离组
-- [ ] 将标签改为 `Alumni`（英文和中文）
-- [ ] 更新 `summary` 中的时间范围
+- [ ] 运行 `python .github/scripts/mark_alumni.py {姓名缩写} --end "2026"`（或手动改 `tags` 和 `summary`）
+- [ ] 更新正文中"在读"等时效性信息
 - [ ] 更新进行中项目的信息
 - [ ] 预览并确认
 - [ ] 提交并推送到 GitHub
