@@ -43,6 +43,8 @@
 4. 运行 `blogdown::build_site()` 构建网站
 5. 提交并推送到 GitHub，Netlify 会自动构建部署
 
+> 🤖 **新成员可以用 AI 自动更新**：本仓库的 `AGENTS.md` 是给 AI 助手的维护指南。你可以直接让 AI 助手（Claude、ChatGPT 等）读取 `AGENTS.md`，然后按下方各任务的模板（`templates/` 提交区）帮你自动完成成员/论文/博客的更新——只需提供信息，AI 会填模板、跑脚本、生成中英文内容。
+
 ### 技术栈
 
 | 组件 | 说明 |
@@ -167,6 +169,8 @@ blogdown::build_site()   # 构建网站
 
 ### 成员信息变更
 
+> 💡 **AI 自动更新（推荐新成员使用）**：你可以直接让 AI 助手完成整个流程——AI 会读取仓库里的 `AGENTS.md` 维护指南、按照 `templates/member/_template.md` 的格式填写你的信息、运行 `python .github/scripts/add_member.py templates/member/` 自动生成中英文页面。你只需告诉 AI 你的姓名、角色和简介（以及一张头像图片）即可。也可以手动把填写好的信息放入 `templates/member/` 提交区。
+
 #### 文件路径
 - 英文：`content/en/project/{姓名全拼}/index.md`
 - 中文：`content/zh/project/{姓名全拼}/index.md`
@@ -242,6 +246,8 @@ python .github/scripts/mark_alumni.py wjq zrz zss --end "2026"
 - 用 `blogdown::serve_site()` 预览，提交推送（CI 会校验所有 Alumni 成员已填写结束时间、中英文一致）
 
 ### 论文信息变更
+
+> 💡 **AI 自动更新（推荐）**：只需给 AI 提供论文标题、作者和 DOI（或直接给 BibTeX），AI 会按照 `templates/publication/_template.md` 的格式填写并运行 `python .github/scripts/add_publication.py templates/publication/`，自动生成中英文论文页（包括用 Crossref 自动补全卷期号、年份和摘要）。也可手动把填写好的模板放入 `templates/publication/` 提交区。
 
 #### 文件路径
 - 英文：`content/en/publication/{年份_Publication_第一作者}/`
@@ -336,6 +342,8 @@ python .github/scripts/mark_alumni.py wjq zrz zss --end "2026"
 5. 本地预览确认，提交推送，CI 通过后自动部署
 
 ### 添加博客文章
+
+> 💡 **AI 自动更新（推荐）**：把文章标题、摘要和正文告诉 AI，AI 会按照 `templates/post/_template.md` 的格式填写并运行 `python .github/scripts/add_post.py templates/post/` 自动创建中英文文章页。也可手动把写好的文章放入 `templates/post/` 提交区。
 
 #### 文件路径
 - 英文：`content/en/post/{日期-标题}/index.md`
