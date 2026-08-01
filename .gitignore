@@ -19,6 +19,9 @@ _cache/
 *.utf8.md
 *.knit.md
 *_files/
+# Python (CI 脚本)
+__pycache__/
+*.pyc
 # Sisyphus work files
 .sisyphus/
 
