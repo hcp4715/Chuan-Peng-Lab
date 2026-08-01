@@ -18,7 +18,7 @@ authors:
 - Hu Chuan-Peng
 - Sing-Hang Cheung
 - Jingwen Jin
-date: "2025-01-01T00:00:00Z"
+date: "2026-01-01T00:00:00Z"
 doi: "10.1037/emo0001595"
 featured: false
 image:
@@ -30,7 +30,7 @@ publication: In *Emotion*
 publication_short: In *Emotion*
 publication_types:
 - "2"
-publishDate: "2025-01-01T00:00:00Z"
+publishDate: "2026-01-01T00:00:00Z"
 slides: example
 summary: How we detect and perceive threats and other emotional objects has long been a central theme in affective science research.
 tags: []

@@ -16,7 +16,7 @@ authors:
 - Peng, K
 - Guo, H
 - Sui, J
-date: "2015-12-13T00:00:00Z"
+date: "2016-01-01T00:00:00Z"
 doi: "110.1016/j.neubiorev.2015.12.003"
 featured: true
 image:
@@ -28,7 +28,7 @@ publication: In *Neuroscience & Biobehavioral Reviews*
 publication_short: In *Neurosci Biobehav Rev*
 publication_types: 
 - "2"
-publishDate: "2015-12-13T00:00:00Z"
+publishDate: "2016-01-01T00:00:00Z"
 slides: example
 summary: The neural representation of self is a fundamental question for brain research. Employing activation likelihood estimation (ALE) meta-analyses, we assessed the commonalities and distinctions between different components of the self by focusing on the ‘physical’ self and the ‘psychological’ self – assessed respectively through face processing and self-referential tasks.
 tags: []

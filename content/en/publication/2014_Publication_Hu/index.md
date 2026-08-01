@@ -7,7 +7,7 @@ authors:
 - Hu, C
 - Jiang, X
 date: "2014-10-28T00:00:00Z"
-doi: "10.1017/S0140525X16001035"
+doi: "10.3389/fnhum.2014.00873"
 featured: false
 image:
   caption: 'Image credit: [**Fig1**]()'
