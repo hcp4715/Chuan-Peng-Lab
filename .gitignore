@@ -8,20 +8,14 @@
 .Rprofile
 .hugo_build.lock
 
-# MocOS file
+# macOS files (bare patterns match at any depth)
 ._*
-*/._*
-*/*/._*
-*/*/*/._*
-*/*/*/*/._*
 .DS_Store
-*/.DS_Store
-*/*/.DS_Store
-*/*/*/.DS_Store
-*/*/*/*/.DS_Store
 public/
 # Local Hugo/blogdown generated intermediates
 resources/_gen/
+resources/_cache/
+_cache/
 *.utf8.md
 *.knit.md
 *_files/

@@ -8,35 +8,10 @@ en:
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
+# Second language.
+# NOTE: Navigation menus are defined ONLY in menus.yaml / menus.zh.yaml.
 zh:
   languageCode: zh-Hans
   contentDir: content/zh
   title: 传鹏的实验室
-#  params:
   description: 传鹏的实验室
-#  menu:
-  main:
-  - name: Home
-    url: '#about'
-    weight: 10
-  - name: 文章
-    url: '#posts'
-    weight: 20
-  - name: 团队
-    url: '#project'
-    weight: 30
-  - name: 发表作品
-    url: '#featured'
-    weight: 40
-  - name: 标签
-    url: '#tags'
-    weight: 50
-  - name: 联系我们
-    url: '#contact'
-    weight: 60
-
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
