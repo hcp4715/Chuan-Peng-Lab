@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://github.com/SiyuChen1111
 slides: example
-summary: __Sep. 2024 ~ Now__ <br/> Live my life to the fullest.
+summary: __Sep. 2024 ~ 2026__ <br/> Live my life to the fullest.
 tags:
-- Undergraduate 
+- Alumni
 title: Dongxu Lv
 url_code: ""
 url_pdf: ""

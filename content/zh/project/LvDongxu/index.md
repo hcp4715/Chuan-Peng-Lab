@@ -10,9 +10,9 @@ links:
   name: Follow
   url: https://github.com/SiyuChen1111
 slides: example
-summary: __Sep. 2024 ~ Now__ <br/> 徐行不踬
+summary: __Sep. 2024 ~ 2026__ <br/> 徐行不踬
 tags:
-- Undergraduate 
+- Alumni
 title: 吕冬煦
 url_code: ""
 url_pdf: ""
