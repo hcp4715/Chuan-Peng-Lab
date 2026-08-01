@@ -12,7 +12,7 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- csy
+- ChenSiyu
 publication: In *Advances in Psychological Science*
 publication_short: In *Adv Psychol Sci*
 publication_types:

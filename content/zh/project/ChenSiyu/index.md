@@ -13,7 +13,7 @@ slides: example
 summary: __Sep. 2024 ~ Now__ <br/> 专注，清醒，自洽。
 tags:
 - Undergraduate 
-title: 陈思雨
+title: 陈思羽
 url_code: ""
 url_pdf: ""
 url_slides: ""
