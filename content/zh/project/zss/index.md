@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep. 2023 ~ Now__  <br/> 人生是旷野 不是轨道
+summary: __Sep. 2023 ~ 2026__  <br/> 人生是旷野 不是轨道
 tags:
-- Postgraduate
+- Alumni
 title: 朱珊珊
 url_code: ""
 url_pdf: ""

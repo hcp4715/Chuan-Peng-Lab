@@ -6,9 +6,9 @@ image:
   focal_point: Smart
 links: 
 slides: example
-summary: __Sep. 2023 ~ Now__  <br/> 主动的人先享受世界
+summary: __Sep. 2023 ~ 2026__  <br/> 主动的人先享受世界
 tags:
-- Postgraduate
+- Alumni
 title: 张睿哲
 url_code: ""
 url_pdf: ""
