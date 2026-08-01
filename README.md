@@ -490,6 +490,16 @@ abstract: "Social evaluation, i.e., how people judge others..."
 如果两人姓名缩写相同：
 - 添加数字后缀：`csy`、`csy2`
 
+### 构建后出现名为 `'public'` 的目录
+通过 Rscript（非 RStudio 交互会话）运行 `blogdown::build_site()` 时，blogdown 会把输出目录名转义为 `-d 'public'`，经 `system2` 传给 hugo 时引号未被剥离，导致生成一个**名字含单引号**的 `'public'` 目录。它与正常构建产物 `public/` 内容重复，是垃圾目录，直接删除即可：
+
+```bash
+rm -rf "'public'"
+```
+
+- 它是未跟踪目录（不被 `public/` 忽略规则匹配），会在 `git status` 显示为 `?? 'public'/`
+- 建议日常构建使用 RStudio 的 `blogdown::serve_site()` / `build_site()`，可避免此问题
+
 ---
 
 *最后更新：2026年8月*
