@@ -125,8 +125,8 @@ blogdown::build_site()   # 构建网站
 
 | 想做什么 | 操作位置 | 关键步骤 |
 |---|---|---|
-| 添加新成员 | `content/{en,zh}/project/{缩写}/` | 复制现有成员文件夹 → 改 `index.md` → 换 `featured.jpg` 头像 |
-| 编辑成员信息 | `content/{en,zh}/project/{缩写}/index.md` | 改 `tags`（角色）与 `summary` |
+| 添加新成员 | `content/{en,zh}/project/{姓名全拼}/` | 复制现有成员文件夹 → 改 `index.md` → 换 `featured.jpg` 头像 |
+| 编辑成员信息 | `content/{en,zh}/project/{姓名全拼}/index.md` | 改 `tags`（角色）与 `summary` |
 | 成员离组 | 同上 | `tags` 改为 `Alumni`，更新 `summary` 时间范围 |
 | 添加新论文 | `content/{en,zh}/publication/{年份_Publication_作者}/` | 建文件夹 → 写 `cite.bib` + `index.md` |
 | 预印本转正式发表 | 见[论文从预印本转为正式发表](#论文从预印本转为正式发表) | 新建正式版 → 删除预印本 |
@@ -168,11 +168,11 @@ blogdown::build_site()   # 构建网站
 ### 成员信息变更
 
 #### 文件路径
-- 英文：`content/en/project/{姓名缩写}/index.md`
-- 中文：`content/zh/project/{姓名缩写}/index.md`
-- 头像：`content/en/project/{姓名缩写}/featured.jpg`
+- 英文：`content/en/project/{姓名全拼}/index.md`
+- 中文：`content/zh/project/{姓名全拼}/index.md`
+- 头像：`content/en/project/{姓名全拼}/featured.jpg`
 
-> `{姓名缩写}` 即姓名首字母，如 `csy`、`hcp`
+> `{姓名全拼}` 即姓+名拼音拼接、各音节首字母大写，如 `HuangYijie`、`HuChuanpeng`
 
 #### 角色标签
 | 标签 | 说明 |
@@ -187,7 +187,7 @@ blogdown::build_site()   # 构建网站
 
 1. **创建文件夹**
    - 复制一个现有成员的文件夹
-   - 重命名为新成员的姓名缩写（如重名可加数字后缀，如 `csy2`）
+   - 重命名为新成员的姓名全拼（姓+名拼接、首字母大写，如 `HuangYijie`）
 
 2. **编辑 `index.md`**
    ```yaml
@@ -220,9 +220,26 @@ blogdown::build_site()   # 构建网站
 - 运行 `blogdown::serve_site()` 预览
 
 #### 成员离组
-- 将标签改为 `Alumni`
-- 更新 `summary` 中的时间范围（如 `__2022年9月 ~ 2024年6月__`）
-- 更新进行中项目的信息
+
+**推荐使用自动脚本**（一键更新中英文的 `tags` 和 `summary` 时间范围）：
+
+```bash
+python .github/scripts/mark_alumni.py <姓名全拼>... --end "2026"
+```
+
+例如：
+
+```bash
+python .github/scripts/mark_alumni.py wjq zrz zss --end "2026"
+```
+
+- 脚本会同时更新 `content/en/project/` 和 `content/zh/project/` 下的文件：`tags` 改为 `Alumni`，`summary` 时间范围由 `__Sep. 2023 ~ Now__` 改为 `__Sep. 2023 ~ 2026__`
+- `--start` 可省略（自动读取现有起始时间）；加 `--dry-run` 可先预览而不写入
+
+脚本不涉及的内容，需手动检查：
+- 正文中的"在读"等时效性信息
+- 进行中项目的关联信息
+- 用 `blogdown::serve_site()` 预览，提交推送（CI 会校验所有 Alumni 成员已填写结束时间、中英文一致）
 
 ### 论文信息变更
 
@@ -375,8 +392,8 @@ diff <(ls content/en/project) <(ls content/zh/project)
 ### 检查清单
 
 #### 新成员加入
-- [ ] 在 `content/en/project/{姓名缩写}/` 创建文件夹
-- [ ] 在 `content/zh/project/{姓名缩写}/` 创建文件夹
+- [ ] 在 `content/en/project/{姓名全拼}/` 创建文件夹
+- [ ] 在 `content/zh/project/{姓名全拼}/` 创建文件夹
 - [ ] 编辑 `index.md`（英文和中文）
 - [ ] 添加 `featured.jpg` 头像
 - [ ] 设置正确的角色标签
@@ -397,8 +414,8 @@ diff <(ls content/en/project) <(ls content/zh/project)
 - [ ] 提交并推送到 GitHub
 
 #### 成员离组
-- [ ] 将标签改为 `Alumni`（英文和中文）
-- [ ] 更新 `summary` 中的时间范围
+- [ ] 运行 `python .github/scripts/mark_alumni.py {姓名全拼} --end "2026"`（或手动改 `tags` 和 `summary`）
+- [ ] 更新正文中"在读"等时效性信息
 - [ ] 更新进行中项目的信息
 - [ ] 预览并确认
 - [ ] 提交并推送到 GitHub
@@ -487,8 +504,8 @@ abstract: "Social evaluation, i.e., how people judge others..."
 - CI 的同步检查会标红提示
 
 ### 文件夹名冲突
-如果两人姓名缩写相同：
-- 添加数字后缀：`csy`、`csy2`
+如果两人姓名全拼相同（重名）：
+- 添加数字后缀：`HuChuanpeng`、`HuChuanpeng2`
 
 ### 构建后出现名为 `'public'` 的目录
 通过 Rscript（非 RStudio 交互会话）运行 `blogdown::build_site()` 时，blogdown 会把输出目录名转义为 `-d 'public'`，经 `system2` 传给 hugo 时引号未被剥离，导致生成一个**名字含单引号**的 `'public'` 目录。它与正常构建产物 `public/` 内容重复，是垃圾目录，直接删除即可：

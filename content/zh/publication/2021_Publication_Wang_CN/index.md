@@ -14,7 +14,7 @@ authors:
 - Chen, X
 - ... Hu, C-P
 date: "2021-01-27T00:00:00Z"
-doi: "https://doi.org/10.1360/SSV-2021-0009"
+doi: "10.3724/sp.j.1042.2021.00381"
 featured: false
 image:
   caption: 'Image credit: [**Fig1**](https://journal.psych.ac.cn/adps/EN/abstract/abstract5299.shtml)'
