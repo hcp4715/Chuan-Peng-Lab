@@ -17,7 +17,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- LiuZheng
 publication: In *Preprint*
 publication_short: In *Preprint*
 publication_types: 

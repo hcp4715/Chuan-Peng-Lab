@@ -19,7 +19,10 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- LiuZheng
+- ZhengYuanrui
+- HuMengzhen
 publication: In *Behavior Research Methods*
 publication_short: In *Behav. Res. Methods*
 publication_types: 

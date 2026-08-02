@@ -90,6 +90,15 @@ python .github/scripts/mark_alumni.py <姓名全拼> --end "2026"
 4. **数据来源**：`to_be_added_pubs/Exported Items.bib` 可直接提取
 5. **卷期号**：可用 DOI 查 Crossref API（`https://api.crossref.org/works/{doi}`）回填 `volume`/`number`
 
+### 成员-论文自动关联（`add_publication.py` 内置）
+
+用 `add_publication.py` 添加论文时，脚本会自动比对作者与成员：
+
+- **全名匹配**（如 `Siyu Chen`、`任子伟`、`Zheng Liu`；兼容"姓前名后/名前姓后"与中英别名如 `YuKi (Mengzhen Hu)`）→ 自动写入 `projects:`（en/zh 同步）
+- **缩写作者**（如 `Liu, Y`、`Duan S`、`Hu, C-P`，无法可靠确认身份）→ 仅在控制台提示候选成员，**不自动关联**，需人工确认后补写 `projects:`
+- **PI 胡传鹏**不参与自动关联（他的个人页不列论文）
+- 人工确认缩写对应关系后，可直接编辑论文 `index.md` 的 `projects:` 字段补充（en/zh 都要改）
+
 ### 预印本转正式发表
 1. 新建正式版文件夹（`{年份}_Publication_{作者}`）
 2. 更新元数据：`doi`、`publication`、`publication_types`（"3"→"2"）等

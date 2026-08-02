@@ -2,7 +2,7 @@
 date: "2024-09-01T00:00:00Z"
 external_link: ""
 image:
-  caption: 陈思雨
+  caption: 陈思羽
   focal_point: Smart
 links:
 - icon: github

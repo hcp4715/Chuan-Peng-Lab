@@ -19,7 +19,9 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- example
+- SunShuting
+- WangNan
+- WenJiahui
 publication: China Scientific Data
 publication_short: China Scientific Data
 publication_types:

@@ -16,7 +16,8 @@ image:
   caption: 'Image credit: [**Fig1**](http://www.psysci.org/EN/abstract/abstract10313.shtml)'
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- DingYi
 publication: In *Journal of Psychological Science*
 publication_short: In *Journal of Psychological Science*
 publication_types: 

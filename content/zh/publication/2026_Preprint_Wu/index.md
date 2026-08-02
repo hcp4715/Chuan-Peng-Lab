@@ -11,7 +11,9 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- WuSiyu
+- PanWanke
 publication: Preprint
 publication_short: Preprint
 publication_types:

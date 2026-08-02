@@ -15,7 +15,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- LiuWeibiao
 publication: In *科学通报*
 publication_short: In *科学通报*
 publication_types: 

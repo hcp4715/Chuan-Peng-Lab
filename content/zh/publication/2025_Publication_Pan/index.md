@@ -23,7 +23,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- PanWanke
 publication: In *Advances in Methods and Practices in Psychological Science*
 publication_short: In *AMPPS*
 publication_types: 

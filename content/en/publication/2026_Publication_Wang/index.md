@@ -12,7 +12,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- RenZiwei
 publication: In *应用心理学*
 publication_short: In *应用心理学*
 publication_types:
