@@ -15,7 +15,7 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- example
+- ZhengYuanrui
 publication: Chinese Journal of Applied Psychology
 publication_short: Chinese Journal of Applied Psychology
 publication_types:

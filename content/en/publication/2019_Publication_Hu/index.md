@@ -21,7 +21,8 @@ image:
   caption: 'Image credit: [**Fig1**](https://www.nature.com/articles/s41597-019-0029-2/figures/1)'
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- YinJixing
 publication: In *Scientific Data*
 publication_short: In *Sci Data*
 publication_types: 

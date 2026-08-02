@@ -51,6 +51,7 @@ image:
   preview_only: false
 projects:
 - COSN_accepted
+- ZhengYuanrui
 publication: In *Advances in Methods and Practices in Psychological Science*
 publication_short: In *AMPPS*
 publication_types: 

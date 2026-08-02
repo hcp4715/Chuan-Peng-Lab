@@ -13,7 +13,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- LiuYikang
 publication: In *Chinese Science Bulletin*
 publication_short: In *Chinese Science Bulletin*
 publication_types: 

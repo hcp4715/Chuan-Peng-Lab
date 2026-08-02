@@ -12,7 +12,10 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- SunXinru
+- SunShuting
+- DingYi
 publication: Preprint
 publication_short: Preprint
 publication_types:

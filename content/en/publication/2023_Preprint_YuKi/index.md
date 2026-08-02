@@ -19,7 +19,10 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- LiuZheng
+- ZhengYuanrui
+- HuMengzhen
 publication: In *The Open Science Framework*
 publication_short: In *OSF*
 publication_types: 

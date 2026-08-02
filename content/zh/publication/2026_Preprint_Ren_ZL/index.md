@@ -19,7 +19,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- LiuJiachen
 publication: Preprint
 publication_short: Preprint
 publication_types:

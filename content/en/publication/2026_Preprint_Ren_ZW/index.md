@@ -11,7 +11,9 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- LiuZheng
+- RenZiwei
 publication: Preprint
 publication_short: Preprint
 publication_types:

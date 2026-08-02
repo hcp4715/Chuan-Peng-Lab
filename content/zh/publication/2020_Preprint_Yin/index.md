@@ -14,7 +14,8 @@ image:
   caption: 'Image credit: [**Fig1**](https://psyarxiv.com/bqprd/)'
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- YinJixing
 publication: In *psyarxiv*
 publication_short: In *psyarxiv*
 publication_types: 

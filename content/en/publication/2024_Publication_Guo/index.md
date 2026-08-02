@@ -15,7 +15,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- PanWanke
 publication: In *Advances in Psychological Science*
 publication_short: In *Advances in Psychological Science*
 publication_types: 

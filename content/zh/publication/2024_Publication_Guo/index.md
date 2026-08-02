@@ -15,7 +15,8 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+projects:
+- PanWanke
 publication: In *心理科学进展*
 publication_short: In *心理科学进展*
 publication_types: 

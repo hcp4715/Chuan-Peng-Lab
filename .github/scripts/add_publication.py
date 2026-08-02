@@ -84,6 +84,120 @@ def surname_of(author):
     return a.split()[-1].strip() if a.split() else ""
 
 
+# ---------- 成员自动关联 ----------
+PI_FOLDER = "HuChuanpeng"  # PI 不参与自动关联
+
+
+def _cjk_tokens(v):
+    return re.findall(r"[a-z0-9\u4e00-\u9fff]+", v)
+
+
+def member_variants(folder, title):
+    """从成员文件夹名 + 页面 title 生成归一化姓名变体集合。
+
+    处理 'YuKi (Mengzhen Hu)' / 'Helen (Zheng Liu)' 这类别名格式：
+    括号内外都提取，并补上"姓在前后/名在前后"两种顺序。
+    """
+    out = {normalize(folder)}
+    base = re.sub(r"\([^)]*\)", "", title or "").strip()
+    aliases = re.findall(r"\(([^)]*)\)", title or "")
+    for part in [base] + aliases:
+        part = part.strip()
+        if len(part) < 2:
+            continue
+        v = normalize(part)
+        out.add(v)
+        words = _cjk_tokens(v)
+        if len(words) >= 2:
+            out.add(words[-1] + "".join(words[:-1]))
+        for w in part.split():
+            wv = normalize(w)
+            if len(wv) >= 2 and any("\u4e00" <= c <= "\u9fff" for c in w):
+                out.add(wv)
+    return out
+
+
+def build_member_registry():
+    """读取 content/{en,zh}/project/ 下所有成员，构建 folder -> 姓名变体集。排除 PI。"""
+    registry = {}
+    for lang in ("en", "zh"):
+        base = os.path.join(ROOT, "content", lang, "project")
+        if not os.path.isdir(base):
+            continue
+        for folder in os.listdir(base):
+            if folder == PI_FOLDER:
+                continue
+            idx = os.path.join(base, folder, "index.md")
+            if not os.path.isfile(idx):
+                continue
+            fm = parse_md(idx)
+            if not fm:
+                continue
+            registry.setdefault(folder, set()).update(
+                member_variants(folder, fm.get("title", "")))
+    return registry
+
+
+def is_abbrev(name):
+    """判断作者名是否只有首字母缩写（如 'Liu, Y'、'Duan S'、'Hu, C-P'、'Chuan-Peng, H'）。"""
+    given = name.split(",", 1)[1] if "," in name else name
+    toks = [t for t in re.split(r"[\s\-\.]+", given) if t]
+    return any(len(t) == 1 for t in toks)
+
+
+def family_name(name):
+    if "," in name:
+        return name.split(",")[0].strip()
+    words = name.split()
+    if not words:
+        return ""
+    if len(words) >= 2 and len(words[-1]) == 1:
+        return words[0]
+    return words[-1]
+
+
+def name_variants(author):
+    """生成作者名的归一化变体（兼容 'Family, Given' 与 'Given Family' 两种写法）。"""
+    out = set()
+    if "," in author:
+        parts = [p.strip() for p in author.split(",")]
+        family, given = parts[0], "".join(parts[1:]).strip()
+        if family and given:
+            out.add(normalize(family + given))
+            out.add(normalize(given + family))
+    else:
+        v = normalize(author)
+        out.add(v)
+        words = _cjk_tokens(v)
+        if len(words) >= 2:
+            out.add(words[-1] + "".join(words[:-1]))
+    return out
+
+
+def match_members(authors, registry):
+    """返回 (matched_folder列表, hints)：
+    - matched：全名匹配成功的成员文件夹（自动写入 projects）
+    - hints：缩写作者 -> 可能的成员（仅提示，不自动关联）
+    """
+    matched, hints = [], []
+    for author in (authors or []):
+        author = (author or "").strip()
+        if not author:
+            continue
+        if is_abbrev(author):
+            fam = normalize(family_name(author))
+            cands = [f for f, mv in registry.items()
+                     if len(fam) >= 2 and any(v.startswith(fam) for v in mv)]
+            if cands:
+                hints.append((author, cands))
+            continue
+        hits = [f for f, mv in registry.items() if name_variants(author) & mv]
+        for f in hits:
+            if f not in matched:
+                matched.append(f)
+    return matched, hints
+
+
 def clean_abstract(raw):
     raw = re.sub(r"<[^>]+>", " ", raw or "")
     for a, b in (("&nbsp;", " "), ("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"), ("&quot;", '"')):
@@ -124,7 +238,7 @@ def make_folder(data, cr):
     return folder, None
 
 
-def build_index(data, cr, folder):
+def build_index(data, cr, folder, projects=None):
     title = data["title"]
     abstract = clean_abstract(data.get("abstract") or (cr.get("abstract", "") if cr else ""))
     doi = (data.get("doi") or "").strip()
@@ -135,6 +249,8 @@ def build_index(data, cr, folder):
     authors = "\n".join(f"- {a.strip()}" for a in data["authors"])
     date = f"{year}-01-01T00:00:00Z"
     url_source = data.get("url_source") or (cr.get("URL", "") if cr else "")
+    projects_field = ('projects: ""' if not projects
+                      else "projects:\n" + "\n".join(f"- {p}" for p in projects))
     return f"""---
 abstract: "{abstract}"
 authors:
@@ -146,7 +262,7 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-projects: ""
+{projects_field}
 publication: {pub}
 publication_short: {pub}
 publication_types:
@@ -233,6 +349,9 @@ def main():
     if is_dir:
         print(f"扫描提交区，发现 {len(files)} 个 .md 文件")
 
+    registry = build_member_registry()
+    print(f"成员注册表: {len(registry)} 人（已排除 PI）")
+
     for path in files:
         data = parse_md(path)
         if data is None:
@@ -245,6 +364,11 @@ def main():
             print(f"跳过（已存在相同 DOI/标题）: {data['title'][:60]}")
             continue
         print(f"处理论文: {data['title'][:60]}...")
+        matched, hints = match_members(data["authors"], registry)
+        if matched:
+            print(f"  ✦ 自动关联成员: {', '.join(matched)}")
+        for author, cands in hints:
+            print(f"  ? 作者缩写 {author!r} 可能对应: {', '.join(cands)}（未自动关联，请人工确认）")
         cr = None
         if data.get("doi"):
             print("  查询 Crossref...")
@@ -265,7 +389,7 @@ def main():
             d = os.path.join(ROOT, "content", lang, "publication", folder)
             os.makedirs(d, exist_ok=False)
             with open(os.path.join(d, "index.md"), "w", encoding="utf-8") as f:
-                f.write(build_index(data, cr, folder))
+                f.write(build_index(data, cr, folder, matched))
             with open(os.path.join(d, "cite.bib"), "w", encoding="utf-8") as f:
                 f.write(build_citebib(data, cr, folder))
             imgs = copy_images(os.path.dirname(path), d, os.path.splitext(os.path.basename(path))[0])

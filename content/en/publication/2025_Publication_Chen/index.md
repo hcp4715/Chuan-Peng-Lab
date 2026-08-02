@@ -13,6 +13,7 @@ image:
   preview_only: false
 projects:
 - ChenSiyu
+- PanWanke
 publication: In *Advances in Psychological Science*
 publication_short: In *Adv Psychol Sci*
 publication_types:
