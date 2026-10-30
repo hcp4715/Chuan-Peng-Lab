@@ -1,7 +1,7 @@
 ---
 abstract: ""
 authors:
-- 胡传鹏
+- Chuan-Peng Hu
 date: "2026-01-01T00:00:00Z"
 doi: ""
 featured: false
@@ -10,15 +10,15 @@ image:
   focal_point: ""
   preview_only: false
 projects: ""
-publication: In *中国社会科学报*
-publication_short: In *中国社会科学报*
+publication: In *Chinese Social Sciences Today*
+publication_short: In *Chinese Social Sciences Today*
 publication_types:
 - "4"
 publishDate: "2026-01-01T00:00:00Z"
 slides: example
 summary: ""
 tags: []
-title: 心理学开放科学运动的中国实践
+title: "China's Practice of the Open Science Movement in Psychology (in Chinese)"
 url_code: ""
 url_dataset: ""
 url_pdf: ""

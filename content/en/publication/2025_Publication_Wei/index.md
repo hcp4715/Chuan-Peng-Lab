@@ -1,10 +1,10 @@
 ---
 abstract: ""
 authors:
-- 魏高峡
-- 盖力锟
-- 胡传鹏
-- 林萱
+- Gaoxia Wei
+- Likun Gai
+- Chuan-Peng Hu
+- Xuan Lin
 date: "2025-11-01T00:00:00Z"
 doi: "10.15930/j.cnki.wtxb.2025.11.007"
 featured: false
@@ -13,15 +13,15 @@ image:
   focal_point: ""
   preview_only: false
 projects: ""
-publication: In *武汉体育学院学报*
-publication_short: In *武汉体育学院学报*
+publication: In *Journal of Wuhan Sports University*
+publication_short: In *Journal of Wuhan Sports University*
 publication_types:
 - "2"
 publishDate: "2025-11-01T00:00:00Z"
 slides: example
 summary: ""
 tags: []
-title: 中国体育与运动领域实施开放科学的思考：理论框架与实践路径
+title: "Reflections on Implementing Open Science in Sport and Exercise Science in China: Theoretical Framework and Practical Path (in Chinese)"
 url_code: ""
 url_dataset: ""
 url_pdf: ""

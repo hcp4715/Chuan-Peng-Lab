@@ -6,10 +6,10 @@ author_notes:
 - 
 - 
 authors:
-- Chuan-Peng, H
-- Zheng, Liu
-- Xinyang, Wang
-- Shangzhi, Lu
+- Hu, Chuan-Peng
+- Liu, Zheng
+- Wang, Xinyang
+- Lu, Shangzhi
 date: "2023-01-10T00:00:00Z"
 doi: "https://doi.org/10.12074/202301.00098V1"
 featured: false
@@ -27,7 +27,7 @@ publishDate: "2023-01-10T00:00:00Z"
 slides: example
 summary: A construct is a concept proposed by a researcher to represent an object of interest. Constructs serve as core media for scientific communication in research. 
 tags: []
-title: Cognitive Ontology A Unified Framework for Psychological Constructs
+title: "Cognitive Ontology: A Unified Framework for Psychological Constructs (in Chinese)"
 url_code: ""
 url_dataset: ""
 url_pdf: ""

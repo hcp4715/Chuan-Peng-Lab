@@ -90,6 +90,24 @@ python .github/scripts/mark_alumni.py <姓名全拼> --end "2026"
 4. **数据来源**：`to_be_added_pubs/Exported Items.bib` 可直接提取
 5. **卷期号**：可用 DOI 查 Crossref API（`https://api.crossref.org/works/{doi}`）回填 `volume`/`number`
 
+### 中文论文的英文页（`content/en/`）
+
+中文论文在 en 侧必须英文化（zh 侧保持中文），**不能把中文原样留在 en**：
+
+- `title`：官方英文标题 + ` (in Chinese)`，例：`Measurement reliability of cognitive tasks: current trends and future directions (in Chinese)`
+- `abstract` / `summary`：用官方英文摘要；**无官方英文版则不翻译，留空 `""`**
+- `authors`：英文姓名（`Given Family` 或 `Family, Given` 择一），勿写成 `Chuan-Peng, H` 这类姓名反转式
+- `publication` / `publication_short`：英文刊名，如 `In *Chinese Science Bulletin*`
+- `cite.bib` 同步英文化：`title`（含 `(in Chinese)`）、`author`（用 `and` 分隔，勿用逗号）、`journal`、`keywords`；en `abstract` 留空时删掉 bib 里的中文 `abstract`
+- `index.md` **没有 `keywords` 字段**，关键词只写在 `cite.bib`
+- 英文标题来源：期刊英文页 / ChinaXiv（`chinaxiv.org/abs/{id}`，中英标题并列）/ Crossref；CNKI 有验证码不可抓
+
+自查（应无输出）：
+
+```bash
+python3 -c "import glob,re;[print(f) for f in glob.glob('content/en/publication/*/*') if f.endswith(('.md','.bib')) and re.search(r'[\u4e00-\u9fff]',open(f,encoding='utf-8').read())]"
+```
+
 ### 成员-论文自动关联（`add_publication.py` 内置）
 
 用 `add_publication.py` 添加论文时，脚本会自动比对作者与成员：
@@ -160,6 +178,7 @@ python .github/scripts/mark_alumni.py <姓名全拼> --end "2026"
 
 ## 全局规则（所有任务强制）
 
+- **会话第一步：检查本地仓库是否为最新**：每次会话开始，先运行 `git fetch` 并确认本地在 `main` 分支与 `origin/main` 同步（`git status` 无落后、无未提交改动）；若本地落后，先 `git pull`（或 `git rebase`）再开始任何修改，避免基于过期内容工作
 - **en/zh 同步**：改任何内容，两种语言都要改（CI 校验）
 - **YAML front matter**：值含冒号/特殊字符 → 双引号包裹
 - **文件夹重命名**：用 `git mv` 保留历史；改文件夹名后检查 `projects:` 引用
@@ -174,7 +193,7 @@ Rscript -e "blogdown::build_site()"                     # 构建（注意 'publi
 python3 .github/scripts/check_i18n_sync.py              # 中英同步检查
 python3 .github/scripts/check_alumni.py                 # 校友一致性
 python3 .github/scripts/mark_alumni.py <名字> --end "2026"  # 成员离组
-/tmp/opencode/ci-venv/bin/python .github/scripts/validate_frontmatter.py  # front matter 校验（需 PyYAML 的 venv；系统 python3 无 yaml 模块）
+python3 .github/scripts/validate_frontmatter.py           # front matter 校验（需 PyYAML+tomllib，见"已知坑"）
 ```
 
 ## 已知坑
@@ -182,5 +201,5 @@ python3 .github/scripts/mark_alumni.py <名字> --end "2026"  # 成员离组
 - **`'public'` 垃圾目录**：经 Rscript（非 RStudio）跑 `blogdown::build_site()` 会在根目录生成名字含引号的 `'public'` 目录（blogdown 转义 `-d 'public'` 参数，system2 不经 shell 传引号给 hugo）。删除：`rm -rf "'public'"`
 - **`public/` 是构建产物**（gitignored），不要提交
 - **`.sisyphus/`** 是工作文件（gitignored）
-- **系统 python3 无 PyYAML**：跑 validate_frontmatter 需用 venv（`/tmp/opencode/ci-venv`）或 `pip install pyyaml`
+- **系统 python3 缺依赖**：`validate_frontmatter.py` 需 `PyYAML` + `tomllib`（Python ≥3.11）。`/usr/bin/python3` 有 yaml 无 tomllib，Homebrew python 反之 → 缺 tomllib 时用 `/usr/bin/python3` 跑仅 YAML 的等价检查即可（本仓库 TOML front matter 只有 `home/demo*.md` 4 个文件）
 - **Crossref 查询**注意限速（间隔 ≥0.5s）和 404（中文期刊/预印本多无记录）
