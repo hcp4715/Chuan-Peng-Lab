@@ -4,7 +4,7 @@
 **技术栈**: Hugo 0.102.3 + blogdown (R) + Wowchemy Academic v5 + Netlify
 **性质**: 双语实验室网站（英文 `content/en/` + 中文 `content/zh/`）。所有内容必须 en/zh 双份同步，否则 CI 变红。
 
-本指南面向 AI 代理，核心职责有三：**更新成员信息**、**更新论文信息**、**更新博客**。
+本指南供**实验室成员**更新网站内容时使用（自己操作，或指挥 AI 代理操作），范围只有三件事：**更新成员信息**、**更新论文信息**、**更新博客**。规划中的功能（News 栏、X feed 等）**不在本指南范围**，见 [FuturePlan.md](FuturePlan.md)。
 
 ---
 
@@ -133,49 +133,6 @@ python3 -c "import glob,re;[print(f) for f in glob.glob('content/en/publication/
 
 ---
 
-## 任务四：待办任务（To-Do，尚未实现）
-
-以下为规划中的功能增强，**2026-08-02 已完成模板可行性探索，方案已确认可行**。实现前请先与管理员确认方案，实施时直接按下方方案执行，无需重新探索。
-
-### 增强 Lab 新闻栏（News）—— ✅ 已确认可行，纯内容方案
-
-- **目标**：及时更新本 lab 相关的新消息（获奖、会议报告、媒体报道、成员动态等）
-- **结论**：当前 Wowchemy Academic v5 的首页模块机制 = `content/{en,zh}/home/*.md` widget 文件 + `menus.yaml`/`menus.zh.yaml` 菜单项。模板自带 `pages` widget（现有 `posts.md` 正在使用），支持按文件夹过滤。**零模板代码改动**即可实现。
-- **实施方案（推荐）**：
-  1. 新建 `content/{en,zh}/news/` 内容文件夹存放新闻条目（格式同博客 `post/`）
-  2. 新建 `content/{en,zh}/home/news.md`，front matter 用 `widget: pages` + `content.filters.folders: [news]`（参考现有 `posts.md` 的写法：`count: 5`、`order: desc`、`view: compact`）
-  3. 在 `config/_default/menus.yaml` / `menus.zh.yaml` 加菜单项（如 `url: '#news'`，weight 设为 55，插在 Blog Posts 60 之前）
-  4. 若只更新一种语言 → 加入 `.github/scripts/i18n_allowlist.txt` 豁免
-- **注意**：仍须遵循 en/zh 双语同步规则；新闻条目复用 `news/` 文件夹后，`i18n_allowlist` / 同步检查自动覆盖
-
-### 增加 Social Media 模块（X / Twitter feed）—— ✅ 已确认可行，blank widget 方案
-
-- **目标**：将 PI 的 X（Twitter）账号 feed 显示在网站上
-- **结论**：主题 `themes/github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5/config.yaml` **已开启 `markup.goldmark.renderer.unsafe: true`**（raw HTML 允许渲染）→ 可直接把 X 官方嵌入代码放进 `blank` widget 正文，静态站 JS 客户端加载，Netlify 部署无问题。
-- **实施方案（推荐）**：
-  1. 在首页 `content/{en,zh}/home/` 新建 `xfeed.md`，front matter 用 `widget: blank`，正文粘贴 X 官方 timeline 嵌入代码：
-     ```html
-     <a class="twitter-timeline" href="https://twitter.com/hcp4715">Tweets by @hcp4715</a>
-     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-     ```
-  2. 建议放首页底部（如 weight 85）或 Contact 区，避免拖慢首屏
-  3. 现有 `contact.md` 已有 `icon: twitter` 关注链接（`https://twitter.com/hcp4715`），Follow 按钮已存在，可保留
-- **注意**：
-  - X 域名在国内访问会失败/加载慢，页面可能挂起；若在意可加懒加载或 `defer`
-  - X feed 为英文内容 → 只需一份，把模块加入 `i18n_allowlist.txt` 豁免即可，不强制 en/zh 同步
-  - 若需要自定义渲染，可仿照现有 `layouts/partials/widgets/portfolio.html`（本仓库已有自定义 widget override 先例）新建 `xfeed.html` partial
-
-### 模板探索备忘（2026-08-02，避免重复探索）
-
-- **widget 查找机制**：`layouts/partials/widget_page.html:103` → `widgets/%s.html` partial；站点级 override 目录为 `layouts/partials/widgets/`（已有 `portfolio.html` 先例）
-- **可用内置 widget**：about / accomplishments / blank / contact / experience / featurette / featured / hero / pages / people / portfolio / slider / tag_cloud
-- **`blank` widget** 渲染 `{{ $st.Content }}`（raw HTML 直接输出），适合嵌第三方代码
-- **`pages` widget** 支持 `content.filters.folders` 过滤（现有 `posts.md` 用法：`folders: [post]`、`count`、`order: desc`、`view: compact`）
-- **`contact` widget** 已支持 `contact_links`（twitter 图标示例见 `contact.md`）
-- **`config.yaml`** 已设 `baseURL: https://chuan-peng-lab.netlify.app/`、`markup` 合并自主题（`_merge: deep`）
-
----
-
 ## 全局规则（所有任务强制）
 
 - **会话第一步：检查本地仓库是否为最新**：每次会话开始，先运行 `git fetch` 并确认本地在 `main` 分支与 `origin/main` 同步（`git status` 无落后、无未提交改动）；若本地落后，先 `git pull`（或 `git rebase`）再开始任何修改，避免基于过期内容工作
@@ -183,7 +140,57 @@ python3 -c "import glob,re;[print(f) for f in glob.glob('content/en/publication/
 - **YAML front matter**：值含冒号/特殊字符 → 双引号包裹
 - **文件夹重命名**：用 `git mv` 保留历史；改文件夹名后检查 `projects:` 引用
 - **提交规范**：PLAIN English 风格，如 "add new member xxx"、"mark xxx as Alumni"
-- **验证**：改完跑 CI 脚本（见下）确认全绿再提交
+- **验证**：改完跑 CI 脚本（见下）确认全绿再提交；**最终以 CI 结果为准**，本地绿 ≠ CI 绿（见下文 N5）
+
+## 多人多机协作约定（本地不报错，只在 CI 或他人机器上暴露）
+
+成员在各自电脑上操作（macOS / Windows、不同 Python 与 Hugo 版本、仓库可能位于 OneDrive 等同步目录）。以下五类问题**在本机表现完全正常**，提交前必须自查，否则只会在 CI 或他人机器上炸。
+
+### N1 文件名大小写
+
+- **规则**：文件夹名与规范**逐字符一致**（`HuChuanpeng`，不是 `huchuanpeng` / `HUCHUANPENG`）。macOS 默认大小写不敏感，写错了本地照样能打开；而 CI 只在 en/zh 两侧写得不一致时才会红（见 N5），两边一起写错则完全无感知，问题会留到线上。
+- 文件夹名不要含**空格**（历史遗留的 `2023_Publication_Chen zhiyi1` / `2` 保持现状，不要照抄）。
+- **自查**（列出所有成员文件夹名，逐个核对大小写）：
+  ```bash
+  git ls-files content/en/project content/zh/project | cut -d/ -f4 | sort -u
+  ```
+- **修正**：macOS 上直接 `git mv Foo foo` 不会生效（文件系统认为同名），必须分两步：
+  ```bash
+  git mv Huchuanpeng tmp_case && git mv tmp_case HuChuanpeng
+  ```
+
+### N2 编码与换行符
+
+- **规则**：`.md` / `.bib` 必须 **UTF-8 无 BOM**；**进入 git 的换行必须是 LF**。
+- 换行由 git 统一管，不靠各人手工统一：仓库 `.gitattributes` 已设 `* text=auto`，提交时自动归一化为 LF。工作区看到 CRLF 还是 LF，取决于**本机** `core.autocrlf`（当前这台是 `true`，所以本地文件是 CRLF）——这是正常的，**不要手工批量转 LF**，否则会给全库制造无意义的 diff。
+- 真正的跨机器风险是 **BOM**：Windows 编辑器常默认加 BOM。带 BOM 时 `validate_frontmatter.py` 认不出首行的 `---`，会把整个文件**静默跳过**（不报错），Hugo 侧同样丢失元数据——属于无声失败，只能靠下面的自查发现。VS Code 右下角编码选 `UTF-8`（**不是** `UTF-8 with BOM`）。
+- **自查**（两条都应无输出）：
+  ```bash
+  git ls-files --eol content | grep -E '^i/(crlf|mixed)'   # 提交层仍是 CRLF 的文件
+  git grep -lI $'\xef\xbb\xbf' -- content                  # 带 BOM 的文件
+  ```
+- **已知例外**：`content/en/authors/admin/_index.md` 历史上以 CRLF 提交（`i/crlf`），下次改动该文件时会自动归一化，无需单独提交换行修正。
+
+### N3 提交区是共享目录（会被他人的文件牵连）
+
+- `templates/member|publication|post/` **入库且多人共用**，脚本会扫描其中**全部**文件——别人的半成品会和你的一起被处理、一起发布。
+- 规则：
+  1. 放入前先跑 `git status templates/`；若存在他人未处理的文件，**不要替别人发布**，先确认或等对方处理完。
+  2. 自己的文件加姓名前缀（如 `HuChuanpeng-new-member.md`），便于归属识别。
+  3. **先 `--dry-run`**，确认输出只涉及自己的文件，再正式执行。
+  4. 不放测试/占位文件；草稿用 `_` 前缀（脚本会跳过）。
+
+### N4 `_done/` 归档冲突
+
+- 脚本把处理完的源文件移入本提交区的 `_done/`。该目录 **gitignored**，不会进 git，也不会有跨机器覆盖或冲突；风险仅限**本机**重复归档时的同名覆盖。
+- 规则：跑完用 `ls` 看一眼 `_done/`（它被忽略，`git status` 里看不到）；发现同名文件时先确认是不是自己又要重新处理的，必要时改名为 `{原文件名}-{姓名全拼}`，不要静默覆盖。
+
+### N5 本地绿 ≠ CI 绿
+
+- 本地脚本只代表**你这台机器**（Python 版本、文件系统、locale）通过；`.github/workflows/check-content.yml` 才是最终裁决。
+- CI 只跑三个脚本（front matter / i18n / alumni），**不构建站点**，也**不检查大小写与 BOM**——这两项 CI 兜不住，只能靠 N1 / N2 自查。
+- 分工：CI 管"front matter 合法、en/zh 目录对称、Alumni 元数据"；本地自查管"大小写、BOM、站点能否正常构建"。
+- 合并前必须确认 CI 全绿。若 CI 红在 i18n 这一项，**优先排查 N1**（同一文件夹在 en/zh 两侧写法不一致），再查是否真的漏建了对应语言。
 
 ## 常用命令
 

@@ -139,7 +139,7 @@ def main():
             imgs = copy_images(os.path.dirname(path), d, os.path.splitext(os.path.basename(path))[0])
             print(f"  ✓ {lang}/post/{folder}/" + (f" (+图片 {imgs})" if imgs else ""))
         if not bilingual:
-            add_allowlist(f"[ZH only] post/{folder}")
+            add_allowlist(f"[{langs[0].upper()} only] post/{folder}")
         if is_dir:
             done = os.path.join(os.path.dirname(path), "_done")
             os.makedirs(done, exist_ok=True)
