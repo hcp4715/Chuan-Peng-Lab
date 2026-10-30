@@ -1,9 +1,9 @@
 ---
 abstract: ""
 authors:
-- 岳磊
-- 左西年
-- 胡传鹏
+- Lei Yue
+- Xinian Zuo
+- Chuan-Peng Hu
 date: "2026-05-01T00:00:00Z"
 doi: "10.12074/202605.00198"
 featured: false
@@ -20,7 +20,7 @@ publishDate: "2026-05-01T00:00:00Z"
 slides: example
 summary: ""
 tags: []
-title: 开放科学实践的草根路径：以心理与脑科学为例
+title: "Grassroots Pathways in Open Science Practice: Lessons from Psychological Science and Brain Science (in Chinese)"
 url_code: ""
 url_dataset: ""
 url_pdf: ""

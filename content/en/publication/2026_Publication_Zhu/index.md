@@ -1,10 +1,10 @@
 ---
-abstract: "认知任务(cognitive tasks)是研究人类认知过程的核心工具，广泛应用于认知科学与神经科学等领域。随着个体化研究的兴起，认知任务在测量个体差异方面的应用日益增多，其测量信度问题也逐渐引起关注。近年研究发现，一些在群体层面呈现稳定实验效应的任务，在个体层面的信度却表现不佳，形成所谓的“信度悖论”。深入分析表明，该问题主要源于两方面挑战：其一，构念效度不足，任务指标未能有效反映个体在潜在认知能力或过程上的差异；其二，传统信度估计方法难以适应认知任务所呈现的层级结构数据。前者强调需提升任务指标对潜在认知能力或过程的测量效度，后者则表明亟需发展更契合数据结构的信度评估方法。近年来，研究者使用基于置换检验的分半信度、内相关系数(ICC)等方法作为认知任务的信度估计方法，但关于如何选取能稳定反映潜在认知能力或过程的指标，仍有待深入探索。要提升认知任务的信度，仍需在构念效度提升、测量误差控制、统计建模优化及测量模型创新等方面开展系统研究。"
+abstract: "Cognitive tasks are fundamental tools in experimental psychology and cognitive neuroscience, extensively used to probe cognitive mechanisms and assess dysfunctions across diverse domains. Despite their ability to produce robust group-level effects, recent studies have raised concerns about their low reliability in capturing individual differences. The seeming discrepancy between robust group-level effects and poor individual-level reliability, known as the “reliability paradox,” highlights a critical challenge in the application of cognitive tasks for individual-level inference. The paradox is particularly consequential given the increasing use of cognitive tasks in real-life settings such as clinical diagnostics and personalized intervention. However, existing discussions on this issue remain fragmented and lack a comprehensive framework for understanding its causes and identifying viable solutions. We summarize the issues surrounding the reliability paradox of cognitive tasks and categorize them into two core challenges. The first pertains to the hierarchical data structure intrinsic to cognitive tasks, where data are nested within trials, blocks, and subjects. The second concerns construct validity: most tasks are developed to test the effectiveness of experimental manipulations rather than to measure well-defined cognitive constructs—those typically of primary interest in individual differences research. Relatedly, a weaker form of the construct validity problem is the variability of indicators used to represent individual differences in cognitive performance. A single task may yield many possible indicators, either direct outcomes (e.g., reaction times, accuracy) or derived metrics (e.g., efficiency, sensitivity). These issues are historical and stem from the lack of communication between experimental and correlational approaches in psychology. The challenge of hierarchical data structure has received increasing attention in recent years, and new reliability metrics tailored to cognitive tasks have been developed. These include split-half reliability and intraclass correlation coefficients (ICCs). Empirical evidence suggests that permutation-based split-half reliability demonstrates superior robustness by effectively accounting for trial-level variability and task-specific noise. For repeated measures designs, ICC (2,1) and ICC (3,1) are recommended, as they provide complementary insights into the generalizability and sample specificity of task performance. We present a practical guide for estimating the reliability of tasks with hierarchical data. The second challenge concerns the heterogeneity and arbitrariness of indicators selected from task outcomes to assess individual differences. The reliability of different indicators from the same task often varies significantly. We argue that such heterogeneity and arbitrariness arise from a lack of construct validity: the link between an indicator and the underlying cognitive construct is rarely well-defined. Given the complexity of the reliability issues in cognitive tasks, improving reliability requires multifaceted efforts. First and most importantly, construct validity should be tested and enhanced. For example, researchers may employ multi-task designs and latent modeling approaches to identify underlying constructs. Computational modeling also offers promise for more accurately capturing cognitive processes. Second, as noted in prior literature, optimizing task design can improve reliability. Strategies such as adjusting difficulty levels, increasing trial counts, incorporating gamification elements, and minimizing environmental noise can enhance measurement precision and between-subject variance. Third, new statistical models for estimating task reliability are needed. Reliability metrics that reflect the multilevel structure of task data (e.g., multilevel modeling, signal-to-noise ratio) should be more widely adopted. Finally, we recommend integrating modern psychometric frameworks, including item response theory and generalizability theory, to model error variance across trials, contexts, and individuals with greater granularity."
 authors:
-- 朱芃芃
-- 刘铮
-- 康春花
-- 胡传鹏
+- Pengpeng Zhu
+- Zheng Liu
+- Chunhua Kang
+- Chuan-Peng Hu
 date: "2026-01-01T00:00:00Z"
 doi: "10.1360/CSB-2025-0551"
 featured: false
@@ -14,15 +14,15 @@ image:
   preview_only: false
 projects:
 - LiuZheng
-publication: In *科学通报*
-publication_short: In *科学通报*
+publication: In *Chinese Science Bulletin*
+publication_short: In *Chinese Science Bulletin*
 publication_types:
 - "2"
 publishDate: "2026-01-01T00:00:00Z"
 slides: example
-summary: "认知任务(cognitive tasks)是研究人类认知过程的核心工具，广泛应用于认知科学与神经科学等领域。随着个体化研究的兴起，认知任务在测量个体差异方面的应用日益增多，其测量信度问题也逐渐引起关注。"
+summary: "Cognitive tasks are core tools in cognitive science and neuroscience. Their low reliability in capturing individual differences, the so-called “reliability paradox,” poses a critical challenge for individual-level inference."
 tags: []
-title: 认知任务的测量信度：进展与前景
+title: "Measurement reliability of cognitive tasks: current trends and future directions (in Chinese)"
 url_code: ""
 url_dataset: ""
 url_pdf: ""

@@ -1,12 +1,12 @@
 ---
-abstract: 实验设计的关键是平衡信息量与效率。贝叶斯因子序列分析利用贝叶斯因子不断更新证据的特点，通过贝叶斯因子标准和在收集数据过程的序列分析来平衡信息量与效率。本文展示如何使用开源软件JASP和R实现该分析的三个步骤：确定关键效应、确定停止标准、数据收集中序列分析并决策。该方法考虑现实条件且简单易行，可帮助研究者更有效进行实验.
+abstract: "The key of experimental design is to balance between informativeness and efficiency. However, power analysis only focuses on informativeness and is difficult to implement. Sequential Bayes factor analysis takes the advantage of Bayes factor's ability to continuously update the evidence and reach a trade-off between informativeness and efficiency by setting Bayes factor criteria and the sequential analysis during data collection. The present primer demonstrates how to perform three steps of sequential Bayes factor analysis using open-source software JASP and R. This method considers practical issues in real research practices and is easy to implement, which can help researchers to design more efficient experiments."
 #no space  
 author_notes:
 - 
 - Corresponding author
 authors:
 - Yuanrui Zheng
-- Hu Chuan-Peng
+- Chuan-Peng Hu
 date: "2023-03-14T00:00:00Z"
 doi: "10.20058/j.cnki.CJAP.022218"
 featured: false
@@ -22,9 +22,9 @@ publication_types:
 - "2"
 publishDate: "2023-03-14T00:00:00Z"
 slides: example
-summary: 实验设计的关键是平衡信息量与效率。贝叶斯因子序列分析利用贝叶斯因子不断更新证据的特点，通过贝叶斯因子标准和在收集数据过程的序列分析来平衡信息量与效率.
+summary: "The key to experimental design is balancing informativeness and efficiency. Sequential Bayes factor analysis achieves this trade-off by setting Bayes factor criteria and running sequential analyses during data collection, and can help researchers design more efficient experiments."
 tags: []
-title: 贝叶斯因子序列分析：实验设计中平衡信息与效率的新方法
+title: "Sequential Bayes Factor Analysis: Balance Informativeness and Efficiency in Designing Experiments (in Chinese)"
 url_code: ""
 url_dataset: 
 url_pdf: 
